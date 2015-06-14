@@ -407,7 +407,7 @@ S_AMMOSTORAGE_DESC: <<
 	[img=Minus]Les vaisseaux de soutien détachés sans maintien de provision ne peuvent pas tirer avant qu'ils ne retournent à la flotte et au réapprovisionnement.[/img]
 >>
 
-S_GATE_MODULE: Portail
+S_GATE_MODULE: Portail de saut
 S_GATE_MODULE_DESC: <<
 	Un module FTL qui peut être ajoutée à une station.
 
