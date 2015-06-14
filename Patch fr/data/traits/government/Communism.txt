@@ -1,0 +1,21 @@
+Trait: Communism
+	Name: #TRAIT_COMMUNISM
+	Description: #TRAIT_COMMUNISM_DESC
+	Order: 3
+
+	Category: Government
+	Unique: Government
+
+	Icon: StatusPeace
+	Color: #42b4bd
+
+	GainInfluenceCard(Negotiate)
+	GainInfluenceCard(Investigate)
+	GainInfluenceCard(Cultivation)
+	GainInfluenceCard(UnitedResearch)
+	GainInfluenceCard(Sabotage)
+
+	AddEnergy(500)
+
+	SpawnShip(Cuirassé)
+	SpawnShip(Cuirassé)

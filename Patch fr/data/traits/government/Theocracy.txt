@@ -1,0 +1,24 @@
+Trait: Theocracy
+	Name: #TRAIT_THEOCRACY
+	Description: #TRAIT_THEOCRACY_DESC
+	Order: 4
+
+	Category: Government
+	Unique: Government
+
+	Icon: VoteIcons::5
+	Color: #00c0ff
+
+	GainInfluenceCard(CallOut, Uses=2)
+	GainInfluenceCard(AncientKnowledge)
+
+	GainInfluenceCard(ProtectSystem, Uses=2)
+	GainInfluenceCard(SenateBuilding)
+
+	AddStoredFTL(250)
+
+	SpawnShip(Eclaireur)
+	SpawnShip(Eclaireur)
+	SpawnShip(Cuirassé)
+
+	OnHomeworld(GenerateDefenseShips(25))

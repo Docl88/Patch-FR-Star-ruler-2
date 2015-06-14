@@ -1,6 +1,6 @@
 {
 	"__VERSION__": 1,
-	"name": "Vaisseau d'exploration",
+	"name": "Eclaireur",
 	"size": 16,
 	"hull": "$1FlagTiny",
 	"type": "Flagship",
