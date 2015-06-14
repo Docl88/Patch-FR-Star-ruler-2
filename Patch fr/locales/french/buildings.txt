@@ -1,0 +1,266 @@
+BCAT_Production: Production
+BCAT_Resource: Ressource
+BCAT_Military: Militaire
+BCAT_Storage: Stockage
+BCAT_Infrastructure: Infrastructure
+
+CANNOT_BUILD_CONFLICT: Vous ne pouvez pas construire, $1 présent.
+
+BLD_TT_AFFINITY_BUILD: [img=$4;22]Coût de construction réduit sur écosystème [color=$2]$3[/color] .[/img]
+BLD_TT_AFFINITY_MAINT: [img=$4;22]Réduction de la maintenance sur écosystème [color=$2]$3[/color].[/img]
+BLD_TT_AFFINITY_BUILD_NEG: [img=$4;22][color=#f00]Coût de construction accrue sur écosystème [b]sous-développé[/b] [color=$2]$3[/color].[/color][/img]
+BLD_TT_AFFINITY_MAINT_NEG: [img=$4;22][color=#f00]Maintenance accrue sur écosystème [b]sous-développé[/b] [color=$2]$3[/color].[/color][/img]
+BLD_TT_DEV: [i][color=#aaa] Le coût de construction et d'entretien des bâtiments sont réduit sur les cases [b]développées[/b] .[/color][/i]
+BLD_TT_SIZE: [b]Taille:[/b] [offset=120]$1x$2[/offset]
+BLD_TT_COST: [b]Coût de base:[/b] [offset=120]$1[/offset]
+
+BLD_BASE: Base
+BLD_BASE_DESC: <<
+	Produit 1 défense par minute. Utilise 1 pression de défense;
+
+	[img=$Defense;22/] [bbloc=#PRESSURE_Defense/]
+
+	[bbloc=#TIP_PRESSURE/]
+>>
+
+BLD_BAZAAR: Bazaar
+BLD_BAZAAR_DESC: <<
+	Mises à jour du marché.
+	Fabrique §110k par cycle budgétaire. Utilise 2 pressions d'argent.
+
+	[img=$Money;22/] [bbloc=#PRESSURE_Money/]
+
+	[bbloc=#TIP_PRESSURE/]
+>>
+
+BLD_BROADCAST: Centre de diffusion
+BLD_BROADCAST_DESC: <<
+	Mises à jour du Centre Médiatique.
+	Subventionne 1.5 enjeu d'influence. Utilise 2 pressions d'influence.
+
+	[img=$Influence;22/] [bbloc=#PRESSURE_Influence/]
+
+	[bbloc=#TIP_PRESSURE/]
+>>
+
+BLD_CITY: Ville
+BLD_CITY_DESC: <<
+	Construction pour l'hébergement de la population.
+>>
+
+BLD_ENTERPRISE: Enterprise
+BLD_ENTERPRISE_DESC: <<
+	Mises à niveau de l'industrie.
+	Produit 3 main-d'œuvre par minute. Utilise 4 pressions de main d'œuvre.
+
+	[img=$Labor;22/] [bbloc=#PRESSURE_Labor/]
+
+	[bbloc=#TIP_PRESSURE/]
+>>
+
+BLD_FACTORY: Usine
+BLD_FACTORY_DESC: <<
+	Ajoute la génération de main d'œuvre à la planète.
+>>
+
+BLD_FTLSTORE: Stockage FTL 
+BLD_FTLSTORE_DESC: <<
+	Une grande chambre de stockage construite à l'intérieur d'un champ d'isolement sous-spatial pour stocker des cristaux FTL.
+	
+	Stocke 250 Énergie FTL.
+	Le stockage double quand situé sur une planète avec des cristaux FTL natals.
+>>
+
+TIP_PRESSURE: <<
+	[i][color=#aaa]La pression est produite par les ressources importées sur cette planète. Les types et les quantités de pression dictent les types de bâtiments et des ressources produites par votre population civile.[/color][/i]
+>>
+
+BLD_FARM: Mégaferme
+BLD_FARM_DESC: <<
+	Produit une ressource alimentaire de base non exportable.
+>>
+
+BLD_HYDROGENATOR: Générateur d'hydrogène
+BLD_HYDROGENATOR_DESC: <<
+	Produit une ressource en eau de base non exportable.
+>>
+
+BLD_GENERATOR: Générateur
+BLD_GENERATOR_DESC: <<
+	Produit un revenu d'énergie dépendant de votre taux de pénalité de stockage d'énergie. Utilise 1 pression d'énergie.
+
+	[img=$Energy;22/] [bbloc=#PRESSURE_Energy/]
+
+	[bbloc=#TIP_PRESSURE/]
+>>
+
+BLD_INDUSTRY: Industrie
+BLD_INDUSTRY_DESC: <<
+	Produit 2 main-d'œuvre par minute. Utilise 2 pressions de main d'œuvre.
+
+	[img=$Labor;22/] [bbloc=#PRESSURE_Labor/]
+
+	[bbloc=#TIP_PRESSURE/]
+>>
+
+BLD_LAUNCHPAD: Rampe de lancement
+BLD_LAUNCHPAD_DESC: <<
+	Améliorations des Bases.
+	Produit 1.5 défense/minute. Utilise 2 pressions de défense.
+
+	[img=$Defense;22/] [bbloc=#PRESSURE_Defense/]
+
+	[bbloc=#TIP_PRESSURE/]
+>>
+
+BLD_MARKET: Marché
+BLD_MARKET_DESC: <<
+	Fabrique §75k par cycle budgétaire. Utilise 1 pression d'argent.
+
+	[img=$Money;22/] [bbloc=#PRESSURE_Money/]
+
+	[bbloc=#TIP_PRESSURE/]
+>>
+
+BLD_MEDIACENTER: Centre Médiatique
+BLD_MEDIACENTER_DESC: <<
+	Subventionne 1 enjeu d'influence. Utilise 1 pression d'influence.
+
+	[img=$Influence;22/] [bbloc=#PRESSURE_Influence/]
+
+	[bbloc=#TIP_PRESSURE/]
+>>
+
+BLD_POWERPLANT: Centrale électrique
+BLD_POWERPLANT_DESC: <<
+	Améliorations de Générateur.
+	Produit un revenu d'énergie dépendant de votre taux de pénalité de stockage de l'énergie. Utilise 2 pressions d'énergie.
+
+	[img=$Energy;22/] [bbloc=#PRESSURE_Energy/]
+
+	[bbloc=#TIP_PRESSURE/]
+>>
+
+BLD_RESEARCHCOMPLEX: Complexe de Recherche
+BLD_RESEARCHCOMPLEX_DESC: <<
+	Produit des points de recherche pour l'empire, et fournit la formation et des ressources aux scientifiques civils.
+
+	Donne 1 génération de recherche.
+	Ajoute 1 pression de recherche.
+>>
+
+BLD_TECHCENTER: Centre Technologique
+BLD_TECHCENTER_DESC: <<
+	Améliorations d'Université.
+	Donne une génération de recherche. Utilise 2 pressions de recherche.
+
+	[img=$Research;22/] [bbloc=#PRESSURE_Research/]
+
+	[bbloc=#TIP_PRESSURE/]
+>>
+
+BLD_UNIVERSITY: Université
+BLD_UNIVERSITY_DESC: <<
+	Donne une génération de recherche. Utilise 1 pression de recherche.
+
+	[img=$Research;22/] [bbloc=#PRESSURE_Research/]
+
+	[bbloc=#TIP_PRESSURE/]
+>>
+
+
+BLD_FORGE: Forge
+BLD_FORGE_DESC: <<|
+	Augmente la génération de main d'œuvre de 25%.
+
+	Plus vous construisez de Forge, plus elles deviennent grande et plus cher.
+>>
+
+STATUS_HAS_DEFENSES: Défenses
+STATUS_HAS_DEFENSES_DESC: Cette planète a fait construire des armes défensives sur sa surface ou dans l'orbite basse qui peut tirer vers des ennemis voisins.
+BLD_DEFENSE_GRID: Réseau de Défense Planétaire
+BLD_DEFENSE_GRID_DESC: <<|
+	Un champ massif de silos de missile situés sur la surface de la planète, capable de tirer sur des flottes ennemies voisines.
+	
+	Le réseau est composé de 10 lance-missiles totalisant 250 DPS avec 450 de portée.
+
+	[i]S'il y a des flottes ennemies en orbite et que vous n'avez pas de vaisseaux de soutien restants pour protéger le système de guidage satellite, les silos de missile sont mis hors de service.[/i]
+>>
+BLD_PLANET_CANNON: Canon d'Artillerie Planétaire
+BLD_PLANET_CANNON_DESC: <<|
+	Énorme canon sur rails sur la surface de la planète qui propulse de grands projectiles vers des flottes ennemies dans le système, inflige des dégâts dévastateurs.
+	
+	Le canon fait 200 de dommages toutes les 5 secondes à 1500 de portée.
+
+	[i]S'il y a des flottes ennemies en orbite et que vous n'avez pas de vaisseaux de soutien restants pour protéger le système de guidage satellite, le canon d'artillerie est mis hors de service.[/i]
+>>
+
+BLD_WAREHOUSE: Entrepôt
+BLD_WAREHOUSE_DESC: <<|
+	Ajoute 100 Stockage de main d'œuvre.
+
+	Le stockage de main d'œuvre se remplit si vous ne construisez rien, et se vide lors de lancement de construction.
+>>
+
+BLD_METROPOLIS: Métropole
+BLD_METROPOLIS_DESC: <<|
+	Une grande couverture de zone urbaine et une connexion de centres de population plus petits.
+
+	Remplace jusqu'à 6 villes.
+
+	Augmente la capacité de pression totale de la planète par 6.
+>>
+
+BLD_MEGACITY: Cité
+BLD_MEGACITY_DESC: <<|
+	Un énorme groupe de constructions, empilé par des métros haut dans le ciel. L'utilisation plus efficace d'espace tient compte d'une société plus productive.
+
+	Remplace jusqu'à 16 villes.
+
+	Augmente la capacité de pression totale de la planète par 9.
+
+	Augmente la production civile d'énergie, l'influence et la recherche sur cette planète de 25 %.
+>>
+
+BLD_REFINERY: Raffinerie
+BLD_REFINERY_DESC: <<|
+	Ajoute 1 pression supplémentaire du type de pression principale de la ressource natale.
+
+	La pression est ajoutée sur cette planète seulement, et n'est pas exporté ou supprimé quand la ressource natale est exportée.
+
+	[i]Ne peut pas être construit sur des planètes sans pression natale, ou si le type de pression natale est de l'argent.[/i]
+>>
+
+BLD_MUSEUM: Musé
+BLD_MUSEUM_DESC: <<
+	Quand il est construit, accorde immédiatement 10 points d'influence en bonus.
+
+	Augmente la génération d'influence de la planète de 1 intérêt.
+
+	Ne peut pas être enlevé une fois construit.
+>>
+
+BLD_PLANET_ENGINE: Propulseur Planétaire
+BLD_PLANET_ENGINE_DESC: <<
+	Un grand propulseur construit sur la surface de la planète permet à la planète d'accélérer légèrement.
+
+	Donne à la planète 0.5 u/s² d'accélération pour se déplacer avec. Des propulseurs planétaires multiples augmentent l'accélération.
+>>
+
+BLD_FTLBREEDER: Réacteur surgénérateur FTL
+BLD_FTLBREEDER_DESC: <<
+	Un grand réacteur qui utilise l'énergie FTL pour exciter et extraire plus d'énergie FTL de l'Hyperchamp, dégageant des radiations mortelles pour toute vie organique dans le processus.
+
+	[b]Peut seulement être construit par la race Mechanoid.[/b]
+
+	[b][color=#ff8080]Quand achevé, 1B mechanoid population sera dépensée pour être intégré dans l'installation massive.[/color][/b]
+>>
+
+BLD_SPACE_ELEVATOR: Ascenseur spatial
+BLD_SPACE_ELEVATOR_DESC: <<
+	Une attache de ruban verticale dans l'espace peut être utilisée pour augmenter de manière significative l'efficacité du transport des matériaux dans l'espace.
+
+	Augmente la vitesse de construction des vaisseaux de soutien sur cette planète de 40%.
+
+	Un seul ascenseur spatial peut être construit par planète.
+>>

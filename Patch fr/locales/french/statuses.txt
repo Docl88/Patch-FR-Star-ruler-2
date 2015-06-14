@@ -1,0 +1,20 @@
+STATUS_DEVASTATE: Dévastation
+STATUS_DEVASTATE_DESC: Cette planète est en train de perdre de la population au fil du temps.
+
+STATUS_GRAVITARSHIP: Vaisseau en gravité
+STATUS_GRAVITARSHIP_DESC: Ces navires anciens ont récupéré des artefacts qui ont erré trop loin dans l'espace profond.
+
+STATUS_STARTING_PROTECTION: Établissement de protection
+STATUS_STARTING_PROTECTION_DESC: La protection complète de fidélité pour les planètes dans ce système est encore en cours de création. Il lui faudra du temps pour devenir actif.
+
+STATUS_BLOCKED_COLONIZATION: Colonisation bloquée
+STATUS_BLOCKED_COLONIZATION_DESC: Cette planète ne peut pas être colonisée en raison de vestiges invaincus dans le système.
+
+STATUS_LIMITED_SIGHT: Vision limitée
+STATUS_LIMITED_SIGHT_DESC: La nébuleuse dans ce système limite le champ de vision.
+
+STATUS_GATE_PACKED: Portail comblé
+STATUS_GATE_PACKED_DESC: Ce portail est archibondé. Ces portails peuvent ralentir les mouvements, les armes ne fonctionnent pas et impossible d'établir des trous de ver.
+
+STATUS_GATE_UNPACKED: Portail actif
+STATUS_GATE_UNPACKED_DESC: C'est un portail actif qui peut établir un trou de ver.

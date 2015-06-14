@@ -1,0 +1,71 @@
+ARTIFICIAL_PLANETOID: Planétoïde artificiel
+ARTIFICIAL_PLANETOID_DESC: <<
+	Un planétoïde entièrement construit artificiellement, avec sa propre atmosphère et son champ gravitationnel.
+
+	Les planétoïdes artificiels produisent leur propre nourriture et ne doivent pas l'importer, et peut construire de grandes usines de traitement pour satisfaire leurs autres exigences de monté de niveau. Le planétoïde peut aussi être amélioré pour ajouter plus d'espace de superficie.
+
+	[img=ResourceIconsSmall::11;22;#91692c][b][color=#91692c]La construction d'un planétoïde artificiel ou n'importe laquelle de ses améliorations exige de grandes quantités de minerai extrait d'astéroïdes.[/color][/b][/img]
+>>
+CONS_PLANETOID_UPGRADE: Couche Planétoïde Supplémentaire
+CONS_PLANETOID_UPGRADE_DESC: <<
+	Ajoutez une couche supplémentaire d'espace superficiel au planétoïde artificiel, augmente sa capacité de construction de bâtiments.
+
+	[img=ResourceIconsSmall::11;22;#91692c][b][color=#91692c]Exige de grandes quantités de minerai extrait d'astéroïdes.[/color][/b][/img]
+>>
+BLD_PLANETOID_LV1: Niveau 1 Usine de traitement
+BLD_PLANETOID_LV1_DESC: <<
+	Une usine de traitement spécialisée qui peut remplacer un niveau du planétoïde artificiel en exigences de ressource.
+
+	[img=ResourceIconsSmall::11;22;#91692c][b][color=#91692c]Exige de grandes quantités de minerai extrait d'astéroïdes.[/color][/b][/img]
+>>
+BLD_PLANETOID_LV2: Niveau 2 Usine de traitement
+BLD_PLANETOID_LV2_DESC: <<
+	Une usine de traitement spécialisée qui peut remplacer un niveau du planétoïde artificiel en exigences de ressource.
+
+	[img=ResourceIconsSmall::11;22;#91692c][b][color=#91692c]Exige de grandes quantités de minerai extrait d'astéroïdes.[/color][/b][/img]
+>>
+
+STARFORGE: Forge stellaire
+STARFORGE_BLURB: Déchire en morceaux et absorbe les parties de l'étoile du système pour produire la main d'œuvre.
+STARFORGE_DESC: <<
+	Une construction avancée qui déchire la puissance et la matière tout droit des couches extérieures de l'étoile.
+
+	Produit 25 main-d'œuvre par minute aux dépens du lent endommagement de l'étoile dans le système où elle se situe. Des améliorations de la forge peuvent être construites sur l'étoile pour augmenter sa génération de main d'œuvre mais également le taux d'endommagement de l'étoile.
+
+	Toutes les constructions dans une forge stellaire ont une réduction de 50 % du coût normal.
+
+	[img=ResourceIconsSmall::11;22;#91692c][b][color=#91692c]La construction et l'amélioration de la forge stellaire exige de grandes quantités de minerai extrait d'astéroïdes.[/color][/b][/img]
+>>
+CONS_STARFORGE_UPGRADE: Amélioration Forge stellaire
+CONS_STARFORGE_UPGRADE_DESC: <<
+	Augmentez le taux auquel la forge stellaire produit la main-d'œuvre de 25 par minute. Ceci augmente aussi les dégâts de l'étoile.
+
+	[img=ResourceIconsSmall::11;22;#91692c][b][color=#91692c]Exige de grandes quantités de minerai extrait d'astéroïdes.[/color][/b][/img]
+>>
+CONS_CANNIBALIZE_PLANET: Cannibalisez Planète
+CONS_CANNIBALIZE_PLANET_DESC: <<
+	Utilisez le rayon d'acquisition de matière de la forge stellaire pour déchirer complètement en morceaux une planète non en possession ou abandonnée dans ce système, gain de main-d'œuvre et de minerai qui seront stocké dans le processus.
+
+	La planète non colonisée  est détruite, le gain est de 5000 Minerai et 250 mains d'œuvre.
+>>
+
+VACUUM_TELESCOPE: Télescope de l'espace vide
+VACUUM_TELESCOPE_BLURB: Donne la vision sur toutes les flottes n'importe où dans l'espace lointain.
+VACUUM_TELESCOPE_DESC: <<
+	En détectant des fluctuations infimes dans l'hyperchamp correspondant aux changements dans l'espace, des groupes de masse concentrée peuvent être détectées. Ceci a très peu d'utilisation dans des puits de gravité de système solaires, comme la masse écrasante de l'étoile crée trop de bruit pour détecter des autres objets, mais peut très précisément détecter des flottes voyageant par les portées énormes d'espace profond, où aucun autre groupe significatif de masse n'existe.
+
+	Donne la vision sur toutes les flottes n'importe où dans l'espace lointain.
+
+	[img=ResourceIconsSmall::11;22;#91692c][b][color=#91692c]Exige de grandes quantités de minerai extrait d'astéroïdes.[/color][/b][/img]
+>>
+
+RINGWORLD: Monde d'anneau
+RINGWORLD_DESC: <<
+	Un énorme anneau construit autour de l'étoile d'un système, avec un espace habitable sur la surface intérieure de l'anneau, faisant face à l'étoile.
+
+	Le monde d'anneau a [levels=$1;#ffb4b6]+0/+10/+20/+30/+40/+50[/levels] population maximale accrue.
+
+	Pour chaque type de ressource, si l'anneau reçoit une pression pour cette ressource, il gagne [levels=$1;#ffb4b6]2/4/6/8/10/12[/levels] pression supplémentaire pour cette ressource.
+
+	[img=ResourceIconsSmall::11;22;#91692c][b][color=#91692c]Exige de grandes quantités de minerai extrait d'astéroïdes.[/color][/b][/img]
+>>

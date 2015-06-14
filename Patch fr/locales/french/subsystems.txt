@@ -1,0 +1,534 @@
+SC_Hulls: [hspace=4/][img=DesignationIcons::16;32x32/][hspace=6/]  [color=#cc6a3a]Coques[/color]
+SC_Control: [vspace=-14][img=Bridge;42x42/][/vspace]  [color=#2fd6b3]Contrôle[/color]
+SC_Weapons: [vspace=-18][hspace=-22/][img=Railgun::2;70x53/][/vspace][hspace=-10/]  [color=#f9464d]Armes[/color]
+SC_Propulsion: [hspace=-10/][vspace=-56][img=RocketEngine;84x84/][/vspace][hspace=-32/]  [color=#f9e146]Propulsion[/color]
+SC_Defense: [vspace=-14][img=PlateArmor;42x42/][/vspace]  [color=#a9a9a9]Défense[/color]
+SC_FTL: [img=HexagonSubsystems::10;42x21;#f00/]  [color=#67a7ad]FTL[/color]
+SC_Modifiers: [img=HexagonSubsystems::0;42x21;#cf00ff/]  [color=#eda1ff]Modificateurs[/color]
+SC_Support: [vspace=-14][img=SupportCommand;42x42/][/vspace]  [color=#eda1ff]Support[/color]
+SC_Equipment: [vspace=-22][hspace=-29/][img=TractorGun::2;100x76/][/vspace][hspace=-29/]  [color=#8bb800]Equipement[/color]
+SC_Misc: Misc
+
+CREWCONTROL_NAME: Pont et Équipage
+CREWCONTROL_DESC: <<
+	Un pont, quartiers de l'équipage et d'autres installations pour qu'un équipage puisse commander ce vaisseau.
+
+	[img=ActionBarIcons::0;22;#00ff80]Fournit [b][color=#00ff80]le contrôle[/color][/b] pour exploiter d'autres sous-systèmes.[/img]
+	[img=Plus]Répare lentement le vaisseau.[/img]
+	[img=Minus]Le vaisseau est détruit s'il ne reste aucun contrôle.[/img]
+>>
+
+CREWDECK_NAME: Pont d'Équipage
+CREWDECK_DESC: <<
+	Fournit un pont et des installations minimes pour que l'équipage puisse commander des vaisseaux de soutien.
+
+	[img=ActionBarIcons::0;22;#00ff80]Fournit [b][color=#00ff80]le contrôle[/color][/b] pour exploiter d'autres sous-systèmes.[/img]
+	[img=Plus]Répare lentement le vaisseau.[/img]
+	[img=Minus]Le vaisseau est détruit s'il ne reste aucun contrôle.[/img]
+>>
+
+SHIPCOMPUTER_NAME: Ordinateur de contrôle
+SHIPCOMPUTER_DESC: <<
+	Un ordinateur autonome capable de contrôler de nombreux systèmes du vaisseau.
+	
+	[img=ActionBarIcons::0;22;#00ff80]Fournit un grand nombre de [b][color=#00ff80]contrôle[/color][/b] pour exploiter d'autres sous-systèmes.[/img]
+	[img=QuickbarIcons::6;22]Pour les 30 premières secondes de tout combat, la résistance de l'ensemble de la flotte est stimulée par un pourcentage dépendant de la taille de l'ordinateur de contrôle.[/img]
+	[img=Plus]Répare lentement le vaisseau.[/img]
+	[img=Minus]Nécessite une alimentation pour fonctionner.[/img]
+	[img=Minus]Le vaisseau est détruit s'il ne reste aucun contrôle.[/img]
+>>
+
+STATUS_COMPUTER_BOOST: Augmentation Informatique
+STATUS_COMPUTER_BOOST_DESC: De lourds calculs effectués par l'ordinateur de contrôle du vaisseau amiral augmente l'efficacité et la force de combat de la flotte pour les 30 premières secondes de tout combat.
+
+SUPPLYMODULE_NAME: Stockage de Provision
+SUPPLYMODULE_DESC: <<
+	Stocke des provisions et des munitions pour son utilisation en combat et pendant le siège des planètes.
+
+	[img=AttributeIcons::4;22]Fournit [b][color=#fefc61]Capacité de Provision[/color][/b].[/img]
+	[img=Minus]Détruire un hexagone de stockage d'alimentation provoque une fuite de fournitures au fil du temps.[/img]
+>>
+
+SUPPORTCAPMODULE_NAME: Commandement du soutien
+SUPPORTCAPMODULE_DESC: <<
+	L'infrastructure technique pour commander une flotte de vaisseaux de soutien.
+
+	[img=ActionBarIcons::2;22]Fournit [b][color=#00cffe]Commandement du soutien[/color][/b].[/img]
+	[img=Minus]Peut perdre le contrôle sur les vaisseaux de soutien lorsque détruit.[/img]
+>>
+
+SHIELDGEN_NAME: Générateur de bouclier
+SHIELDGEN_DESC: <<
+	Crée un bouclier autour du vaisseau, bloquant quelques dégâts entrants.
+
+	[img=Plus]Crée une barrière se régénérant contre des dégâts.[/img]
+	[img=Minus]Boucliers affaibli permettent quelques dégâts au travers.[/img]
+>>
+
+S_SHIELD_HARDENER: Durcisseur Bouclier
+S_SHIELD_HARDENER_DESC: <<
+	Soutient et renforce le bouclier du vaisseau, qui lui permet de résister aux dommages entrant sans perdre de force.
+
+	[img=Plus]Lorsque les boucliers ont une force élevé, accorde un pourcentage de chance d'ignorer complètement tous dégâts entrant.[/img]
+	[img=Minus]Lorsque les boucliers ont une force affaiblie, la chance de blocage des dégâts est abaissé.[/img]
+>>
+
+FISSIONGEN_NAME: Générateur de Fission
+FISSIONGEN_DESC: <<
+	Un générateur de puissance sur la base de la fission nucléaire.
+
+	[img=ResourceIcon::2;22]Fournit [b][color=#42b4bd]l'alimentation[/color][/b] pour faire fonctionner d'autres sous-systèmes.[/img]
+	[img=AttributeIcons::4;22]Fournit un [b][color=#0f0]haut[/color] [color=#fefc61]Taux de ravitaillement[/color][/b].[/img]
+	[img=Minus]Perdre la production d'électricité nécessaire au combat réduit l'efficacité globale du vaisseau.[/img]
+>>
+
+FUSIONGEN_NAME: Générateur de Fusion
+FUSIONGEN_DESC: <<
+	Génère de l'énergie grâce à la fusion nucléaire.
+
+	[img=ResourceIcon::2;22]Fournit une [b][color=#0f0]grande[/color][/b] quantité d'[b][color=#42b4bd]alimentation[/color][/b] pour faire fonctionner d'autres sous-systèmes.[/img]
+	[img=AttributeIcons::4;22]Fournit un [b][color=#fefc61]Taux de ravitaillement[/color] modéré[/b].[/img]
+	[img=Minus]Perdre la production d'électricité nécessaire au combat réduit l'efficacité globale du vaisseau.[/img]
+>>
+
+AMGEN_NAME: Générateur d'Antimatière
+AMGEN_DESC: <<
+	Une réaction d'annihilation de matière-antimatière soutenue qui fournit une alimentation continue pour le vaisseau.
+
+	[img=ResourceIcon::2;22]Fournit une [b][color=#0f0]très grande[/color][/b] quantité d'[b][color=#42b4bd]alimentation[/color][/b] pour faire fonctionner d'autres sous-systèmes.[/img]
+	[img=AttributeIcons::4;22]Fournit un [b][color=#0f0]très haut[/color] [color=#fefc61]Taux de ravitaillement[/color][/b].[/img]
+	[img=Plus]Aucun coût d'entretien.[/img]
+	[img=Minus]Coût élevé de construction.[/img]
+	[img=Minus]Perdre la production d'électricité nécessaire au combat réduit l'efficacité globale du vaisseau.[/img]
+>>
+
+RAILBATTERY_NAME: Batterie Railgun 
+RAILBATTERY_DESC: <<
+	Une batterie de canons magnétiques qui tirent de petits projectiles à très haute vitesses.
+	
+	[img=Plus]Cadence de tir rapide.[/img]
+	[img=Minus]Projectiles imprécis.[/img]
+	[img=Minus]Tourelle à angle de tir limité.[/img]
+>>
+
+MUONBATTERY_NAME: Canon batterie Muon
+MUONBATTERY_DESC: <<
+	Quantité de feux de muons nouvellement créé à vitesse relative.
+	
+	Avantage de technologies qui améliore les batteries Railgun.
+	
+	[img=Plus]Cadence de tir rapide.[/img]
+	[img=Plus]Perce armure et ignore résistance aux dégâts.[/img]
+	[img=Minus]Faible dégâts.[/img]
+	[img=Minus]Projectiles imprécis.[/img]
+	[img=Minus]Tourelle à angle de tir limité.[/img]
+>>
+
+S_CARPETBOMB: Tapis de bombe
+S_CARPETBOMB_DESC: <<
+	Une puissante, arme à ogive multiple conçu pour dévaster la surface et la population d'une planète.
+>>
+
+S_ROCKETPOD: Lance roquette
+S_ROCKETPOD_DESC: <<
+		Lance une salve de roquettes de courte portée, et recule pour recharger.
+
+		[img=Plus]Haut [b][color=#ff8080]dégâts[/color][/b].[/img]
+		[img=Plus]Aucune limitation d'angle de tir.[/img]
+		[img=Plus]Très efficace pour percer l'armure.[/img]
+		[img=Minus]Doit recharger après plusieurs tirs.[/img]
+		[img=Minus]Haut [b][color=#fefc61]coût d'approvisionnement[/color][/b].[/img]
+>>
+	
+S_TORPEDOLAUNCHER: Lance-torpilles
+S_TORPEDOLAUNCHER_DESC: <<
+	Lance une torpille guidée. Ces torpilles explosent dans une zone autour de leur cible.
+>>
+
+RAILGUN_NAME: Railgun
+RAILGUN_DESC: <<
+	Un canon magnétique qui tire de petits projectiles à très haute vitesses.
+	
+	[img=Plus]Haut dégâts par coup.[/img]
+	[img=Minus]Projectiles imprécis.[/img]
+	[img=Minus]Tourelle à angle de tir limité.[/img]
+>>
+
+MUON_CANNON_NAME: Canon Muon 
+MUON_CANNON_DESC: <<
+	Quantité de feux de muons nouvellement créé à vitesse relative.
+	
+	Avantage de technologies qui améliore le Railgun.
+	
+	[img=Plus]Cadence de tir rapide.[/img]
+	[img=Plus]Perce armure et ignore résistance aux dégâts.[/img]
+	[img=Minus]Faible dégâts.[/img]
+	[img=Minus]Projectiles imprécis.[/img]
+	[img=Minus]Tourelle à angle de tir limité.[/img]
+>>
+
+LASER_NAME: Laser
+LASER_DESC: <<
+	Un rayon de lumière fortement concentré qui inflige des dégâts en brûlant des trous par des subdivisions du vaisseau.
+	
+	[img=Plus]Faisceau verrouillé précis et instantané.[/img]
+	[img=Plus]Faible [b][color=#fefc61]coût d'approvisionnement[/color][/b].[/img]
+	[img=Minus]Inefficace contre armure.[/img]
+	[img=Minus]Tourelle à angle de tir très limité.[/img]
+>>
+
+MISSILELAUNCHER_NAME: Lance-missiles
+MISSILELAUNCHER_DESC: <<
+	Missiles chargés d'explosifs et avec une quantité suffisante de propergol sont abaissées sur le vaisseau et verrouillés sur leur cible principale.
+	
+	[img=Plus]Haut [b][color=#ff8080]dégâts[/color][/b].[/img]
+	[img=Plus]Aucune limitation d'angle de tir.[/img]
+	[img=Plus]Très efficace pour percer l'armure.[/img]
+	[img=Minus]Cadence de tir lente.[/img]
+	[img=Minus]Très haut [b][color=#fefc61]coût d'approvisionnement[/color][/b].[/img]
+>>
+
+S_SELF_DESTRUCT: Dispositif Autodestruction
+S_SELF_DESTRUCT_DESC: <<
+	Une ogive massive conçue pour exploser lorsque le vaisseau hôte devient instable.
+	
+	[img=Plus]Dommages extrêmes dans une vaste zone.[/img]
+	[img=Minus]Mort.[/img]
+>>
+ABL_SELF_DESTRUCT: Activer Autodestruction
+ABL_SELF_DESTRUCT_DESC: <<
+	Activer le dispositif d’autodestruction contenue sur ce vaisseau, le vaisseau explose dans un brasier ardent.
+>>
+
+PLATEARMOR_NAME: Armure de Plaque
+PLATEARMOR_DESC: <<
+	Lourds, plaques emboîtées de métal qui protègent le vaisseau des dommages.
+	
+	[img=Plus]Haute [b][color=#80ff80]santé[/color][/b].[/img]
+	[img=Plus]Résiste et réduit les dégâts reçus.[/img]
+	[img=Plus]Armure à l'extérieur du vaisseau, n'utilise pas d'espace intérieur.[/img]
+	[img=Minus]Lourd.[/img]
+>>
+
+ABLATIVEARMOR_NAME: Armure ablative
+ABLATIVEARMOR_DESC: <<
+	Une mousse métallique rigide conçu pour absorber les dégâts par l'ablation continuelle.
+	
+	[img=Plus]Haute [b][color=#c6c33a]résistance au dégâts[/color][/b].[/img]
+	[img=Plus]Armure à l'extérieur du vaisseau, n'utilise pas d'espace intérieur.[/img]
+	[img=Plus]Résistance accrue contre les dommages des lasers.[/img]
+	[img=MenuIcons::3;20]Efficace contre de nombreux petits coups.[/img]
+>>
+
+REACTIVEARMOR_NAME:  Armure réactive
+REACTIVEARMOR_DESC: <<
+	Une feuille d'explosifs indépendants qui explosent presque instantanément en réponse aux tirs d'armes entrant.
+
+	[img=Plus]Succès de dégâts excédant le [b][color=#c33ac6]seuil de dommage[/color][/b] sont réduits de façon significative.[/img]
+	[img=Plus]Armure à l'extérieur du vaisseau, n'utilise pas d'espace intérieur.[/img]
+	[img=MenuIcons::3;20]Efficace contre les coups simples massifs.[/img]
+>>
+
+NEUTRONARMOR_NAME:  Armure Neutronium
+NEUTRONARMOR_DESC: <<
+	Des granules microscopiques de métal au neutronium dopé sont mélangés avec l'armure de plaque standard.
+	
+	[img=Plus]Très haute [b][color=#80ff80]santé[/color][/b].[/img]
+	[img=Plus]Armure à l'extérieur du vaisseau, n'utilise pas d'espace intérieur.[/img]
+	[img=Minus]Extrêmement lourde.[/img]
+	[img=Minus]Coût de construction élevé.[/img]
+>>
+
+ROCKETENGINE_NAME: Moteur de Fusée
+ROCKETENGINE_DESC: <<
+	Expulse de grandes quantités de masse à grande vitesse pour produire une poussée.
+
+	[img=Plus]Fournit très forte poussée.[/img]
+	[img=Minus]Coût élevé de maintenance.[/img]
+	[img=Minus]Faible taux de virage.[/img]
+>>
+
+IONENGINE_NAME: Moteur à Ion
+IONENGINE_DESC: <<
+	Propulse de petites quantités de carburant à des vitesses extrêmement élevées. Les échappements du propulseur sont très petits et peuvent plus facilement être tournés légèrement afin de fournir une poussée angulaire.
+
+	[img=Plus]Taux de virage très élevé.[/img]
+	[img=Plus]Faibles coûts de maintenance.[/img]
+	[img=Minus]Fournit une faible poussée.[/img]
+	[img=Minus]Nécessite de la puissance pour fonctionner.[/img]
+>>
+
+GRAVITYENGINE_NAME: Moteur de gravitation
+GRAVITYENGINE_DESC: <<
+	Une vague de gravité artificielle dense permet aux moteurs apparemment sans réaction de propulser un vaisseau spatial.
+
+	[img=Plus]Peut être placé à l'intérieur.[/img]
+	[img=Plus]Si seuls les moteurs de gravitation sont présents sur le vaisseau, il ne devra pas tourner du tout pour se déplacer.[/img]
+	[img=Minus]Fournit une faible poussée.[/img]
+	[img=Minus]Coûteux à construire.[/img]
+	[img=Minus]A besoin de haute puissance.[/img]
+>>
+
+BULKHEAD_NAME: Cloison
+BULKHEAD_DESC: <<
+	Le placage renforcé sur les murs d'un sous-système rend ses composants significativement plus résistants aux dégâts entrants.
+
+	[img=Plus;22;#cf00ff]Peut être placé sur des sous-systèmes non-blindés qui ont des noyaux ou des tourelles. Ne peut pas être placé sur des ponts ou des sous-systèmes principaux.[/img]
+	[img=Plus]Augmente la santé de tous les hexagones du sous-système.[/img]
+	[img=Minus]Augmente le coût de construction du sous-système.[/img]
+	[i][color=#aaa]Placer plus d'une cloison sur un sous-système va continuer à augmenter la santé de tous ses hexagones, mais va monter en flèche le coût de construction.[/color][/i]
+>>
+
+TARGETINGSENSOR_NAME: Capteur de ciblage
+TARGETINGSENSOR_DESC: <<
+	Capteurs sophistiqués de ciblage et de suivi permettent aux armes de trouver plus précisément sa destination, augmentant sa portée efficace.
+
+	[img=Plus;22;#cf00ff]Peut être placé sur les sous-systèmes d'armes.[/img]
+	[img=Plus]Augmente la [b][color=#80ffea]portée[/color][/b] de l'arme.[/img]
+	[img=Minus]Augmente le coût de construction de l'arme.[/img]
+	[img=Minus]Augmente le [b][color=#fefc61]coût d'approvisionnement[/color][/b] de tir de l'arme.[/img]
+	[i][color=#aaa]Le placement de plus d'un capteur de ciblage sur une arme continuera à augmenter sa portée, mais aussi de monter ses coûts en flèche.[/color][/i]
+>>
+
+SUPPORTSUPPLY_NAME: Caisse de fournitures
+SUPPORTSUPPLY_DESC: <<
+	Une installation de stockage de fournitures secondaire peut être placée sur certains vaisseaux de soutien, l'augmentation de la quantité de munitions et de matériels de combat généraux est à la disposition de la flotte.
+
+	[img=AttributeIcons::4;22]Fournit [b][color=#fefc61]capacité de ravitaillement[/color][/b] à la flotte.[/img]
+	[img=Minus]Ajoute coût de maintenance aux vaisseaux de soutien.[/img]
+	[img=Minus]Détruits l'hexagone de stockage de fourniture créé une fuite de fournitures au fil du temps.[/img]
+	[img=MenuIcons::3;20;#f00][i][color=#faa]Les vaisseaux de soutien avec des coûts de maintenance ne seront pas créés par la Défense.[/color][/i][/img]
+>>
+
+S_EMERGENCY_SUPPLIES: Fournitures d'urgence
+S_EMERGENCY_SUPPLIES_DESC: <<
+	Un nœud de production pour l'énergie de l'Empire. Permet aux provisions d'être produit immédiatement n'importe où dans la galaxie, à grands frais.
+	
+	[img=AttributeIcons::4;22]Produit immédiatement des provisions.[/img]
+	[img=Minus]Coût en énergie.[/img]
+	[img=Minus]30 seconde de temps de rechargement.[/img]
+>>
+ABL_EMERGENCY_SUPPLIES: Créer Fournitures
+ABL_EMERGENCY_SUPPLIES_DESC: Remplissez à nouveau les provisions du vaisseau.
+
+S_HYPERLASER: Laser Hyperdense 
+S_HYPERLASER_DESC: <<
+	Un laser bref avec une densité d'énergie assez haute pour produire spontanément de la matière.
+
+	[img=Plus]Faisceau verrouillé précis et instantané.[/img]
+	[img=Plus]Inflige des dégâts rapidement.[/img]
+	[img=Minus]DPS global faible.[/img]
+	[img=Minus]Tourelle à angle de tir très limité.[/img]
+>>
+
+S_TRACTOR_BEAM: Rayon Tracteur
+S_TRACTOR_BEAM_DESC: <<
+	Émetteurs de graviton sophistiquées combinées à un champ d'amortissement inertiel qui autorise le vaisseau à appliquer sa poussée à d'autres objets. Les objets sont gardés suspendus à la même position relative et à la même vitesse, laissant le vaisseau pour les déplacer.
+
+	[img=MenuIcons::3;20][color=#aaa]Peut être utilisé sur des artefacts, astéroïdes, orbitales et d'autres vaisseaux.[/color][/img]
+	[img=MenuIcons::3;20][color=#aaa]D'autres vaisseaux peuvent utiliser leur poussée pour tenter de rompre le rayon tracteur.[/color][/img]
+	[img=ResourceIcon::3;20;#f00][color=#aaa]Vaisseaux sous l'effet d'un rayon tracteur ne peuvent pas utiliser leur FTL.[/color][/img]
+>>
+ABL_TRACTOR_BEAM: Basculer rayon tracteur
+ABL_TRACTOR_BEAM_DESC: Tournez le rayon tracteur du vaisseau sur "on" ou "off".
+ABL_TRACTOR_NO: Vous ne pouvez pas tracter
+
+S_BUSTER_BEAM: Rayon Buster
+S_BUSTER_BEAM_DESC: Une immense arme à faisceau capable de détruire des planètes entières.
+
+S_ION_CANNON: Canon à Ion 
+S_ION_CANNON_DESC: <<
+	Un rayon d'énergie fortement chargé surcharge temporairement les systèmes d'énergie d'un ennemi.
+	
+	[img=Plus]Désactive les moteurs subliminiques ennemi et les capacités FTL.[/img]
+	[img=ResourceIcon::2;22]Coûts en [b][color=#42b4bd]Energie[/color][/b] pour tirer.[/img]
+	[img=MenuIcons::3;20][color=#aaa]Peut tirer avec des canons à ion sur les vaisseaux ennemis.[/color][/img]
+	[img=MenuIcons::3;20][color=#aaa]Durée de l'effet incapacitant dépend de la taille du canon à ion.[/color][/img]
+>>
+
+S_SKIP_DRIVE: Énergie de Saut
+S_SKIP_DRIVE_DESC: <<
+	Un système d'énergie qui peut utiliser de l'énergie brute pour percer au travers de dimensions quantique afin de réaliser la téléportation instantanée.
+	
+	[img=Plus]Téléportation instantanément à proximité.[/img]
+	[img=ResourceIcon::2;22]Coûts en [b][color=#42b4bd]Energie[/color][/b] pour l'activer.[/img]
+	[img=MenuIcons::3;20][color=#aaa]Plus loin est téléporté le vaisseau, plus d'énergies est requis.[/color][/img]
+	[img=MenuIcons::3;20][color=#aaa]Plus l'énergie de saut est grande, plus le coût en énergie est faible.[/color][/img]
+>>
+
+S_GRAVITON_CONDENSER: Condensateur de gravitation
+S_GRAVITON_CONDENSER_DESC: <<
+	Un générateur de faisceau immense qui s'effondre sous la propre gravité d'un objet céleste, conduisant à se compresser et finalement exploser.
+
+	[img=Plus]Le rayon peut être activé pour faire des dégâts au fil du temps aux étoiles et aux planètes.[/img]
+>>
+ABL_GRAVITON_CONDENSER: Faire feu Condensateur de gravitation
+ABL_GRAVITON_CONDENSER_DESC: Tir un faisceau qui s'effondre sur la propre gravité d'un objet céleste, conduisant à se compresser et finalement exploser.
+
+S_CLOAKPLATING: Dissimulation de Maille
+S_CLOAKPLATING_DESC: <<
+	Couvrant entièrement un vaisseau dans un maillage de matériel hyper absorbant lui permet d'éviter la détection par les ennemis à l'extérieur de la portée visuelle immédiate.
+
+	[img=Plus]Lorsqu'il est activé, la flotte ne peut pas être vu de loin.[/img]
+	[img=ResourceIcon::2;22]Maille draine lentement de l'[b][color=#42b4bd]Energie[/color][/b] lorsqu'il est activé.[/img]
+	[img=Minus]Maille est cassée lorsque la flotte entre en combat.[/img]
+	[img=MenuIcons::3;20][color=#aaa]Le vaisseau doit être entièrement couvert avec la dissimulation de maille pour être masqué avec succès.[/color][/img]
+>>
+ABL_CLOAK: Interrupteur de masquage
+ABL_CLOAK_DESC: <<
+	Basculer si le vaisseau est actuellement masqué.
+
+	Le maillage coûte une petite quantité d'énergie par seconde pour être maintenu et se brise dès que la flotte entre en combat.
+>>
+STATUS_CLOAKED: Masquer
+STATUS_CLOAKED_DESC: <<
+	Cette flotte est actuellement masquée.
+
+	Le maillage coûte une petite quantité d'énergie par seconde pour être maintenu et se brise dès que la flotte entre en combat.
+>>
+
+S_TITAN_HULL: Coque de Titan 
+S_TITAN_HULL_DESC: <<
+	Un cadre de coque colossal, extrêmement lourd qui permet à de plus grands vaisseaux d'être construit plus efficacement.
+
+	[img=Plus]Beaucoup plus d'espace interne disponible.[/img]
+	[img=Plus]Réduit les coûts de construction jusqu'à 50% en fonction que la taille du vaisseau prend de l'ampleur.[/img]
+	[img=Plus]La construction rigoureuse augmente le potentiel d'angle de tir des tourelles.[/img]
+	[img=Minus]Augmentation extrême de la masse.[/img]
+	[img=Minus]Vitesse hyperdrive beaucoup plus lente.[/img]
+	[img=Minus]Peut seulement être utilisé pour les vaisseaux de taille 500 ou plus grand.[/img]
+>>
+
+S_AMMOSTORAGE: Dépôt de Munitions
+S_AMMOSTORAGE_DESC: <<
+	Petits modules de stockage de munitions qui peuvent prendre et stocker temporairement les fournitures de la flotte alors que le vaisseau de soutien se détache de la flotte pour faire des raids indépendants contre l'ennemi.
+
+	[img=Plus]Permet aux vaisseaux de soutien de quitter la flotte pour les raids.[/img]
+	[img=Minus]Les vaisseaux de soutien détachés sans maintien de provision ne peuvent pas tirer avant qu'ils ne retournent à la flotte et au réapprovisionnement.[/img]
+>>
+
+S_GATE_MODULE: Portail
+S_GATE_MODULE_DESC: <<
+	Un module FTL qui peut être ajoutée à une station.
+
+	[img=Plus]Permet aux vaisseaux de se déplacer portail à portail.[/img]
+	[img=Plus]Peut être embarqué et déplacé, puis débarqué à un nouvel emplacement.[/img]
+	[img=Minus]Doit couvrir au moins un tiers de l'ensemble de la station.[/img]
+	[img=$FTL]Coûts d'entretien de 0,15 FTL/s. Portail désactivé si vous manquez de FTL.[/img]
+>>
+
+ABL_GATE_PACK: Embarquer portail
+ABL_GATE_PACK_DESC: <<
+	Désactiver et embarquer portail. Les portails embarqué ne sont pas actif, mais peut être déplacé lentement en utilisant leurs propulseurs de manœuvre.
+>>
+
+ABL_GATE_UNPACK: Débarquer portail
+ABL_GATE_UNPACK_DESC: <<
+	Débarquer la porte à l'emplacement ciblé. La porte sera s'y installer en utilisant ses propulseurs de manœuvre, puis se réactiver. Activer un portail a un coût en FTL unique.
+>>
+
+S_MINING_LASER: Laser minier
+S_MINING_LASER_DESC: <<
+	Outil de forage avec une découpe précise utilisé pour extraire des matériaux des astéroïdes.
+
+	[img=Plus]Mines les minéraux spéciaux des astéroïdes.[/img]
+	[img=MenuIcons::3;20]Seul des astéroïdes particuliers auront des minéraux spéciaux comme du [b]Minerai[/b]. De nombreux astéroïdes ont des ressources qui ne peuvent pas être exploitées par le laser minier, mais nécessitent une planète pour construire une base d'exploitation minière sur l'astéroïde.[/img]
+>>
+
+S_CARGO_STORAGE: Cargo stockage
+S_CARGO_STORAGE_DESC: <<
+	Caisses et conteneurs spécialisés pour stocker les matières extraites des astéroïdes jusqu'à ce qu'elles puissent être déposés ou utilisés.
+>>
+
+ABL_AUTO_MINE: Miner Astéroïde (Automatique)
+ABL_AUTO_MINE_DESC: <<
+	Lance l'exploitation minière sur cet astéroïde et retourne automatiquement à l'exploitation minière après dépôt de matériaux stockés dans l'ensemble des points de chute.
+>>
+
+ABL_DROPOFF_POINT: Définir Point de dépôt
+ABL_DROPOFF_POINT_DESC: <<
+	Interrupteur où le point de dépôt des matières extraites est défini pour le vaisseau. Lorsque le Cargo stockage est plein, dépose automatiquement toutes les marchandises à l'endroit indiqué.
+>>
+
+ABL_MINE_ASTEROID: Miner Astéroïde (Une fois)
+ABL_MINE_ASTEROID_DESC: <<
+	Miner cet astéroïde pour un chargement complet de cargaison, mais n'y retourne pas après le déchargement de cargaison.
+>>
+
+ABL_TRANSFER_CARGO: Cargo Transfert
+ABL_TRANSFER_CARGO_DESC: <<
+	Ordonnez au vaisseau de transférer toute la cargaison dans ses dépôts.
+>>
+
+ABL_PICKUP_CARGO: Cargo Ramassage
+ABL_PICKUP_CARGO_DESC: <<
+	Ordonnez au vaisseau de ramasser autant de marchandises ciblées que possible.
+>>
+
+S_CONSTRUCTION_BAY: Baie de Construction
+S_CONSTRUCTION_BAY_DESC: <<
+	Équipement et espace de construction de nouveaux vaisseaux.
+
+	[img=$Labor;22]Fournit la main-d'œuvre pour construire de nouveaux vaisseaux.[/img]
+>>
+
+S_ORE_PROCESSOR: Processeur de Minerai
+S_ORE_PROCESSOR_DESC: <<
+	Installations de raffinage qui transforme le minerai extrait d'astéroïdes dans des matières utilisables.
+	
+	[img=$Labor;22]Transforme automatiquement le minerai dans le stockage de marchandises ou extrait dans la main-d'œuvre stocké.[/img]
+	[img=ComputerCore;22;#fca404]Exige une Baie de Construction pour alimenter la main-d'œuvre.[/img]
+>>
+
+S_LIQUIDARMOR: Armure liquide
+S_LIQUIDARMOR_DESC: <<
+	Un bassin de liquide hydro-métallique suspendue sur la coque du vaisseau pour absorber les chocs et les étaler uniformément, remplis n'importe quels trous qui sont créés.
+
+	[img=Plus]Haute [b][color=#80ff80]santé[/color][/b].[/img]
+	[img=Plus]Le flux de santé des hexagones à haute santé sont relié aux hexagones de faible santé afin d'égaliser la densité.[/img]
+	[img=Plus]Armure à l'extérieur du vaisseau, n'utilise pas d'espace intérieur.[/img]
+	[img=Minus]Ne fournit pas de résistance aux dégâts.[/img]
+>>
+
+S_AUGMENT_RELOAD: Système de refroidissement
+S_AUGMENT_RELOAD_DESC: <<
+	Augmente le mécanisme de l'arme pour le rechargement et le refroidissement, une plus grande cadence de tir peut être obtenue au prix d'une fragilité.
+
+	[img=Plus]Augmente [b][color=#c680ff]la vitesse de rechargement[/color][/b] de 20%.[/img]
+	[img=Minus]Diminue la [b][color=#80ff80]santé[/color][/b] de 50%.[/img]
+>>
+
+S_AUGMENT_DAMAGE: Amplificateur de Charge utile
+S_AUGMENT_DAMAGE_DESC: <<
+	Augmente la charge utile et l'énergie de l'arme ce qui permet plus de dégâts mais au prix de la portée.
+
+	[img=Plus]Augmente [b][color=#ff8000]les dégâts[/color][/b] de 25%.[/img]
+	[img=Minus]Diminue [b][color=#c680ff]la portée[/color][/b] de 50%.[/img]
+>>
+
+S_AUGMENT_SUPPLY: Mécanisme Lissé
+S_AUGMENT_SUPPLY_DESC: <<
+	L'augmentation de la distribution de l'arme et de la concentration des systèmes diminue le coût des munitions aux dépens de la flexibilité et de la vitesse.
+
+	[img=Plus]Diminue[b][color=#fefc61]les munitions[/color][/b] utilisées de 30%.[/img]
+	[img=Minus]Diminue [b]l'angle de tir[/b] de 50%, le cas échéant.[/img]
+	[img=Minus]Diminue [b]la vitesse des projectiles[/b] de 50%, le cas échéant.[/img]
+>>
+
+S_SHRINE: Tombeau
+S_SHRINE_DESC: <<
+	Un sanctuaire pour honorer les Anciens Dieux, construit conformément aux plans qu'ils nous ont accordés. Prier au sanctuaire protège le vaisseau contre le mal.
+
+	[img=Plus]Ajoute un bouclier pour le vaisseau.[/img]
+	[img=Minus]Assez de prière doit être généré pour que le vaisseau dispose d'un contrôle.[/img]
+	[img=ResourceIconsSmall::53;22][b][color=#408fc1]Seulement disponible quand l'option de race 'Pieux' est choisie.[/color][/b][/img]
+>>
+
+S_QUANTUM_BATTERY: Pile Quantique
+S_QUANTUM_BATTERY_DESC: <<
+	Les Piles Quantique peuvent stocker des morceaux de la vaste quantité d'énergie captée par un empire dans l'énergie du point zéro d'une petite région du sous-espace plié. Cette énergie est ensuite lentement utilisée afin de compléter les exigences de puissance du sous-système.
+
+	[img=Plus]Divise par deux la puissance requise par le sous-système placé à l'intérieur.[/img]
+	[img=Minus]Si une pile quantique est détruite au combat, le sous-système est non fonctionnel jusqu'à ce qu'il soit réparé.[/img]
+	[img=$Energy;20]Coûts en [b]Energie[/b] des dépôts globaux de votre empire pour être construit.[/img]
+>>

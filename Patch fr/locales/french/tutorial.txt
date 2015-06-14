@@ -1,0 +1,584 @@
+TUTORIAL: Tutorial
+TUT_PLAYER_EMP: Terran Empire
+TUT_ENEMY_EMP: Xu'sio
+TUT_FLAGSHIP_NAME: Superion
+
+
+TUT_INTRO_TITLE: 3876 CE: Terran Empire
+TUT_INTRO_TEXT: <<|
+	[i][/i]"Aubes d'âge glorieuses dans le quatrième millénaire de l'empire!
+	
+	La découverte et la colonisation d'une nouvelle galaxie est bien en cours et
+	nous procédons en douceur, attirez des gens de partout dans l'empire 
+	sur de riches mondes frontaliers et essayer d'améliorer leur sort.
+
+	Ou alors les actualités diront..."
+>>
+TUT_INTRO2_TITLE: 3876 CE: Terran Empire
+TUT_INTRO2_TEXT: <<|
+	[i][/i]"En vérité, la frontière est un cloaque de hors la loi, de petits criminels, et
+	d'avocats, l'empire est souvent forcé d'envoyer des flottes pour maintenir
+	l'ordre - Les flottes envoyées sous l'apparence de protection de l’implantation dans l'espace 
+	non réclamé le sont pour la menace alien Xu'sio.
+
+	Bien sûr, cette légalité forcée dure seulement le temps de la durée du
+	déploiement de la flotte, les colonies retournant rapidement à leur brutal
+	façons de vol, meurtre et de procès en action collective.
+	
+	La plupart des commandants Terrien avaient perdu l'espoir en perspective de reformer 
+	la frontière entièrement..."
+>>
+TUT_INTRO3_TITLE: 3876 CE: Terran Empire
+TUT_INTRO3_TEXT: <<|
+	[i][/i]"Mais pas le fier Commodore Hople de la 119ème flotte.
+
+	Non, notre commandant avait voulu le changement et la stabilité sur la frontière, et a été
+	prêt à prendre une approche radicale. Le Commodore avait volé une navette pour descendre
+	vers la plus grande ville de la planète pour discuter des plans et des termes avec les colons.
+
+	Le commodore Hople était promptement mort de dysenterie.
+
+	Malheureusement, cela m'a laissé en charge la mission de la flotte."
+>>
+
+TUT_CAM_TITLE: Contrôle de la caméra
+TUT_CAM_TEXT: <<|
+	Familiarisez-vous avec la vue d'écran de la console de commande. Commander vos
+	forces pourrait être difficile si vous ne pouvez pas les voir.
+	
+	[i]Si le didacticiel vous gêne, à tout moment, vous pouvez le faire glisser par sa barre supérieure.[/i]
+>>
+TUT_CAM_ACT1_TITLE: Regarder autour de soi
+TUT_CAM_ACT1_TEXT: Déplacez le curseur sur le [color=#0f0]bord de l'écran[/color] ou utiliser [color=#0f0]WASD[/color].
+TUT_CAM_ACT2_TITLE: Zoom avant et arrière
+TUT_CAM_ACT2_TEXT: Faites défiler avec la [color=#0f0]molette de souris[/color] ou appuie sur [b]les deux boutons de la souris[/b] et [b]faite glisser[/b].
+TUT_CAM_ACT3_TITLE: Faire pivoter la vue
+TUT_CAM_ACT3_TEXT: Tenez le [color=#0f0]bouton droit de la souris[/color] et [color=#0f0]faite glisser[/color].
+
+TUT_TIME_TITLE: Maîtriser le temps
+TUT_TIME_TEXT: <<|
+	Dans le coin supérieur gauche de l'écran lors de la visualisation de la galaxie, il y a Les contrôles du temps.
+	
+	Vous pouvez ralentir ou accélérer le jeu de 1/10 à 10x la vitesse normale.
+	
+	Vous pouvez également mettre en pause et reprendre à tout moment.
+>>
+
+TUT_SCAN_TITLE: Action de chasse
+TUT_SCAN_TEXT: <<|
+	Les capteurs à longue portée du vaisseau amiral ont détectés un portail FTL Xu'sio en
+	vol dans le système, protégé par deux petites flottes de défense.
+
+	Détruisez le portail et empêcher les de déployer plus de flottes d'assaut ennemies !
+>>
+TUT_SCAN_ACT1_TITLE: Sélectionnez votre flotte
+TUT_SCAN_ACT1_TEXT: [color=#0f0]Clic gauche[/color] sur le vaisseau amiral pour choisir la flotte.
+TUT_SCAN_ACT2_TITLE: Détruire la flotte ennemie 
+TUT_SCAN_ACT2_TEXT: [color=#0f0]Clic droite[/color] sur la flotte ennemie et sélectionner [color=#0f0#]Attaque[/color].
+TUT_SCAN_ACT3_TITLE: Détruire le portail ennemi
+TUT_SCAN_ACT3_TEXT: [color=#0f0]Attaquer[/color] et détruire toutes les flottes et le portail FTL ennemies.
+
+TUT_FTL_TITLE: Retour à la base
+TUT_FTL_TEXT: <<|
+	La colonie que nous protégeons est placée dans un système voisin, [b]Lihls[/b].
+	Il est grand temps que nous arrivions là-bas.
+	
+	Nous devrions utiliser l'hyperpropulsion FTL de notre vaisseau amiral, plutôt que de dépenser
+	une éternité en traversant le vide à vitesse subluminique.
+>>
+TUT_FTL2_TITLE: Retour à la base
+TUT_FTL2_TEXT: <<|
+	L'utilisation de toutes les méthodes de voyage FTL sont limitée par la disponibilité de
+	[color=#00c0ff][img=ResourceIcon::3;20/]Energie FTL[/color]. Cette énergie est 	 
+	récoltée par l'utilisation de cristaux aux réglages d'accord spéciaux, trouvé sur quelques
+	planètes de la galaxie, et ensuite transmis superluminalement aux vaisseaux autorisés à l'utiliser.
+
+	Plus loin vous essayez de sauter, plus d'énergie est demandé. Essayez de commander
+	votre flotte à utiliser leur hyperpropulsion, drainant votre énergie FTL stockée.
+>>
+TUT_FTL2_ACT1_TITLE: FTL vers Lihls
+TUT_FTL2_ACT1_TEXT: <<|
+	Avec votre flotte sélectionnée, appuyez sur la touche '$1' ou cliquez sur le bouton hyperdrive
+	en bas à gauche de la commande de saut FTL.
+>>
+
+TUT_ARRIVE_TITLE: Journal du capitaine
+TUT_ARRIVE_TEXT: <<|
+	"En arrivant dans la colonie, nous avons tenu une brève cérémonie funèbre pour notre commodore
+	- maintenant promu contre-amiral à titre posthume. L'entrepreneur de pompes funèbres locales avait fait
+	un bon travail en couvrant l'impact de laser sur son front.
+
+	Il a été décidé que la flotte continuerait de faire respecter l'ordre et
+	son expansion dans cette région de l'espace jusqu'à ce que l'Empire Terrien
+	revendique officiellement la région."
+>>
+
+TUT_RES_TITLE: Ressources
+TUT_RES_TEXT: <<|
+	La plupart des planètes dans la galaxie contiennent les ressources naturelles pour produire
+	un simple type particulier de ressource dans des quantités assez grandes pour
+	une industrie d'exportation soutenue .
+
+	Les ressources s'étendent de la nourriture et l'eau, au supercarbone et uranium, et aux
+	cristaux FTL. Toutes les ressources ne peuvent pas être produite tout de suite, et certaines ressources
+	exigent un meilleure [b]niveau[/b] de planète pour être produite.
+>>
+
+TUT_LEVEL_TITLE: Expansion et développement
+TUT_LEVEL_TEXT: <<|
+	Chaque planète colonisée a un [b]niveau[/b], allant du niveau 0 au niveau 5.
+	Le niveau des planètes indiquent la quantité d'infrastructures, la population et
+	le développement d'une planète possédée, et les planètes de niveau plus élevé sont meilleures dans beaucoup
+	de domaines.
+
+	Afin de monter une planète de niveau, il faut avoir accès à de plus en plus
+	de ressources, importées de différentes planètes. Par exemple, le niveau 1 requière [b][img=ResourceClassIcons::3;22/] Nourriture et [img=ResourceClassIcons::4;22/] Eau[/b].
+>>
+TUT_LEVEL2_TITLE: Expansion et développement
+TUT_LEVEL2_TEXT: <<|
+	Lorsque vous exportez une ressource, la planète d'origine n'a plus accès à
+	cette ressource pour son propre usage.
+
+	Parce que les planètes ont besoin de ressources provenant d'autres planètes pour monter de niveau, toute
+	les planètes ne peuvent pas être une centrale électrique de haut niveau. Il est important de soigneusement choisir 
+	vers quelle planète vous envoyez des ressources, et quelles ressources de niveau supérieur vous
+	allez commencer à produire.
+
+	Dans notre cas, nous voulons monter Spacewood au niveau 2 afin de gagner un revenu supplémentaire
+	et de la population.
+>>
+
+TUT_EXPAND_TITLE: Coloniser et exporter
+TUT_EXPAND_TEXT: <<|
+	Pour atteindre le [b]Niveau 2[/b], Spacewood exige [b][img=ResourceClassIcons::0;22/] une ressources de Niveau 1[/b]
+	(comme [template=resource_ref;NativeGold/]) et une autre [b]Nourriture[/b] (comme [template=resource_ref;Grain/]).
+	
+	[b]Sélectionner[/b] Spacewood et [b]clic droit[/b] sur une planète que vous souhaitez coloniser, et choisissez 'Coloniser avec Spacewood.'
+	Vous pouvez aussi [b]clic droit[/b] sur la planète à coloniser et choisir 'Colonisez,' qui choisira automatiquement une autre planète pour la coloniser.
+>>
+TUT_EXPAND_ACT1_TITLE: Coloniser une ressource de nourriture
+TUT_EXPAND_ACT1_TEXT: <<
+	Coloniser à proximité une planète avec de la [b][img=ResourceClassIcons::3;22/]Nourriture[/b].
+>>
+TUT_EXPAND_ACT2_TITLE: Exportez la Nourriture vers Spacewood
+TUT_EXPAND_ACT2_TEXT: <<
+	Exportez la [b][img=ResourceClassIcons::3;22/]Nourriture[/b] vers spacewood avec un clic gauche et en faisant glisser la Nourriture vers la planète Spacewood.
+>>
+TUT_EXPAND_ACT3_TITLE: Colonisez une ressource de niveau 1
+TUT_EXPAND_ACT3_TEXT: <<
+	Coloniser une proximité une planète avec une [b][img=ResourceClassIcons::0;22/]Ressource de niveau 1[/b].
+>>
+TUT_EXPAND_ACT4_TITLE: Exportez la Ressource de niveau 1 vers Spacewood
+TUT_EXPAND_ACT4_TEXT: <<
+	Exportez la [b][img=ResourceClassIcons::0;22/]Ressource de niveau 1[/b] vers spacewood avec un clic gauche et en faisant glisser la ressource vers la planète Spacewood.
+>>
+
+TUT_LEVELREQS_TITLE: Exigences Niveau de planète
+TUT_LEVELREQS_TEXT: <<|
+	Ensuite, nous aurons besoin de mettre à jour deux planètes. Chaque niveau de la planète a un besoin croissant de ressources de différents niveaux. Chaque planète nécessite une source d'[b][img=ResourceClassIcons::4;22/]Eau[/b], et chaque niveau nécessite un supplément de [b][img=ResourceClassIcons::3;22/]Nourriture[/b]. En plus de ceux-ci, les niveaux plus élevés ont besoin d'un certain nombre de ressources[b][img=ResourceClassIcons::0;22/] Niveau 1[/b] et [b][img=ResourceClassIcons::1;22/]Niveau 2[/b].
+	
+	À tout moment, vous pouvez vérifier quels types de ressources une planète aura besoin de mettre à niveau par une [b]sélection[/b] de la planète et son cadre en bas à gauche, ou par un [b]double clic[/b] sur une planète et vérifier le panneau en bas à gauche.
+>>
+
+TUT_IMPORT1_TITLE: Mise à niveau des Planètes
+TUT_IMPORT1_TEXT: <<|
+	Votre nouvelle planète doit atteindre le [b]Niveau 1[/b] pour produire et exporter sa [b][img=ResourceClassIcons::0;22/]Ressource Niveau 1[/b]. Pour atteindre le niveau 1 et utiliser ses ressources, vous devez importer de la [b][img=ResourceClassIcons::3;22/]Nourriture[/b] et de l'[b][img=ResourceClassIcons::4;22/]Eau[/b] d'autres planètes.
+	
+	Les ressources peuvent être exportés partout au sein de la frontière de votre [b][color=#8888ff]Empire[/color][/b]. Votre frontière [b][color=#999999]commerciale[/color][/b] montre les systèmes qui pourront échanger une fois colonisé. [b][img=ResourceClassIcons::4;22/]L'Eau[/b] est disponible à proximité de [b]Odatak[/b].
+>>
+TUT_IMPORT1_ACT1_TITLE: Montez de niveau la planète avec ressource niveau 1
+TUT_IMPORT1_ACT1_TEXT: <<|
+	Coloniser une source de[b][img=ResourceClassIcons::3;22/] Nourriture[/b] et d'[b][img=ResourceClassIcons::4;22/]Eau[/b],
+	et les exporter vers la planète avec ressource niveau 1.
+>>
+
+TUT_IMPORT2_TITLE: Coloniser et exporter
+TUT_IMPORT2_TEXT: <<|
+	Maintenant que vous avez fourni des ressources pour votre planète pour commencer à devenir [b]Niveau 1[/b], sa population va croître. Lorsque le niveau de la population atteint le montant requis pour la montée de niveau, elle va commencer à produire sa ressource et l'exporter vers Spacewood par votre commande plus tôt en file d'attente.
+
+	Pour atteindre le niveau 1, Votre planète a besoin de croître de[b][img=$Population;22/] 2 population[/b].
+>>
+TUT_IMPORT2_ACT1_TITLE: Montez Spacewood au niveau 2
+TUT_IMPORT2_ACT1_TEXT: <<|
+	Terminer la monté de Spacewood au [b]Niveau 2[/b] en attendant que la population sur votre planète avec ressource Niveau 1 augmente.
+>>
+
+TUT_EXPAND_SUCC_TITLE: Succès !
+TUT_EXPAND_SUCC_TEXT: <<|
+	Félicitations ! Vous avez fourni à Spacewood les ressources nécessaires pour lui permettre de
+	monter Niveau 2.
+
+	Lorsque vous sélectionnez une planète, vous pouvez voir son niveau actuel et les importations 
+	nécessaire pour monter de niveau dans le panneau d'information en bas à gauche.
+
+	Beaucoup de ressources ont notamment des [b]effets spéciaux[/b], différent de leur contribution au monté de niveau des planètes. Assurez-vous de lire leurs courtes descriptions dans le panneau d'information en bas à gauche, ou passer la souris au-dessus pour afficher une description plus détaillée.
+	
+	Décidez soigneusement des planètes et ressources à utiliser pour la mise à niveau pour gagner leurs avantages !
+>>
+
+TUT_BUDGET_TITLE: Cycles Budgétaires
+TUT_BUDGET_TEXT: <<|
+	Construction, achat et maintien des coûts 
+	[b][color=#d1cb6a][img=ResourceIcon::0;20/] Argent[/color][/b].
+
+	L'argent, comme la plupart des ressources, est produite par votre population civile et
+	 vos infrastructures. Plus la population d'une planète est élevé, plus vous gagnez d'argent.
+>>
+TUT_BUDGET2_TITLE: Cycles Budgétaires
+TUT_BUDGET2_TEXT: <<|
+	Votre revenu est budgétisé pendant 3 minutes [b]Cycles Budgétaires[/b]. Chaque cycle,
+	votre budget est recalculé et vous gagnerez l'utilisation de n'importe quel argent que vous avez empoché,
+	à dépenser au cours des 3 prochaines minutes.
+
+	Tout argent non dépensé à la fin d'un cycle budgétaire sera plutôt consacré à
+	l'une des options de bien-être que vous pouvez choisir dans la barre des ressources.
+	
+	Il est impossible de faire des économies d'un cycle budgétaire à un autre cycle, mais
+	emprunter de l'argent à titre d'avance d'un prochain cycle est possible, au
+	majoration significative.
+>>
+
+TUT_BUILD_TITLE: Construire un éclaireur (Scout)
+TUT_BUILD_TEXT: <<|
+	Nous devrions construire un éclaireur pour vérifier ce qui se passe dans Xaste, un autre
+	système voisin de Spacewood. L'ennemi essaie peut-être de se faufiler avec un autre
+	portail FTL.
+>>
+TUT_BUILD_ACT1_TITLE: Gérer la planète
+TUT_BUILD_ACT1_TEXT: <<|
+	Ouvrez l'écran de gestion de la planète de Spacewood par un [b]double clic[/b]
+	dessus, ou en cliquant sur le bouton «Gérer Planète » en bas à gauche.
+>>
+TUT_BUILD_ACT2_TITLE: Construire un éclaireur (Scout)
+TUT_BUILD_ACT2_TEXT: <<|
+	Cliquez sur "Eclaireur (16)" dans conception des vaisseaux de la liste de construction sur la
+	droite afin de commencer la construction.
+>>
+
+TUT_BUILD2_TITLE: Renforcer une flotte
+TUT_BUILD2_TEXT: <<|
+	Notez comment la conception de l'éclaireur vous a indiqué qu'il coûterait [img=ResourceIcon::0;20/]
+	§39k / §36k. Le premier chiffre indique son [b]Coût de construction[/b] de §39k,
+	que vous aurez besoin de dépenser immédiatement de votre budget disponible. le
+	deuxième chiffre est son [b]Coût de maintenance[/b], §36k sera soustrait
+	comme un coût d'entretien de chaque budget ultérieur.
+
+	Alors que nous attendons que la construction de notre éclaireur se termine, vous pouvez rajouter des
+	[b]Vaisseaux de soutien[/b] dans la flotte de notre vaisseau de guerre.
+>>
+TUT_BUILD2_ACT1_TITLE: Sortie de Gestion de Planète
+TUT_BUILD2_ACT1_TEXT: Fermez l'écran de gestion de la planète par un [b]clic droit[/b].
+TUT_BUILD2_ACT2_TITLE: Gérer votre flotte de vaisseaux de guerre
+TUT_BUILD2_ACT2_TEXT: Ouvrez le panneau de gestion de flotte par un [b]double clic[/b] dessus.
+TUT_BUILD2_ACT3_TITLE: Commande vaisseau faisceau (Beamships)
+TUT_BUILD2_ACT3_TEXT: Clic sur [b]'Ajouter un groupe de soutien'[/b] et ajouter 10 [b]vaisseaux faisceau (Beamships)[/b] supplémentaires dans votre flotte de vaisseaux de guerre.
+TUT_BUILD2_ACT4_TITLE: Construction de l'éclaireur (Scout) terminé
+TUT_BUILD2_ACT4_TEXT: Attendez que Spacewood termine la construction d'un éclaireur (scout). Les vaisseaux de soutien peuvent être construits en même temps que les grands projets.
+
+TUT_SCOUT_TITLE: Reconnaissance de Xaste
+TUT_SCOUT_TEXT: <<|
+	Génial ! La flotte va commander automatiquement ses groupes de soutien en file d'attente à partir 
+	des planètes proches avec la génération de main d'œuvre. Différents vaisseaux amiraux peuvent soutenir
+	différentes quantités de soutien, comme indiqué par la [b]"Capacité de soutien"[/b]
+	indicateur au-dessus de la liste des soutiens.
+
+	Alors que notre flotte est renforcée, nous voulons envoyer notre éclaireur jeter
+	un coup d'œil de l'ennemi.
+>>
+TUT_SCOUT_ACT1_TITLE: Explorer Xaste
+TUT_SCOUT_ACT1_TEXT: <<|
+	Envoyez votre éclaireur nouvellement construit vers le système Xaste. Utilisez son hyperdrive
+	si vous voulez.
+>>
+
+TUT_CONQ_TITLE: Conquête de Xaste
+TUT_CONQ_TEXT: <<|
+	Notre éclaireur a détecté une colonie ennemi dans le système Xaste, avec
+	une ressource de Phasite. Phasite est une ressource du niveau 0 d'après votre recherche.
+	
+	Depuis, il ne semble pas y avoir de flottes de défense majeure autour, nous devrions
+	envoyer notre flotte pour prendre la planète par la force: Nettoyez la planète de ses
+	vaisseaux de défense, puis l'assiéger avec votre flotte pour réduire sa loyauté.
+	Lorsque sa loyauté est complètement déchargée, la planète sera vôtre !
+>>
+TUT_CONQ_ACT1_TITLE: Saut de votre vaisseau de guerre vers Xaste
+TUT_CONQ_ACT1_TEXT: Aller avec votre flotte dans le système Xaste en utilisant son hyperpropulsion.
+TUT_CONQ_ACT2_TITLE: Eliminer ses défenses
+TUT_CONQ_ACT2_TEXT: Déplacez votre flotte vers Xaste IV et éliminer les vaisseaux de défense en orbite.
+TUT_CONQ_ACT3_TITLE: Capturez la planète
+TUT_CONQ_ACT3_TEXT: Sélectionnez votre flotte, puis [b]clic droit[/b] sur Xaste IV et sélectionnez l'option «Capture». Attendez que votre flotte termine la capture de la planète.
+
+TUT_CAPT_TITLE: Victoire !
+TUT_CAPT_TEXT: <<|
+	La planète ennemie a succombé au siège de votre flotte ! La colonie est maintenant sous vos ordres.
+
+	Pour utiliser le Phasite il est produit et commence à générer des recherches, exporter le vers Spacewood.
+>>
+TUT_CAPT_ACT1_TITLE: Exporter Phasite
+TUT_CAPT_ACT1_TEXT: Exporter le Phasite de Xaste IV vers Spacewood.
+
+TUT_PRES_TITLE: Ressources et pressions
+TUT_PRES_TEXT: <<|
+	En plus de planètes nécessitant des types particuliers de ressources pour monter de niveau,
+	des ressources peuvent fournir des planètes consommant de la [b]Pression[/b].
+	
+	La population civile de la planète développera automatiquement des [b]bâtiments
+	civil[/b] sur la surface de la planète pour produire le type de pression qui est
+	importé (une question d'argent, Influence, d'énergie, de recherche, de défense ou de main d'œuvre).
+
+	Les planètes ne peuvent soutenir qu'un nombre limité de pression, dépend de la
+	population totale. Importer plus de pression que la capacité de la planète
+	mènera à une perte d'efficacité de production.
+>>
+
+TUT_BLD_TITLE: Bâtiments impériaux
+TUT_BLD_TEXT: <<|
+	Bien que la plupart de votre production sera de l'infrastructure civile, il
+	est possible d'utiliser une partie de votre budget dans la construction de [b]Bâtiments impériaux[/b]
+	sur la surface de la planète.
+
+	Ces bâtiments coûtent généralement beaucoup d'argent pour les construire et entretenir, mais
+	peut donner des avantages que vous ne pourriez autrement pas être en mesure d'obtenir.
+>>
+TUT_BLD_ACT1_TITLE: Gérez Spacewood
+TUT_BLD_ACT1_TEXT: [b]Double clic[/b] sur Spacewood afin d'ouvrir son écran de gestion de planète.
+TUT_BLD_ACT2_TITLE: Ouvrir liste des bâtiments
+TUT_BLD_ACT2_TEXT: Ouvrez la liste des bâtiments impériaux en cliquant sur [b]Bâtiments[/b], le bouton à droite.
+TUT_BLD_ACT3_TITLE: Construire un complexe de recherche
+TUT_BLD_ACT3_TEXT: Accélérez votre recherche en sélectionnant[b]Complexe de recherche[/b] et en le plaçant sur la surface vers la gauche.
+
+TUT_RSC_TITLE: Les champs des recherches
+TUT_RSC_TEXT: <<|
+	Les ressources qui donnent de la[color=#8c4ec9][img=ResourceIcon::4;20/][b] Pression de recherche[/b][/color] vont produire des points de recherche au fil du temps.
+
+	Les points de recherche sont utilisés pour déverrouiller les technologies sur la grille de recherche, qui ont divers effets et améliorations.
+	
+	Vous ne pouvez rechercher que des technologies adjacentes à celles que vous avez déjà. Les technologies disponibles pour la recherche sont indiquées par une bordure lumineuse.
+>>
+TUT_RSC_ACT1_TITLE: Vue de Recherche
+TUT_RSC_ACT1_TEXT: Basculer vers l'[b]onglet de recherche[/b] dans la barre d'onglet.
+TUT_RSC_ACT2_TITLE: Recherche Blindage
+TUT_RSC_ACT2_TEXT: Recherchez la technologie «Blindage» accessible à partir de votre point de départ de science.
+TUT_RSC_ACT3_TITLE: Recherchez Cloison
+TUT_RSC_ACT3_TEXT: Recherchez la technologie «Cloison» qui est maintenant accessible.
+
+TUT_DSG_TITLE: Conceptions de vaisseau
+TUT_DSG_TEXT: <<|
+	Vous construisez tous les vaisseaux, vaisseau amiral ou vaisseau de soutien, basé sur une conception. 
+	Afin de construire des vaisseaux équipés avec notre cloison récemment débloqué,
+	nous devons changer l'une de nos conceptions pour l'utiliser.
+>>
+TUT_DSG_ACT1_TITLE: Ouvrir transporteur lourd (Heavy Carrier)
+TUT_DSG_ACT1_TEXT: Dans l'onglet conception, [b]clic[/b] sur la conception du Transporteur lourd pour la modifier.
+TUT_DSG2_TITLE: Sous-systèmes
+TUT_DSG2_TEXT: <<|
+	Chaque conception de vaisseaux se compose de [b]Sous-systèmes[/b]. Les sous-systèmes sont constitués
+	d'un certain nombre d'hexagones, et peut être peint dans une forme quelconque sur la conception. Plus 
+	la taille d'un sous-système est grande, mieux il est par rapport à d'autres 
+	sous-systèmes sur la conception.
+
+	Quelques sous-systèmes ont des «noyaux» d'hexagones: tourelles, échappements de moteur, etc.
+
+	Si un noyau d'hexagone est détruit au combat, l'ensemble du sous-système est éteint jusqu'à ce qu'il soit réparé.
+>>
+TUT_DSG3_TITLE: Ajout d'Armure
+TUT_DSG3_TEXT: <<|
+	Améliorons le transporteur lourd afin qu'il soit un peu plus lourdement blindé en ajoutant un peu
+	d'hexagones d'armure de plaque pour protéger ses hexagones de base.
+
+	Sélectionnez [b]Armure de Plaque[/b] dans la liste de sous-système sur la gauche en cliquant d'abord sur la catégorie «défense», puis en cliquant sur le sous-système "armures de plaques".
+>>
+TUT_DSG3_ACT1_TITLE: Ajoutez Armure de Plaque
+TUT_DSG3_ACT1_TEXT: Placez au moins [b]3[/ b] hexagones supplémentaires d'armure de plaque par un [b]clic gauche[/b] sur la conception. Vous pouvez supprimer tous les hexagones indésirables par un [b]clic droit[/b].
+TUT_DSG4_TITLE: Modificateurs
+TUT_DSG4_TEXT: <<|
+	En plus de l'ajout de sous-système, il est également possible d'ajouter des [b]Modificateurs de Sous-système[/b] à l'intérieur d'un sous-système particulier. Ce sont des choses comme des cloisons et des capteurs de ciblage, et peut améliorer ou modifier les statistiques d'un sous-système.
+
+	Méfiez-vous si, l'ajout de plusieurs modificateurs à un sous-système peut le rendre extrêmement coûteux à construire.
+>>
+TUT_DSG4_ACT1_TITLE: Ajoutez une Cloison
+TUT_DSG4_ACT1_TEXT: Ajouter une cloison sur au moins un des canons pour accroître sa santé.
+TUT_DSG4_ACT2_TITLE: Enregistrez la conception
+TUT_DSG4_ACT2_TEXT: Clic sur le bouton [b]Sauvegarder[/b] en haut à droite pour enregistrer vos modifications sur la conception "Transporteur lourd".
+
+TUT_FLT_TITLE: Construire une nouvelle flotte
+TUT_FLT_TEXT: <<|
+	Nous pouvons déployer notre conception de vaisseau amiral que nous venons de modifié par la construction d'une flotte
+	sur Spacewood. Nous voulons lui donner quelques vaisseaux de soutien pour accroître la
+	puissance de feu de la flotte.
+>>
+TUT_FLT_ACT1_TITLE: Gérez Spacewood
+TUT_FLT_ACT1_TEXT: Retournez sur l'onglet Galaxie et [b]double-clic[/b] sur Spacewood afin d'ouvrir son écran de gestion de planète.
+TUT_FLT_ACT2_TITLE: Construire Transporteur lourd (Heavy Carrier)
+TUT_FLT_ACT2_TEXT: Clic sur "Transporteur lourd" dans la liste des vaisseaux sur la droite.
+TUT_FLT_ACT3_TITLE: Construire Vaisseau faisceau (Beamships)
+TUT_FLT_ACT3_TEXT: Clic sur le transporteur lourd dans la file d'attente de la construction pour le mettre en surbrillance, puis cliquez sur la conception [b]Vaisseau faisceau (Beamship)[/b] pour en ajouter 10 à la flotte.
+TUT_FLT_ACT4_TITLE: Construire plusieurs soutiens
+TUT_FLT_ACT4_TEXT: Ajouter différents types de vaisseaux de soutien à la flotte en construction.
+TUT_FLT_ACT5_TITLE: Terminer la construction
+TUT_FLT_ACT5_TEXT: Notez que les vaisseaux de soutien sont construits en parallèle aux vaisseaux amiraux tandis que la construction de la flotte se termine.
+
+TUT_ENG_TITLE: Énergie et Artefacts
+TUT_ENG_TEXT: <<|
+	Les ressources particulières dans votre empire produise de l'[b]énergie[/b]. Cela
+	représente des quantités massives d'énergie stockée que vous pouvez transmettre et
+	utiliser pour activer des dispositifs de vestiges antiques, dispersés au travers de la galaxie.
+
+	Nous avons détecté une [b]Cellule énergétique[/b] dans le système Xaste, que nous pouvons équiper pour
+	mettre à niveau notre nouvelle flotte en dépensant de l'énergie.
+>>
+TUT_ENG_ACT1_TITLE: Activez Artefact
+TUT_ENG_ACT1_TEXT: Sélectionnez la Cellule énergétique et cliquez sur le bouton équipez en bas à gauche, ou sélectionnez l'artefact dans la barre de raccourcis en haut à droite.
+TUT_ENG_ACT2_TITLE: Équipez la flotte
+TUT_ENG_ACT2_TEXT: Clic sur votre flotte nouvellement construite à dépenser 500 Energies pour l'équiper de la cellule énergétique. Cela augmente sa force de combat.
+
+TUT_INF_TITLE: Actions diplomatiques
+TUT_INF_TEXT: <<|
+	Vous pouvez conduire des actions diplomatique en dépensant des points d'[b]Influence[/b], généré sur
+	vos planètes par des ressources particulières trouvées au travers de la galaxie. ces
+	points sont utilisés pour acheter et activer des [b]Actions diplomatiques[/b].
+>>
+TUT_INF2_TITLE: L'Intérêt d'Influence
+TUT_INF2_TEXT: <<|
+	Tous les empires achètent leur [b]Actions diplomatiques[/b] à partir d'une liste publique sur
+	l'onglet de la diplomatie, appelé [b]L'Intérêt d'Influence[/b]. A intervalle 
+	régulier, de nouvelles cartes sont ajoutées à la droite de l'empilement, et les cartes
+	tomberont et disparaîtront du côté gauche.
+
+	Les actions diplomatiques deviennent moins cher en défilant dans 
+	l'intérêt d'influence, mais soyez prudent de ne pas attendre trop longtemps pour acheter des cartes attrayantes
+	- d'autres empires peuvent les ravir en premier !
+>>
+TUT_INF3_TITLE: L'achat d'une action
+TUT_INF3_TEXT: <<|
+	Nous voulons voir ce que fait notre ennemi, Xu'sio est dans cette région.
+	Heureusement, il y a une carte [b]Espion[/b] dans l'intérêt d'influence dès maintenant,
+	que nous pouvons utiliser pour acquérir une vision sur leurs activités.
+>>
+TUT_INF3_ACT1_TITLE: Achat Espion
+TUT_INF3_ACT1_TEXT: Dans l'onglet de la diplomatie, clic sur l'action "Espion (Xu'sio)", puis clic sur le bouton [b]Acheter[/b].
+TUT_INF3_ACT2_TITLE: Activer Espion
+TUT_INF3_ACT2_TEXT: Clic sur l'action "Espion (Xu'sio)" dans votre liste d'actions disponibles, puis clic sur le bouton [b]Activer[/b].
+TUT_INF4_TITLE: Espionnage
+TUT_INF4_TEXT: <<|
+	Remarquez comment l'effet "Espion" a été ajouté à la liste des effets 
+	d’influences actives. Les effets diplomatiques à long terme exigent habituellement une
+	[b]Entretien d'influence[/b].
+
+	Dans notre cas, votre effet "Espion" réduit votre génération de points d'influence
+	de 20% jusqu'à ce qu'il expire ou soit rejeté.
+>>
+
+TUT_SPY_TITLE: Système Ennemi observé !
+TUT_SPY_TEXT: <<|
+	Notre espion a repéré un système ennemi proche, nous devrions jeter un coup d'œil
+	sur notre écran de galaxie.
+>>
+TUT_SPY_ACT1_TITLE: Vue de Yingmow
+TUT_SPY_ACT1_TEXT: Trouver le système que notre Espion a révélé sur la carte.
+
+TUT_ANNEX_TITLE: Annexer Yingmow
+TUT_ANNEX_TEXT: <<|
+	L'Empire Terrien est un grand empire, et a une influence énorme au
+	sénat Galactique. Ce qui est bon pour nous, nous pouvons consacrer cette influence
+	pour [b]Annexer[/b] diplomatiquement le système Yingmowy .
+>>
+TUT_ANNEX_ACT1_TITLE: Activer Annexer Système
+TUT_ANNEX_ACT1_TEXT: Activez la carte [b]Annexer Système[/b] que vous avez, puis sélectionnez le système Yingmow en cliquant sur son étoile.
+
+TUT_VOTE_TITLE: Votes d'influence
+TUT_VOTE_TEXT: <<|
+	Certaines actions diplomatiques vous obligent à passer par des [b]Votes[/b] dans le Sénat 
+ 	galactique pour qu'elles prennent effet. Annexer un système est l'un de ces votes.
+
+	Tous les votes ont un [b]Niveau de soutien[/b], indiquant la somme de tout
+	leur soutien réduit par leur opposition. La plupart du temps, un vote 
+	commencera avec +1 de soutien.
+
+	Les empires peuvent payer avec de l'influence pour jouer des [b]Cartes de soutien[/b] dans un vote,
+	pour augmenter ou réduire le niveau de soutien ou en ajoutant divers effets spéciaux.
+>>
+TUT_VOTE2_TITLE: Le passage d'un vote
+TUT_VOTE2_TEXT: <<|
+	Lors d'un vote d'influence, ou d'une "Proposition", a un niveau de soutien positif,
+	la barre verte se remplira et un temps restant pour [b]passer[/b] la proposition est représenté.
+
+	Lorsque le niveau de soutien est négatif, tout progrès sur la barre verte est le premier
+	enlevé, ensuite la barre rouge se remplit. Lorsque la durée restante arrive à 0 secondes
+	c'est l'échec, le vote sera [b]rejeté[/b].
+
+	Les votes d'influence sont une lutte diplomatique de tir à la corde où n'importe quel empire dans le sénat
+	galactique peut influencer le résultat.
+>>
+TUT_VOTE3_TITLE: Soutenir un vote
+TUT_VOTE3_TEXT: <<|
+	Les Xu'sio ont utilisé une de leurs actions de «rhétorique» pour rassembler l'opposition
+	contre votre vote annexer au Sénat. Rapidement, utilisez une de vos propres actions pour obtenir le
+	[b]Niveau de Soutien[/b] suffisant pour retourner dans le vert avant que la barre rouge se remplisse 
+	et que le vote soit rejeté.
+>>
+TUT_VOTE3_ACT1_TITLE: Utilisez "Négocier"
+TUT_VOTE3_ACT1_TEXT: Clic sur une de vos cartes [b]Négocier[/b] et appuyez sur le bouton [b]Vote de soutien[/b] pour influencer le vote.
+TUT_VOTE3_ACT2_TITLE: Gagner le vote
+TUT_VOTE3_ACT2_TEXT: Répondez aux cartes de soutien de l'ennemi en jouant avec vos propres négociations et gagner le vote en remplissant la barre de soutien.
+
+TUT_ANNEX2_TITLE: Annexion complète !
+TUT_ANNEX2_TEXT: <<|
+	Vous avez convaincu le Sénat Galactique que le système Yingmow vous appartient,
+	vous l'avez [b]Annexé[/b] avec succès. Les planètes colonisées dans le système
+	sont maintenant les vôtres !
+
+	Malheureusement, des sources au sein de l'Empire Terrien nous ont informés d'un grand
+	mouvement militaire Xu'sio vers le système Yingmow, donc nous devons préparer nos
+	défenses pour les repousser.
+>>
+
+TUT_DEFCORE_TITLE: Construire une Station de la Défense
+TUT_DEFCORE_TEXT: <<|
+	Nous devons construire une défense orbitale dans le système Yingmow comme première ligne de défense.
+>>
+TUT_DEFCORE_ACT1_TITLE: Gérez Spacewood
+TUT_DEFCORE_ACT1_TEXT: [b]Double-clic[/b] sur Spacewood afin d'ouvrir son écran de gestion de la planète.
+TUT_DEFCORE_ACT2_TITLE: Ouvrir la liste Orbitales
+TUT_DEFCORE_ACT2_TEXT: Ouvrez la liste des orbitales en cliquant sur le bouton [b]Orbitales[/b] à droite.
+TUT_DEFCORE_ACT3_TITLE: Construire une plate-forme de Défense
+TUT_DEFCORE_ACT3_TEXT: Clic sur "Plate-forme de défense" dans la liste des orbitales.
+TUT_DEFCORE_ACT4_TITLE: Positionnez orbitales
+TUT_DEFCORE_ACT4_TEXT: Placez l'orbitale en cliquant sur un emplacement dans le système Yingmow.
+
+TUT_DEFPROJ_TITLE: Génération de défense
+TUT_DEFPROJ_TEXT: <<|
+	Les habitants de Spacewood nous ont informés qu'ils ont mis en place un moyen de
+	créer des vaisseaux de défense pour se protéger.
+
+	[b][color=#af7926][img=ResourceIcon::5;20/] Défense[/color][/b] peut être utilisé pour produire des vaisseaux de soutien gratuitement au fil du temps, tout autour de votre empire.
+
+	Pour déterminer quels systèmes ou planètes reçoivent des vaisseaux de défense, vous avez besoin de les marquer pour qu'ils utilisent la défense.
+>>
+TUT_DEFPROJ_ACT1_TITLE: Construire la Défense pour Yingmow
+TUT_DEFPROJ_ACT1_TEXT: [b]Clic droit[/b] sur l'étoile de Yingmow, puis sélectionnez "Commencer à utiliser la défense pour Yingmow".
+TUT_DEFPROJ_ACT2_TITLE: Déplacez votre transporteur lourd
+TUT_DEFPROJ_ACT2_TEXT: Alors que nous attendons la construction de notre défense orbitale et des vaisseaux, déplacer votre flotte transporteur lourd vers Yingmow.
+
+TUT_DEF_TITLE: Rester en ligne !
+TUT_DEF_TEXT: <<|
+	Lorsque vous êtes prêt à vous défendre contre les sauvages envahisseurs Xu'sio, appuyez sur le bouton "Combat !".
+>>
+ENTER_COMBAT: BATS-TOI !
+TUT_DEF2_TITLE: Guerre !
+TUT_DEF2_TEXT: Les flottes ennemies ont envahi notre système nouvellement conquis. Nous devons les repousser à tout prix !
+TUT_DEF2_ACT1_TITLE: Défendre le système Yingmow
+TUT_DEF2_ACT1_TEXT: Vaincre toutes les flottes d'invasion.
+
+TUT_FINAL_TITLE: Félicitations !
+TUT_FINAL_TEXT: <<|
+	Vous avez réussi à repousser l'ennemi hors de ce secteur de l'espace, et étendu
+	votre propre point d'appui en même temps, bravo !
+
+	[i]Ceci est la fin du tutoriel, vous êtes libre de continuer à expérimenter
+	votre empire avant de commencer un vrai jeu contre l'IA ou un humain.[/i]
+
+	Vous pouvez consulter le [b]Wiki[/b] dans le jeu pour plus d'informations sur le jeu et ses mécanismes, 
+	ou vous sentir libre d'adhérer au [b]Canal IRC[/b] officiel dans le jeu pour parler à d'autres joueurs
+	ou bug avec un des développeurs SR résidents
+

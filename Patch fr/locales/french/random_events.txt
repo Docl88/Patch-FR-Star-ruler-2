@@ -1,0 +1,81 @@
+EVT_REACTOR: Un réacteur
+EVT_REACTOR_TEXT: <<
+	Une équipe d'exploration sur [target=Location/] a découvert un reste d'ancien réacteur, enfoui depuis de nombreuses années sous de la saleté et envahi par des plantes indigènes.
+
+	Le réacteur a été construit pour siphonner des quantités incroyables d'énergie directement du sous-espace, mais a été désactivée et abandonnée après seulement un essai, pour des raisons inconnues.
+	
+	Un de vos scientifiques croit qu'il peut remplacer les protocoles de sécurité du système pour réactiver le réacteur, tout en protégeant le complexe des particules exotiques et de leur rayonnement.
+>>
+EVT_REACTOR_ACTIVATE: Laissez votre scientifique remplacer les protocoles de sécurité et activer le réacteur.
+EVT_REACTOR_IGNORE: Ignorer le réacteur et le laisser seul - les protocoles de sécurité sont là pour une raison.
+EVT_REACTOR_SUCCESS: <<
+	La réactivation a été un succès! La planète est maintenant capable de produire de grandes quantités d'énergie lorsqu'on lui fourni la bonne infrastructure.
+
+	La planète a maintenant [b]+2 en production d'énergie[/b] ainsi que [b]+10 en pression d'énergie[/b].
+>>
+EVT_REACTOR_FAILURE: <<
+	L'isolant insuffisant pour les particules exotiques libérées par la réaction a provoqué un effondrement des systèmes catastrophique !
+
+	Une quantité astronomique d'énergie est émise de façon incontrôlable, provoquant la détonation proche simultanément des cinq sixièmes de toute la matière dans le système solaire.
+
+	
+	Votre équipe de scientifique compte parmi les nombreux millions de vos citoyens morts. Vous espérez qu'ils seront incités à être un peu plus prudent avec la technologie la prochaine fois.
+>>
+STATUS_EVT_REACTOR: Vestige de réacteur
+STATUS_EVT_REACTOR_DESC: <<
+	Un vestige de réacteur a été activé avec succès sur cette planète, ce qui donne [b]+2 en production d'énergie[/b] ainsi que [b]+10 en pression d'énergie[/b].
+>>
+
+EVT_CLIQUE: Ville mécanique
+EVT_CLIQUE_TEXT: <<
+	Les détecteurs sismiques sur [target=Location/] ont situé un phénomène étrange sur un point quelconque de la surface. Après examen du site, l'équipe envoyée trouve une sortie d'hyperespace minuscule. Un seul [target=race;Other/] réussi à traverser avant l’effondrement de la sortie.
+
+	Le citoyen mechanoid solitaire de [target=Other/] demande une audience:
+
+	[offset=20][color=#aaa]Les efforts de [targer=Other/] à découvrir la fin est jugée insuffisante.
+	But: Construire plus d'unités pour établir de nouvelles chapelles [target=race;Other/].
+	FTL appareil endommagé au saut a longue distance.
+	Demande d'aide et d'hébergement. Échange de notre main d'œuvre.[/color][/offset]
+>>
+EVT_CLIQUE_ALLOW: <<
+	Permettez au [target=race;Other/] d'établir une nouvelle communauté sur [target=Location/], en veillant à faire comprendre votre position sur le nombre maximal d'unités de Mechanoid supplémentaires que vous permettez de construire.
+>>
+EVT_CLIQUE_SUCCESS: <<
+	La petite communauté a prospéré et c'est intégré parfaitement dans votre secteur d'activité régulière sur la planète. Les mécanoïdes semblent assez paisible, utilisant tout le temps de traitement pour analyser la télémétrie stellaire dans un effort pour découvrir quelque chose sur leur race.
+
+	La planète a maintenant [b]+5 main d'œuvre par minute[/b], et [b]Vitesse de construction de bâtiment impérial +100%[/b].
+>>
+EVT_CLIQUE_FAILURE: <<
+	L'unité solitaire commence à construire rapidement de plus en plus d'unités, l'exploitation minière des gisements de métaux de la planète se multipliant de façon exponentielle, bien au-delà de la petite limite définie pour sa communauté.
+
+	[offset=20][color=#aaa]Plus de mechanoid sont nécessaires. La puissance de traitement doit être augmentée pour découvrir le but.[/color][/offset]
+
+	Toutes les tentatives de les convaincre d'arrêter ont échoué, et pas d'autres options restante vos troupes se livrent entre eux dans une guerre terrestre sanglante. Beaucoup de civils sont tués, mais finalement tous les envahisseurs Mechanoid sont détruits avec succès.
+>>
+EVT_CLIQUE_STUDY: <<
+	Tuer et disséquer le [target=race;Other/], étudier ses parties et essayer de deviner comment sa technologie de miniaturisation fonctionne.
+>>
+EVT_CLIQUE_STUDY_R: <<
+	Vous tuez et disséquer l'unité perdue, mais la plupart de ses pièces internes sont trop endommagés pour fonctionner correctement. Vous glaner une petite quantité de recherche.
+>>
+EVT_CLIQUE_STUDY_F: <<
+	Vous tuez et disséquer l'unité perdue, vous trouver un dispositif de stockage d'énergie FTL beaucoup plus petit et plus dense que le vôtre. Vous étudiez les principes qui lui permettent de contenir tant d'FTL sans fuite quelconque dans l'environnement, et dans le processus vous élargissez votre propre capacité.
+
+	Gagner [b]+200 Stockage FTL[/b].
+>>
+EVT_CLIQUE_RETURN: <<
+	Contenir l'unité et de force l'expédier vers son empire d'origine, [target=Other/], vous explique qu'il était défectueux et qu'il est heureux de revenir vers son endroit prévu.
+>>
+EVT_CLIQUE_RETURN_R: <<
+	Vous retournez l'appareil défectueux à son empire originale, qui envoi un bref message en réponse.
+
+	[offset=20][color=#aaa]Reconnaissance. L'unité sera réparée et renvoyé à sa place.[/color][/offset]
+
+	Gagner [b]+5 Influence[/b].
+>>
+STATUS_EVT_CLIQUE: Chapelle Mechanoid
+STATUS_EVT_CLIQUE_DESC: <<
+	Une petite communauté de la population mechanoid d'un autre empire vit ici.
+
+	La planète a [b]+5 Main d'œuvre par minute[/b], et [b]Vitesse de construction de bâtiment impérial +100%[/b].
+>>

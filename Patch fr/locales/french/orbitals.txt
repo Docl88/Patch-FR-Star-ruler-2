@@ -1,0 +1,213 @@
+ORBITAL_REPACK: Lâcher Orbital
+PROMPT_SCUTTLE: Détruire $1?
+ORB_TT_COST: Coût: $1, $2 Main d'œuvre
+ORBITAL_MODULES: Modules
+TRADE: Commerce
+OERR_SYSTEM: Ne peut pas construire orbital à l'extérieur des systèmes.
+OERR_TRADE: Doit construire dans des frontières commerciales.
+OERR_VISION: Ne peut pas construire à l'extérieur de la vision.
+OERR_LIMIT: Seulement un par système autorisé.
+OERR_BLACKHOLE: Doit être construit près du trou noir.
+
+LAB_RESOURCES: Ressources importés:
+LAB_AVAIL_AFFINITIES: Affinités disponibles:
+
+ORB_REQ_AFFINITY: Nécessite [b]$1[/b] [img=$3;24/] $2 ressource(s).
+ORB_REQ_RESOURCE: Nécessite [img=$2;24/] $1.
+
+TT_MANAGE_ORBITAL: <<|
+	[b]Gérer Orbital[/b]
+
+	Afficher et modifier les modules installés sur cette orbite.
+>>
+
+TT_PACKUP_ORBITAL: <<|
+	[b]Embarquer Orbital[/b]
+
+	Embarquer l'orbitale dans un vaisseau afin de le déplacer.
+>>
+
+DRY_DOCK: Cale Sèche
+DRY_DOCK_NAME: Cale Sèche: $1
+
+FLING_BEACONS: Balises de vol
+ORB_FLING_CORE: Balises de vol
+ORB_FLING_CORE_BLURB: Permet aux vaisseaux proches d'utiliser le vol FTL partout dans la galaxie.
+ORB_FLING_CORE_DESC: <<|
+	Permet l'utilisation du FTL de base près de la balise.
+
+	Les vaisseaux à 10 000 unités de distance d'une balise peuvent être FTLé 
+	partout dans la galaxie.
+>>
+
+ORB_GATE_CORE: Portail
+ORB_GATE_CORE_BLURB: Permet le voyage instantané vers toute autre porte.
+ORB_GATE_CORE_DESC: <<|
+	Permet le voyage instantané vers toute autre porte.
+
+	Un portail coûte 0,15 FTL par seconde à maintenir.
+	Un portail peut être embarqué dans un constructeur.
+	Débarquer un portail d'un constructeur coûte 150 FTL.
+>>
+
+ORB_DRY_DOCK: Cale Sèche
+ORB_DRY_DOCK_BLURB: A usage unique pour construction de vaisseau dans l'espace.
+ORB_DRY_DOCK: <<|
+	Peut construire un vaisseau amiral dans l'espace, d'autres planètes contribuent facilement
+	à la force de main d'œuvre pour la construction.
+>>
+
+ORB_REMNANT_DEFENSE_CORE: Station de défense vestige
+ORB_REMNANT_DEFENSE_CORE_BLURB: <<
+	Tir sur les vaisseaux ennemis à proximité.
+>>
+
+ORB_REMNANT_ENERGY_CORE: Cœur du réacteur
+ORB_REMNANT_ENERGY_CORE_BLURB: Produit de grandes quantités d'énergie.
+ORB_REMNANT_ENERGY_CORE_DESC: <<|
+	Produit 36 énergies par minute.
+>>
+
+ORB_ANCIENT_EMBASSY: Ambassade antique
+ORB_ANCIENT_EMBASSY_BLURB: Une merveille d'ingénierie, respecté par tous.
+ORB_ANCIENT_EMBASSY_DESC: <<|
+	Augmente la fidélité de toutes vos planètes dans le système par 5.
+	Actions ciblées d'influence dans ce système par tout empire coûtent moins 5
+	influence pour l'activer.
+
+	Si cet orbital est détruit, le propriétaire et tous les empires amicaux auront
+	un gain de propriétaire [b]majeur[/b] démultiplie contre l'empire qui l'a détruit.
+
+	Protège toutes les planètes en votre possession dans le système si cet orbital est en cours de capture.
+
+	A 500 commandement de soutien, "letting it hold support ships".
+
+	Peut commercer librement avec des noyaux commerciaux.
+>>
+
+ORB_SHIPYARD: Chantier naval
+ORB_SHIPYARD_BLURB: Peut construire vaisseau amiral et vaisseau de soutien. Les planètes peuvent être commandées d'exporter leur main d'œuvre sur ce chantier naval.
+ORB_SHIPYARD_DESC: <<|
+	Un chantier naval orbital massif capable de construire des flottes dans l'espace.
+
+	Construire des vaisseaux dans un chantier naval a un coût de construction de 20% moins chers.
+
+	A 6 générations de main-d'œuvre innée par minute. Les planètes peuvent exporter leur propre
+	main d'œuvre aux chantiers navals à portée de commerce avec un taux réduit de 75%.
+
+	Les gains de main d'œuvre pour la recherche de l'usine de métallurgie sont à un taux réduit de 75%.
+>>
+ORB_ARTILLERY_PLATFORM: Plate-forme d'artillerie
+ORB_ARTILLERY_PLATFORM_BLURB: Artillerie à longue portée.
+ORB_ARTILLERY_PLATFORM_DESC: <<|
+	Un canon d'artillerie orbitale indépendante, capable de tirer sur les ennemis
+	 dans l'ensemble du système.
+>>
+ORB_DEFENSE_PLATFORM: Plate-forme de défense
+ORB_DEFENSE_PLATFORM_BLURB: Plate-forme de défense avec des armes de courte portée.
+ORB_DEFENSE_PLATFORM_DESC: <<|
+	Une plate-forme de défense orbitale équipée d'un arsenal d'armes de courte portée
+	pour défendre son voisinage.
+>>
+ORB_TRADE_OUTPOST: Avant-poste
+ORB_TRADE_OUTPOST_BLURB: Permet le commerce grâce à son système. Défense des vaisseaux et protège les planètes dans le système.
+ORB_TRADE_OUTPOST_DESC: <<|
+	Un petit avant-poste qui permet à vos vaisseaux civils de voyager à travers le
+	système où il se trouve.
+
+	Les avant-postes produisent jusqu'à [b]3 Défense[/b],
+	selon le nombre de systèmes adjacents qui ont des avant-postes.
+
+	Si la totalité de la commande de soutien de l'avant-poste est utilisé et qu'il est plein
+	en vaisseaux de défense, il commencera à ajouter sa génération de défense à
+	l'association globale de votre empire.
+
+	Les planètes dans les systèmes qui ont contenu un avant-poste pour au moins 2 minutes
+	seront [b]Protégé[/b] d'être capturé jusqu'à ce que l'avant-poste soit détruit.
+
+	[i]Peut être construit dans des systèmes dans lesquels vous ne possédez pas de planètes, en fonction 
+	des frontières de votre empire. Seulement un avant-poste peut être construit par système.[/i]
+>>
+
+ORB_TRADE_STATION: Station de commerce
+ORB_TRADE_STATION_BLURB: Permet commerce mondial avec d'autres stations de commerce. Permet l'achat de ressources avec de l'argent.
+ORB_TRADE_STATION_DESC: <<|
+	Une grande station qui autorise le commerce des ressources mondiales
+	entre tous les territoires avec les autres stations de commerce.
+
+	En outre, sur chaque station de commerce, vous pouvez acheter une quantité de
+	recherche, énergie, influence ou main d'œuvre en échange d'argent toute les 3 minutes.
+
+	[i]Normalement, les planètes dans les territoires séparés ne peuvent pas exporter les ressources pour
+	l'une et l'autre. Construisez une station de commerce dans les deux territoires pour
+	autoriser l'importation et l'exportation des ressources des planètes dans votre
+	territoires.[/i]
+>>
+ABL_BUY_ENERGY: Achat énergie
+ABL_BUY_ENERGY_DESC: Acheter une somme forfaitaire d'énergie sur le marché. Actions avec temps de recharge partagé avec les autres capacités d'achat.
+ABL_BUY_INFLUENCE: Achat influence
+ABL_BUY_INFLUENCE_DESC: Propager quelques points d'influence. Actions avec temps de recharge partagé avec les autres capacités d'achat.
+ABL_BUY_RESEARCH: Achat de recherche
+ABL_BUY_RESEARCH_DESC: Investir dans des recherches. Actions avec temps de recharge partagé avec les autres capacités d'achat.
+ABL_BUY_LABOR: Achat main d'œuvre
+ABL_BUY_LABOR_DESC: Achetez de la main-d'œuvre pour une planète ou un chantier. Actions avec temps de recharge partagé avec les autres capacités d'achat.
+
+ORB_SUPPLY_DEPOT: Dépôt d'approvisionnement
+ORB_SUPPLY_DEPOT_BLURB: Augmente le taux de réapprovisionnement dans le système.
+ORB_SUPPLY_DEPOT_DESC: <<|
+	Infrastructure spécialement mis en place pour ravitailler les flottes à un rythme accéléré.
+
+	Toutes les flottilles dans le système du dépôt ont un réapprovisionnement beaucoup plus rapide.
+>>
+STATUS_FAST_RESUPPLY: Réception des approvisionnements
+STATUS_FAST_RESUPPLY_DESC: <<|
+	Reçoit des fournitures à partir d'un dépôt de ravitaillement dans le système. La régénération
+	des fournitures à un taux augmenté de manière significative en dehors des combats.
+>>
+ORB_FTL_JAMMER: Brouilleur FTL
+ORB_FTL_JAMMER_BLURB: Empêche les empires hostiles d'utiliser leur FTL dans ce système.
+ORB_FTL_JAMMER_DESC: <<|
+	Un tableau d'excitateurs d'hyper vitesse précis et calibré à des fréquences spécifiques
+	peut bloquer l'utilisation de marques particulières de propulsion FTL.
+
+	Les empires avec lesquels vous êtes en guerre ne peuvent pas utiliser leur FTL à l'intérieur de ce système.
+
+	[b][color=#00c0ff]Coûte 0.15 FTL par seconde pour le maintenir.[/color][/b]
+>>
+ORB_SCAFFOLDING: Echafaudage
+ORB_SCAFFOLDING_BLURB: Une coque orbitale est en construction ici.
+ORB_SCAFFOLDING_DESC: <<|
+	Une coque orbitale est en construction ici.
+>>
+NAME_SCAFFOLDING: $1 (Echafaudage)
+
+ORB_SOLAR_ORBITAL: Moteur Solaire
+ORB_SOLAR_ORBITAL_BLURB: Génère de l'énergie par seconde en fonction de la température de l'étoile du système.
+ORB_SOLAR_ORBITAL_DESC: <<
+	Génère énergie supplémentaire par seconde. Plus la température de l'étoile du système est élevée, plus l'énergie générée est importante.
+
+	Un seul peut être construit par système.
+>>
+
+ORB_FRAME: Cadre Orbital
+ORB_FRAME_BLURB: Un orbitale peut être construit sur ce cadre pour un coût de construction réduit.
+ORB_FRAME_DESC: <<
+	Un cadre préconstruit et échafaudé qui peut être réaménagé pour d'autres types orbitaux.
+
+	Orbitales construits au-dessus de ce cadre réduit de 50% l'accumulation et le coût de la main d'œuvre, et ne souffrent pas de pénalités de main d'œuvre de construction à distance.
+>>
+
+ORB_SINGULARITY_LAB: Laboratoire de singularité
+ORB_SINGULARITY_LAB_BLURB: <<
+	Exploite les propriétés uniques d'être près d'une singularité dans le but de produire de l'énergie et acquérir des connaissances scientifiques.
+>>
+ORB_SINGULARITY_LAB_DESC: <<
+	Exploite les propriétés uniques d'être près d'une singularité dans le but de produire de l'énergie et acquérir des connaissances scientifiques.
+
+	Ne peut être construit dans les systèmes qui ont un trou noir. Un seul peut être construit par système.
+>>
+
+ORB_FTL_STORAGE: Stockage FTL 
+ORB_FTL_STORAGE_DESC: <<
+	Stocke 300 énergies FTL.
+>>

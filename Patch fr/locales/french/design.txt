@@ -1,0 +1,187 @@
+ERROR_NOT_UNLOCKED: $1 non débloqué.
+ERROR_MODULE_NOT_UNLOCKED: Module $1 non débloqué.
+ERROR_NO_CORE: $1 nécessite un noyau.
+ERROR_NEEDS_EXTERIOR_CORE: $1 Le noyau doit être à l'extérieur.
+ERROR_REQUIRED_MODULE: le module $1 requière le module $2 qui est absent.
+ERROR_UNIQUE_MODULE: Un seul $2 admis sur $1.
+ERROR_INSUFFICIENT_Crew: Équipage insuffisant.
+ERROR_INSUFFICIENT_Command: Contrôle Insuffisant.
+ERROR_INSUFFICIENT_Power: Énergie Insuffisante.
+ERROR_DUPLICATE_DESIGN: Un modèle avec ce nom existe: renommer en '$1'.
+ERROR_INVALID_FILE: Le fichier n'est pas un modèle exporté valide.
+ERROR_INVALID_HULL: Vous ne pouvez pas utiliser $1 sur ce type de coque.
+ERROR_MINIMUM_SIZE: '$1' Coque requières la taille minimum de $2.
+ERROR_MAXIMUM_SIZE: '$1' Coque a une taille maximum de $2.
+ERROR_MIN_SIZE: $1 a taille minimale $2.
+ERROR_HULL_NOT_IN_SHIPSET: Ce modèle de coque n'est pas disponible avec le modèle actuel.
+ERROR_NEED_CONTROL: Au moins 1 contrôle nécessaire.
+ERROR_HEX_LIMIT_ARC: $1 la tourelle doit pointer vers l'extérieur.
+ERROR_FACE_BACKWARDS: $1 l'échappement doit faire face à l'arrière.
+ERROR_NOT_CONNECTED: Le design doit former un tout connecté.
+ERROR_NOT_CONTIGUOUS: $1 doit être une zone contiguë.
+ERROR_TOO_SMALL: $1 trop petit.
+ERROR_GRID_SIZE: Taille invalide de la grille hexagonale.
+ERROR_HEX_COUNT: Trop d'espace intérieur utilisé.
+ERROR_MUST_BE_EXTERIOR: Tous les $1 hexagones doivent être en extérieur.
+ERROR_MUST_COVER: $1 doit couvrir le vaisseau dans toutes les directions.
+ERROR_ONE_APPLIED: Un seul $1 peut être appliqués.
+ERROR_CANNOT_APPLY: Vous ne pouvez pas appliquer $1 sous-système.
+ERROR_MUST_ADJACENT: Tous les hexagones doivent être adjacents à au moins un $1.
+ERROR_MUST_ADJACENT_INTERIOR: Hexagones intérieurs doivent être adjacent à au moins un $1.
+ERROR_CONTIGUOUS: $1 doit être un ensemble relié.
+ERROR_MUST_BE_FILLED: L'espace intérieur doit être rempli.
+ERROR_EXPOSE_LEFT_RIGHT: $1 doit être extérieur sur les deux côtés gauche et droit de la conception.
+ERROR_ONLY_ONE: Un seul $1 est autorisée.
+ERROR_NEED_PRAYER: LE vaisseau nécessite un lieu de culte pour générer la prière.
+ERROR_EQUAL_PRAYER: Doit avoir au moins autant de prière comme contrôle.
+ERROR_NEED_SHIELD: $1 can only be used if the ship has Shields.
+REQUIRE_CONSTRUCTION_BAY: $1 exige une baie de construction pour nourrir la main d'œuvre.
+APPLIED_HULL: Coque
+DESIGNS: Modèles
+DSG_INSERT_NAME: Entrer un Nom pour le modèle...
+AUTO_SELECT_HULL: sélectionner automatiquement le modèle de coque...
+FORCE_HULL: Modèle de coque: $1
+DESIGN_HEX_LIMIT: Espace intérieur: $1 / $2
+TT_DESIGN_HEX_LIMIT: <<
+	Les conceptions ne peuvent contenir qu'une quantité limitée d'hexagones intérieurs.
+
+	Certains sous-systèmes comme l'hexagone d'armure placés à l'extérieur du vaisseau ne comptent pas pour le nombre intérieur d'hexagones d'un vaisseau.
+>>
+
+TIP_ROTATE: Vous pouvez faire pivoter l'orientation d'une tourelle en utilisant la molette de défilement.
+
+SUBSYS_CORE: Noyau
+SUBSYS_AT: " à "
+SUBSYS_HEX: "Hexagone "
+
+HULL_DELETE_FILE_CONFIRM: Êtes-vous sûr de vouloir supprimer le fichier de la coque '$1'?
+HULL_DELETE_HULL_CONFIRM: Êtes-vous sûr de vouloir supprimer la coque '$1'?
+HULL_CLEAR: Effacer les coques
+HULL_CONFIRM_CLEAR: Êtes-vous sûr de vouloir effacer les données de la coque?
+
+IMPORT_ERRORS: Les erreurs suivantes sont survenues lors de l'importation:
+IMPORT_INTO_CLASS: Importer dans la classe:
+SAVED_CLASS: <Classe sauvegardé>
+EXPORT_DESIGN: Exporter
+DUPLICATE_DESIGN: Dupliquer
+
+SANDBOX_WAR: Combattre !
+SANDBOX_PEACE: Cesser le feu.
+SPAWN_ALLIED: Apparaître allier
+SPAWN_ENEMY: Apparaître ennemi
+SANDBOX_CLEAR: Nettoyer Sandbox
+SANDBOX_CONFIRM_CLEAR: Êtes-vous sûr de vouloir détruire tous les vaisseaux dans le Sandbox ?
+SANDBOX_DESC: Bienvenue dans le sandbox des conceptions !\nLes conceptions sont auto-exporté ici\nUtilisez 'importer conception' pour les charger en jeu.
+SANDBOX_SAVE_EXPORT: Sauver + Exporter
+
+TT_EDIT_DESIGN: Modifier ce modèle.
+TT_OBSOLETE_DESIGN: Marquer ce modèle comme obsolète. Il n'apparaîtra plus dans la liste. Les conceptions obsolètes ne seront plus construites automatiquement par la défense.
+TT_UNOBSOLETE_DESIGN: Marquer ce modèle comme actif, retire le statut obsolète.
+SHOW_OBSOLETE: Afficher obsolète
+TT_SHOW_OBSOLETE: Basculer pour afficher les modèles marqués comme obsolètes.
+TT_SUPPORT_DESIGN: Ce modèle utilise une coque de vaisseau de support. Les vaisseaux de support ne peuvent se déplacer de façon indépendante et ne peuvent agir que dans le cadre d'une flotte autour d'un vaisseau mère ou d'une planète.
+TT_FLAGSHIP_DESIGN: Ce modèle utilise une coque de vaisseau amiral. Les vaisseaux amiral peuvent se déplacer et agir de façon indépendante, et peuvent être en mesure d'assurer le commandement d'une flotte de support. La quantité de vaisseaux dans sa flotte dépend du nombre de "Centre de commandement" qu'il dispose dans sa conception. // J'ai rien trouvé de mieux pour "Support Command" besoin d'avis/d'aide
+TT_STATION_DESIGN: Ce modèle utilise une coque de station. Les stations ne peuvent pas se déplacer, mais elles peuvent être construites à distance en orbite.
+
+S_HP: Santé total
+S_HexHP: Santé
+STT_HP: Les points de vie de la somme de tous les hexagones de la conception.
+
+S_REPAIR: Réparation / Seconde
+STT_REPAIR: Le montant des points de vie du vaisseau qui peuvent être réparé par seconde. Réduit à 25% du taux normal pendant le combat.
+
+S_Shield: Capacité bouclier 
+STT_Shield: Maximum de points de vie du bouclier.
+
+S_ShieldRegen: Régénération bouclier
+STT_ShieldRegen: Nombre de points régénéré par seconde
+
+S_DPS: Dommage / Seconde
+STT_DPS: Total des dommages par seconde (DPS) infligés par le vaisseau au combat, quand en bon état.
+
+S_SUPPLYCAP: Capacité ravitaillement
+STT_SUPPLYCAP: Le total de provision que ce vaisseau amiral peut stocker.
+
+S_SUPPLYCAP_SUPPORT: Magasins de munitions
+STT_SUPPLYCAP_SUPPORT: Le montant de munitions que ce vaisseau peut prendre avec lui pour un raid d'attaque détaché de sa flotte. Lorsque les magasins de fournitures locales sont épuisés, le vaisseau de soutien a besoin de retourner à la flotte pour ravitailler avant le prochain raid.
+
+S_SUPPORTCAP: Commandement
+STT_SUPPORTCAP: La somme de vaisseau de soutien que vous pouvez commander.
+
+S_ACCEL: Accélération
+STT_ACCEL: L'accélération maximale du vaisseau qu'il peut maintenir en transit.
+
+S_THRUST: Poussée
+STT_THRUST: Montant maximal de poussée subluminiques des moteurs du vaisseau qu'ils sont capables de générer.
+
+S_TURN_THRUST: Taux de virage
+STT_TURN_THRUST: La vitesse à laquelle le vaisseau peut tourner pour changer de direction.
+
+S_MASS: Masse
+STT_MASS: La masse totale du vaisseau.
+
+S_SUPPLYREGEN: Taux réapprovisionnement
+STT_SUPPLYREGEN: Quantité de provisions régénérées par seconde dans l'espace amical.
+
+S_SUPPLYUSE: Utilisation Munitions
+STT_SUPPLYUSE: Quantité de munitions utilisées par seconde pour ce vaisseau en tirant avec toutes les armes dans un combat.
+
+S_POWER: Puissance
+STT_POWER: Quantité de puissance produit et utilisé par les sous-systèmes sur le vaisseau.
+
+S_CONTROL: Contrôle
+STT_CONTROL: Quantité de contrôle produit et utilisé par les sous-systèmes sur le vaisseau.
+
+S_HYPERDRIVESPEED: Vitesse Hyperdrive
+STT_HYPERDRIVESPEED: La vitesse du vaisseau a laquelle il est capable de se maintenir en voyageant dans l'hyper espace sans dommage.
+
+S_SLIPSTREAMTIME: Temps de sillage
+STT_SLIPSTREAMTIME: La durée que le sillage créé par ce vaisseau reste ouvert.
+
+S_CargoStorage: Stockage de Cargaison
+STT_CargoStorage: Utilisé pour stocker les multiples types de matières, principalement ceux extraits d'astéroïdes.
+
+S_MiningRate: Taux d'extraction
+STT_MiningRate: Le taux auquel le laser minier de ce vaisseau peut miner les astéroïdes et mettre le minerai dans la cargaison.
+
+S_LaborIncome: Génération main d'œuvre
+STT_LaborIncome: La quantité de main-d'œuvre produite par minute par les baies de construction de ce vaisseau.
+
+S_OreProcessRate: Traitement du minerai
+STT_OreProcessRate: Le minerai a stocké et extrait par ce vaisseau est traité par la main-d'œuvre à ce taux.
+
+S_LaborProcessRate: Traitement du rendement de main d'œuvre
+STT_LaborProcessRate: La quantité de main d'œuvre accumulé généré lorsque suffisamment de minerai est disponible pour fournir le taux de traitement complet du minerai.
+
+S_OreCost: Coût de minerai
+STT_OreCost: Lors de la construction de ce vaisseau, le minerai extrait des astéroïdes doit être dépensé du stockage local.
+
+S_PRAYER: Prière
+STT_PRAYER: Le montant de prière le lieu saint sur le vaisseau. Les vaisseaux doivent avoir au moins autant de prière que de contrôle.
+
+S_DPS_SMALL: DPS
+S_DAMAGE: Dommage
+S_BEAMDPS: Faisceau DPS
+S_DURATION: Durée
+S_COOLDOWN: Latence
+S_RELOAD: Recharger
+S_RADIUS: Rayon
+S_RANGE: Portée
+S_SPEED: Vitesse
+S_PROJ_DR: Projectile DR
+S_BEAM_DR: Faisceau DR
+S_EXPL_DR: Explosif DR
+S_DR: Résistance aux dégâts
+S_DamageThreshold: Seuil de dégâts
+S_SUPPLYCOST: Approvisionnement
+S_BUILDCOST: Coût
+S_LABORCOST: Coût main d'œuvre
+S_RESUPPLY: Réapprovisionnement
+S_ENERGYCOST: Coût en énergie
+S_COST_FACTOR: Facteur de coût
+S_STELLAR_DAMAGE: Dommages stellaire
+S_EFFICIENCYBOOST: Augmentation de Force
+S_Chance: Chance
+S_PowerUse: Puissance Utilisé
+S_EnergyBuildCost: Coût de construction en énergie
+STT_EnergyBuildCost: Le montant de l'énergie de l'empire qui doit être dépensée lors du premier lancement de construction d'un vaisseau de ce type.

@@ -1,0 +1,637 @@
+RESEARCH_COST_OR: ou
+RESEARCH_COST_JOIN: ", "
+RESEARCH_STUDY: Etude
+RESEARCH_COST: Coût de recherche
+RESEARCH_TIME: Temps de recherche
+QUEUE_RESEARCH: File d'attente 
+UNQUEUE_RESEARCH: Annuler file d'attente recherche
+NOT_RESEARCHING: Pas de recherche active...
+
+R_SCIENCE: Science
+R_SCIENCE_DESC: [i]La racine de toutes les connaissances. Débloqué par défaut comme point de départ.[/i]
+
+R_DEV_ENERGY: Science de l'énergie
+R_DEV_ENERGY_DESC: <<
+	[i][color=#aaa]Les améliorations apportées à la collecte et l'utilisation de l'énergie.[/color][/i]
+
+	Génère $1 bonus d'énergie immédiatement quand recherché normalement. L'énergie gagnée est diminuée par la pénalité de stockage d'énergie.
+
+	[color=#42b4bd][b]Déblocage alternatif:[/b] Dépenser $2 énergie.[/color]
+	[offset=40][color=#f88][i]Aucun bonus d'énergie n'est gagné à partir des recherches en utilisant le déblocage alternatif.[/i][/color][/offset]
+>>
+
+R_DEV_MONEY: Economie
+R_DEV_MONEY_BLURB: §$1 Fonds spéciaux
+R_DEV_MONEY_DESC: <<
+	[i][color=#aaa]Un autre éclairage sur le comportement des marchés à grande échelle et de l'économie.[/color][/i]
+
+	Quand débloqué, vous donne immédiatement §$1 fonds spéciaux supplémentaires à dépenser.
+
+	[color=#0087c7][b]Déblocage alternatif:[/b] Dépenser $2 points d'influence.[/color]
+>>
+
+R_DEV_BUDGET: Commerce
+R_DEV_BUDGET_SMALL: Affaire
+R_DEV_BUDGET_BLURB: +§$1 Budget
+R_DEV_BUDGET_DESC: <<
+	[i][color=#aaa]Les améliorations apportées à l'efficacité des échanges et du commerce.[/color][/i]
+
+	Augmente de façon permanente votre revenu budgétaire par §$1 lorsque déverrouillé.
+>>
+
+R_DEV_FTL: Endiguement FTL 
+R_DEV_FTL_BLURB: $1 FTL, Stockage
+R_DEV_FTL_DESC: <<
+	[i][color=#aaa]Les nouvelles technologies de stockage et de transport de l'énergie FTL.[/color][/i]
+
+	Quand débloqué, augmente immédiatement votre capacité de FTL et le stockage de FTL stocké de $1.
+>>
+
+R_DEV_FTL_INCOME: Réglage FTL 
+R_DEV_FTL_INCOME_BLURB: +$1 FTL/s
+R_DEV_FTL_INCOME_DESC: <<
+	[i][color=#aaa]Un meilleur contrôle sur la collecte et le raffinement de l'énergie FTL.[/color][/i]
+
+	Augmente le revenu FTL de votre empire de $1/s.
+>>
+
+R_DEV_SURGE: Utilisation Médiatique
+R_DEV_SURGE_BLURB: 1x Vague patriotique
+R_DEV_SURGE_DESC: <<
+	[i][color=#aaa]Les études d'audience dans des moyens plus efficaces d'incitation de populations en action.[/color][/i]
+
+	Acquérir une carte "Vague patriotique" immédiatement après le déverrouillage de cette technologie.
+
+	[color=#d1cb6a][b]Déblocage alternatif:[/b] Dépenser §500k.[/color]
+>>
+
+R_DEV_NEGOTIATE: Science Politique
+R_DEV_NEGOTIATE_BLURB: 1x Négocier (*)
+R_DEV_NEGOTIATE_DESC: <<
+	[i][color=#aaa]Groupes de réflexion et études sur de meilleure utilisation de capital pour un gain politique.[/color][/i]
+
+	Obtenez une carte de qualité accrue "Négocier" immédiatement après déverrouillage cette technologie.
+
+	[color=#d1cb6a][b]Déblocage alternatif:[/b] Dépenser §500k.[/color]
+>>
+
+R_DEV_ENHANCE: Synergie
+R_DEV_ENHANCE_BLURB: 1x Renforcer
+R_DEV_ENHANCE_DESC: <<
+	[i][color=#aaa]Développer de meilleures façons d'utiliser les stratégies existantes.[/color][/i]
+
+	Gagner une carte "Renforcer" immédiatement après le déverrouillage de cette technologie.
+>>
+
+R_DEV_INFLUENCE: Diplomatie
+R_DEV_INFLUENCE_BLURB: 5 Influence
+R_DEV_INFLUENCE_DESC: <<
+	[i][color=#aaa]Axe d'études et de recherches sur le comportement des diverses factions.[/color][/i]
+
+	Quand débloqué, vous donne immédiatement $1 points d'influence à dépenser.
+>>
+
+R_SYS_ANTIMATTER: Générateur d'Antimatière
+
+R_SYS_ANTIMATTER: Générateur d'Antimatière
+R_SYS_ANTIMATTER_DESC: <<
+	[color=#aaa][i]Débloque le sous-système Générateur d'Antimatière.[/i][/color]
+
+	[bbloc=#AMGEN_DESC/]
+	[color=#42b4bd][b]Déblocage alternatif:[/b] Dépenser 1250 énergie.[/color]
+>>
+
+R_SYS_EMERGENCY_SUPPLIES: Fournitures d'urgence
+R_SYS_EMERGENCY_SUPPLIES_DESC: <<
+	[color=#aaa][i]Débloque le sous-système fournitures d'urgence.[/i][/color]
+
+	[bbloc=#S_EMERGENCY_SUPPLIES_DESC/]
+
+	[color=#42b4bd][b]Déblocage alternatif:[/b] Dépenser 1000 énergie.[/color]
+>>
+
+R_SYS_CONSTRUCTION_BAY: Baie de Construction
+R_SYS_CONSTRUCTION_BAY_DESC: <<
+	[color=#aaa][i]Débloque le sous-système Baie de Construction.[/i][/color]
+
+	[bbloc=#S_CONSTRUCTION_BAY_DESC/]
+
+	[color=#42b4bd][b]Déblocage alternatif:[/b] Dépenser 1000 énergie.[/color]
+>>
+
+R_SYS_ORE_PROCESSOR: Processeur de Minerai
+R_SYS_ORE_PROCESSOR_DESC: <<
+	[color=#aaa][i]Débloque le sous-système Processeur de Minerai.[/i][/color]
+
+	[bbloc=#S_ORE_PROCESSOR_DESC/]
+>>
+
+R_SYS_GRAVITY_ENGINE: Moteur de gravitation
+R_SYS_GRAVITY_ENGINE_DESC: <<
+	[color=#aaa][i]Débloque le sous-système Moteur de gravitation.[/i][/color]
+
+	[bbloc=#GRAVITYENGINE_DESC/]
+
+	[color=#d1cb6a][b]Déblocage alternatif:[/b] Dépenser §1M.[/color]
+>>
+
+R_SYS_HYPERLASER: Laser Hyperdense
+R_SYS_HYPERLASER_DESC: <<
+	[color=#aaa][i]Débloque le sous-système Laser Hyperdense.[/i][/color]
+
+	[bbloc=#S_HYPERLASER_DESC/]
+
+	[color=#d1cb6a][b]Déblocage alternatif:[/b] Dépenser §2M.[/color]
+>>
+
+R_SYS_NEUTRON_ARMOR: Armure Neutronium 
+R_SYS_NEUTRON_ARMOR_DESC: <<
+	[color=#aaa][i]Débloque le sous-système Armure Neutronium.[/i][/color]
+
+	[bbloc=#NEUTRONARMOR_DESC/]
+
+	[color=#d1cb6a][b]Déblocage alternatif:[/b] Dépenser §2M.[/color]
+>>
+
+R_SYS_LIQUID_ARMOR: Armure liquide
+R_SYS_LIQUID_ARMOR_DESC: <<
+	[color=#aaa][i]Débloque le sous-système Armure liquide.[/i][/color]
+
+	[bbloc=#S_LIQUIDARMOR_DESC/]
+
+	[color=#d1cb6a][b]Déblocage alternatif:[/b] Dépenser §1M.[/color]
+>>
+
+R_SYS_SELF_DESTRUCT: Dispositif Autodestruction
+R_SYS_SELF_DESTRUCT_DESC: <<
+	[color=#aaa][i]Débloque le sous-système Dispositif Autodestruction.[/i][/color]
+
+	[bbloc=#S_SELF_DESTRUCT_DESC/]
+
+	[color=#42b4bd][b]Déblocage alternatif:[/b] Dépenser 1000 énergie.[/color]
+>>
+
+R_SYS_SHIP_COMPUTER: Ordinateur de Contrôle
+R_SYS_SHIP_COMPUTER_DESC: <<
+	[color=#aaa][i]Débloque le sous-système Ordinateur de Contrôle.[/i][/color]
+
+	[bbloc=#SHIPCOMPUTER_DESC/]
+
+	[color=#42b4bd][b]Déblocage alternatif:[/b] Dépenser 1000 énergie.[/color]
+>>
+
+R_SYS_ION_CANNON: Canon à Ion
+R_SYS_ION_CANNON_DESC: <<
+	[color=#aaa][i]Débloque le sous-système Canon à Ion.[/i][/color]
+
+	[bbloc=#S_ION_CANNON_DESC/]
+>>
+
+R_SYS_SKIP_DRIVE: Énergie de Saut
+R_SYS_SKIP_DRIVE_DESC: <<
+	[color=#aaa][i]Débloque le sous-système Énergie de Saut.[/i][/color]
+
+	[bbloc=#S_SKIP_DRIVE_DESC/]
+>>
+
+R_SYS_GRAVITON_CONDENSER: Condensateur de gravitation
+R_SYS_GRAVITON_CONDENSER_DESC: <<
+	[color=#aaa][i]Débloque le sous-système Condensateur de gravitation.[/i][/color]
+
+	[bbloc=#S_GRAVITON_CONDENSER_DESC/]
+
+	[color=#42b4bd][b]Déblocage alternatif:[/b] Dépenser 1500 énergie.[/color]
+>>
+
+R_SYS_CLOAKPLATING: Dissimulation de Maille
+R_SYS_CLOAKPLATING_DESC: <<
+	[color=#aaa][i]Débloque le sous-système Dissimulation de Maille.[/i][/color]
+
+	[bbloc=#S_CLOAKPLATING_DESC/]
+>>
+
+R_MOD_TARGET_SENSOR: Capteur de ciblage
+R_MOD_TARGET_SENSOR_DESC: <<
+	[color=#aaa][i]Débloque Capteur de ciblage[/i][/color]
+
+	[bbloc=#TARGETINGSENSOR_DESC/]
+
+	[color=#d1cb6a][b]Déblocage alternatif:[/b] Dépenser §1.5M.[/color]
+>>
+
+R_MOD_BULKHEAD: Cloison
+R_MOD_BULKHEAD_DESC: <<
+	[color=#aaa][i]Débloque cloison[/i][/color]
+
+	[bbloc=#BULKHEAD_DESC/]
+
+	[color=#d1cb6a][b]Déblocage alternatif:[/b] Dépenser §750k.[/color]
+>>
+
+R_MOD_AUGMENT_RELOAD: Système de refroidissement
+R_MOD_AUGMENT_RELOAD_DESC: <<
+	[color=#aaa][i]Débloque modificateur arme "système de refroidissement".[/i][/color]
+
+	[bbloc=#S_AUGMENT_RELOAD_DESC/]
+
+	[color=#d1cb6a][b]Déblocage alternatif:[/b] Dépenser §500k.[/color]
+>>
+
+R_MOD_AUGMENT_DAMAGE: Amplificateur de Charge utile
+R_MOD_AUGMENT_DAMAGE_DESC: <<
+	[color=#aaa][i]Débloque modificateur arme "Amplificateur de Charge utile".[/i][/color]
+
+	[bbloc=#S_AUGMENT_DAMAGE_DESC/]
+
+	[color=#d1cb6a][b]Déblocage alternatif:[/b] Dépenser §700k.[/color]
+>>
+
+R_MOD_AUGMENT_SUPPLY: Mécanisme lissé
+R_MOD_AUGMENT_SUPPLY_DESC: <<
+	[color=#aaa][i]Débloque modificateur arme "Mécanisme lissé".[/i][/color]
+
+	[bbloc=#S_AUGMENT_SUPPLY_DESC/]
+
+	[color=#d1cb6a][b]Déblocage alternatif:[/b] Dépenser §700k.[/color]
+>>
+
+R_MOD_QUANTUM_BATTERY: Batterie Quantique
+R_MOD_QUANTUM_BATTERY_DESC: <<
+	[color=#aaa][i]Débloque le modificateur "Batterie Quantique".[/i][/color]
+
+	[bbloc=#S_QUANTUM_BATTERY_DESC/]
+
+	[color=#42b4bd][b]Déblocage alternatif:[/b] Dépenser $1 énergie.[/color]
+>>
+
+R_IMP_DAMAGE: Cinétique
+R_IMP_DAMAGE2: Cinétique 2
+R_IMP_DAMAGE_SMALL: Impact
+R_IMP_DAMAGE_BLURB: Dégâts d'Arme +$1
+R_IMP_DAMAGE_DESC: <<
+	[i][color=#aaa]La recherche sur la meilleure façon de faire des dommages, faire exploser et détruire les vaisseaux spatiaux ennemis.[/color][/i]
+
+	Augmente tous les dégâts d'arme du vaisseau de $1.
+>>
+
+R_IMP_PLANET_DAMAGE: Balistique
+R_IMP_PLANET_DAMAGE2: Balistique 2
+R_IMP_PLANET_DAMAGE_BLURB: Dommages planétaire +$1
+R_IMP_PLANET_DAMAGE_DESC: <<
+	Augmente le DPS des armes planétaires et défense statiques de $1.
+>>
+
+R_IMP_FLAG_DAMAGE: Armements
+R_IMP_FLAG_DAMAGE2: Armements 2
+R_IMP_FLAG_DAMAGE_BLURB: Dégâts vaisseaux amiraux +$1
+R_IMP_FLAG_DAMAGE_DESC: <<
+	Augmente tous les dégâts d'arme des vaisseaux amiraux de $1.
+>>
+
+R_IMP_SUPPORT_DAMAGE: Destruction
+R_IMP_SUPPORT_DAMAGE2: Destruction 2
+R_IMP_SUPPORT_DAMAGE_BLURB: Dégâts du soutien +$1
+R_IMP_SUPPORT_DAMAGE_DESC: <<
+	Augmente tous les dégâts d'arme des vaisseaux de soutien de $1.
+>>
+
+R_IMP_ALL_HEALTH: Science des matériaux
+R_IMP_ALL_HEALTH2: Science des matériaux 2
+R_IMP_ALL_HEALTH_BLURB: Santé des Sous-système +$1
+R_IMP_ALL_HEALTH_DESC: <<
+	[i][color=#aaa]Les recherches sur la façon d'améliorer l'intégrité structurelle des sous-systèmes de vaisseaux, leur permettant de prendre plus de dégâts avant de cesser de fonctionner.[/color][/i]
+
+	Augmente la santé des sous-systèmes des vaisseaux de $1.
+>>
+
+R_IMP_REPAIR: Réparation
+R_IMP_REPAIR2: Réparation 2
+R_IMP_REPAIR_BLURB: Réparation +$1
+R_IMP_REPAIR_DESC: <<
+	Augmente le taux de réparation des vaisseaux de $1.
+>>
+
+R_IMP_CIV_HEALTH: Production en série
+R_IMP_CIV_HEALTH2: Blindage civil
+R_IMP_CIV_HEALTH_BLURB: Santé civil +$1
+R_IMP_CIV_HEALTH_DESC: <<
+	[i][color=#aaa]La conception et le développement de formes abordables d'armures et des systèmes militaires, améliorer la santé des unités civiles.[/color][/i]
+
+	Augmente la santé civile de $1.
+>>
+
+R_IMP_DECAY: Stockage
+R_IMP_DECAY2: Stockage Dense
+R_IMP_DECAY_BLURB: Décrépitude de Planètes $1 plus lentement
+R_IMP_DECAY_DESC: <<
+	[i][color=#aaa]Les capacités et les méthodes de stockage améliorées permettent aux planètes de durée plus longtemps sans provisions de ressources vitales..[/color][/i]
+
+	Les planètes se délabrent $1 plus lentement quand manque de ressources nécessaires.
+>>
+
+R_IMP_ALL_RANGE: Cibler
+R_IMP_ALL_RANGE2: Cibler 2
+R_IMP_ALL_RANGE_BLURB: Portée d'arme +$1
+R_IMP_ALL_RANGE_DESC: <<
+	[i][color=#aaa]Les améliorations apportées au ciblage d'arme, le suivi et la miniaturisation leur permettent d'atteindre des cibles plus lointaine.[/color][/i]
+
+	Augmente toute les portées des armes de $1.
+
+	[color=#42b4bd][b]Déblocage alternatif:[/b] Dépenser $2 énergie.[/color]
+>>
+
+R_IMP_ARMOR_HEALTH: Blindage
+R_IMP_ARMOR_HEALTH2: Blindage 2
+R_IMP_ARMOR_HEALTH_BLURB: Santé armure +$1
+R_IMP_ARMOR_HEALTH_DESC: <<
+	[i][color=#aaa]Meilleurs moyens de renforcer les plaques de blindage.[/color][/i]
+
+	Augmente la santé de toutes les armures de $1.
+
+	[color=#d1cb6a][b]Déblocage alternatif:[/b] Dépenser §$2.[/color]
+>>
+
+R_IMP_ARMOR_DR: Renforcement
+R_IMP_ARMOR_DR2: Renforcement 2
+R_IMP_ARMOR_DR_BLURB: Armure DR +$1
+R_IMP_ARMOR_DR_DESC: <<
+	Augmente la résistance aux dégâts d'armure de $1.
+
+	[color=#d1cb6a][b]Déblocage alternatif:[/b] Dépenser §$2.[/color]
+>>
+
+R_IMP_FACTORY_LABOR: Métallurgie
+R_IMP_FACTORY_LABOR2: Métallurgie 2
+R_IMP_FACTORY_LABOR_BLURB: Usine de main d'œuvre +$1
+R_IMP_FACTORY_LABOR_DESC: <<
+	[i][color=#aaa]Les améliorations apportées à l'utilisation de matériaux et de la division du travail dans les usines de surface planétaires.[/color][/i]
+
+	Augmente la génération de main d'œuvre par les constructions d'usine de $1.
+
+	[color=#0087c7][b]Déblocage alternatif:[/b] Dépenser $2 points d'influence.[/color]
+>>
+
+R_IMP_PLANET_SUPPORT: Commande Orbitale
+R_IMP_PLANET_SUPPORT2: Commande Orbitale 2
+R_IMP_PLANET_SUPPORT_BLURB: Avant-poste soutien +$1
+R_IMP_PLANET_SUPPORT_DESC: <<
+	[i][color=#aaa]Commande plus ciblée et plus efficace des vaisseaux de défense orbitaux.[/color][/i]
+
+	Augmente la capacité de support maximum de tous les [b][img=GuiOrbitalIcons::0;20/] Avant-poste[/b] orbitale de $1.
+
+	Augmente la capacité de support maximum de toute les [b][img=PlanetType::2;20/] Planètes[/b] de $2 pour chaque niveau de la planète.
+
+	Augmente également la [img=Plus;20/] Santé et le taux de production des vaisseaux de défense locale des [b][img=GuiOrbitalIcons::0;20/] Avant-poste[/b] orbitale.
+>>
+
+R_IMP_SUPPLY_STORAGE: Logistique
+R_IMP_SUPPLY_STORAGE2: Logistique 2
+R_IMP_SUPPLY_STORAGE_BLURB: Fournitures Vaisseaux amiral +$1
+R_IMP_SUPPLY_STORAGE_DESC: <<
+	[i][color=#aaa]Meilleure compression et stockage plus efficace des fournitures de combat du vaisseau.[/color][/i]
+
+	Augmente la capacité de stockage maximale d'approvisionnement de tous les vaisseaux amiraux de $1.
+>>
+
+R_IMP_SUPPORT_CAP: Organisation
+R_IMP_SUPPORT_CAP2: Organisation 2
+R_IMP_SUPPORT_CAP_SMALL: Commandement
+R_IMP_SUPPORT_CAP_BLURB: Vaisseau amiral soutien +$1
+R_IMP_SUPPORT_CAP_DESC: <<
+	[i][color=#aaa]Les communications et la coordination améliorée entre un vaisseau amiral et sa flotte de soutien.[/color][/i]
+
+	Augmente le commandement maximum de soutien de tous les vaisseaux amiraux de $1.
+>>
+
+R_IMP_THRUST: Propulsion
+R_IMP_THRUST2: Propulsion 2
+R_IMP_THRUST_BLURB: Poussée +$1
+R_IMP_THRUST_DESC: <<
+	[i][color=#aaa]Des études et des expériences sur l'amélioration de la sortie de poussée des moteurs de vaisseaux, conventionnel et autres.[/color][/i]
+
+	Augmente toute les poussées des moteurs des vaisseaux de $1.
+
+	Si vous utilisez Hyperdrive, augmente la vitesse hyperdrive de $1.
+
+	[color=#d1cb6a][b]Déblocage alternatif:[/b] Dépenser §$2.[/color]
+>>
+
+R_IMP_CIV_CONSTRUCT: Infrastructure
+R_IMP_CIV_CONSTRUCT2: Infrastructure 2
+R_IMP_CIV_CONSTRUCT_BLURB: Civ. Construction +$1
+R_IMP_CIV_CONSTRUCT_DESC: <<
+	Augmente le taux de construction des bâtiments civil de $1.
+>>
+
+R_IMP_IMP_CONSTRUCT: Construction
+R_IMP_IMP_CONSTRUCT2: Construction 2
+R_IMP_IMP_CONSTRUCT_BLURB: Imperial Constr. +$1
+R_IMP_IMP_CONSTRUCT_DESC: <<
+	Augmente le taux de construction des bâtiments impériaux de $1.
+>>
+
+R_IMP_TILE_DEVELOPMENT: Développement
+R_IMP_TILE_DEVELOPMENT2: Développement 2
+R_IMP_TILE_DEVELOPMENT_BLURB: Développement cases +$1
+R_IMP_TILE_DEVELOPMENT_DESC: <<
+	Augmente la vitesse à laquelle le développement des cases civile se produit sur les planètes de $1.
+>>
+
+R_IMP_TRACKING: Hydraulique
+R_IMP_TRACKING2: Hydraulique 2
+R_IMP_TRACKING_BLURB: Suivi de Tourelle +$1
+R_IMP_TRACKING_DESC: <<
+	Augmente le taux de suivi des armes tourelle de $1.
+
+	[color=#d1cb6a][b]Déblocage alternatif:[/b] Dépenser §$2.[/color]
+>>
+
+R_IMP_FIRE_RATE: Refroidissement
+R_IMP_FIRE_RATE2: Refroidissement 2
+R_IMP_FIRE_RATE_BLURB: Rechargement arme +$1
+R_IMP_FIRE_RATE_DESC: <<
+	Augmente la cadence de tir de tous les systèmes d'armes de $1.
+>>
+
+R_IMP_PROJ_SPEED: Projectiles
+R_IMP_PROJ_SPEED2: Projectiles 2
+R_IMP_PROJ_SPEED_BLURB: Vitesse Projectile +$1
+R_IMP_PROJ_SPEED_DESC: Augmente la vitesse de tous les projectiles d'armes et de missiles de $1.
+
+R_IMP_SUPPLY_USE: Ordonnance
+R_IMP_SUPPLY_USE2: Ordonnance 2
+R_IMP_SUPPLY_USE_BLURB: Utilisation de Provision Vaisseau amiral -$1
+R_IMP_SUPPLY_USE_DESC: Réduit l'utilisation de provision de toutes les armes des vaisseaux amiraux de $1.
+
+R_IMP_SUPPLY_REGEN: Réapprovisionnement
+R_IMP_SUPPLY_REGEN2: Réapprovisionnement 2
+R_IMP_SUPPLY_REGEN_BLURB: Taux réapprovisionnement +$1
+R_IMP_SUPPLY_REGEN_DESC: Augmente le taux auquel les vaisseaux amiraux regagnent des provisions de $1.
+
+R_IMP_SUPPORT_SUPPLY_USE: Efficacité
+R_IMP_SUPPORT_SUPPLY_USE2: Efficacité 2
+R_IMP_SUPPORT_SUPPLY_USE_BLURB: Utilisation de Provision du Soutien -$1
+R_IMP_SUPPORT_SUPPLY_USE_DESC: Réduit l'utilisation de provision de toutes les armes de vaisseaux de soutien de $1.
+
+R_IMP_ENERGY_STORAGE: Capacité
+R_IMP_ENERGY_STORAGE2: Capacité 2
+R_IMP_ENERGY_STORAGE_BLURB: Stockage énergie +$1
+R_IMP_ENERGY_STORAGE_DESC: <<
+	Augmente le stockage de l'énergie de votre empire de $1.
+	
+	N'importe quelle énergie stockée sous le plafond de stockage d'énergie ne diminue pas votre taux de génération via la pénalité de stockage.
+>>
+
+R_IMP_AOE: Explosifs
+R_IMP_AOE2: Explosifs 2
+R_IMP_AOE_BLURB: Explosifs AoE +$1
+R_IMP_AOE_DESC: Augmente la zone d'effet des armes explosives comme les torpilles de $1.
+R_SYS_SHIELDGEN_DESC: <<
+	[color=#aaa][i]Débloque le sous-système générateur de bouclier.[/i][/color]
+
+	[bbloc=#SHIELDGEN_DESC/]
+	[color=#42b4bd][b]Déblocage alternatif:[/b] Dépenser 750 énergie.[/color]
+>>
+R_SYS_SHIELDGEN: Générateur de bouclier
+R_SYS_SHIELD_HARDENER: Durcisseur bouclier 
+R_SYS_SHIELD_HARDENER_DESC: <<
+	[color=#aaa][i]Débloque le sous-système Durcisseur bouclier.[/i][/color]
+
+	[bbloc=#S_SHIELD_HARDENER_DESC/]
+	[color=#42b4bd][b]Déblocage alternatif:[/b] Dépensez 750 énergie.[/color]
+>>
+
+R_SHRINE: Tombeau
+R_SHRINE_DESC: <<
+	[color=#aaa][i]Débloque le sous-système Tombeau.[/i][/color]
+
+	[bbloc=#S_SHRINE_DESC/]
+>>
+
+R_BLD_MEGACITY: Mégapole
+R_BLD_MEGACITY_DESC: <<
+	[color=#aaa][i]Débloque le bâtiment Mégapole.[/i][/color]
+
+	[bbloc=#BLD_MEGACITY_DESC/]
+
+	[color=#0087c7][b]Déblocage alternatif:[/b] Dépenser $1 points d'influence.[/color]
+>>
+R_IMP_SHIELDCAP: Confinement de phase 
+R_IMP_SHIELDCAP_BLURB: Bouclier HP +$1
+R_IMP_SHIELDCAP_DESC: Augmente la capacité du bouclier de $1.
+R_IMP_SHIELDREG_BLURB: Bouclier Regen +$1
+R_IMP_SHIELDREG: Harmoniques de phase
+R_IMP_SHIELDREG_DESC: Augmente le taux de régénération du bouclier de $1.
+
+R_ORB_ARTIFICIAL_PLANETOID: Planétoïde artificiel
+R_ORB_ARTIFICIAL_PLANETOID_DESC: <<
+	[color=#aaa][i]Débloque l'orbitale Planétoïde artificiel.[/i][/color]
+
+	[bbloc=#ARTIFICIAL_PLANETOID_DESC/]
+>>
+
+R_ORB_STARFORGE: Forge Stellaire
+R_ORB_STARFORGE_DESC: <<
+	[color=#aaa][i]Débloque l'orbitale Forge Stellaire.[/i][/color]
+
+	[bbloc=#STARFORGE_DESC/]
+>>
+
+R_ORB_VACUUM_TELESCOPE: Télescope de l'espace vide
+R_ORB_VACUUM_TELESCOPE_DESC: <<
+	[color=#aaa][i]Débloque l'orbitale Télescope de l'espace vide.[/i][/color]
+
+	[bbloc=#VACUUM_TELESCOPE_DESC/]
+>>
+
+R_ORB_RINGWORLD: Monde d'anneau
+R_ORB_RINGWORLD_DESC: <<
+	[color=#aaa][i]Débloque l'orbitale Monde d'anneau.[/i][/color]
+
+	[bbloc=#RINGWORLD_DESC/]
+>>
+
+R_BLD_PLANET_ENGINE: Propulseur Planétaire
+R_BLD_PLANET_ENGINE_DESC: <<
+	[color=#aaa][i]Débloque le bâtiment Propulseur Planétaire.[/i][/color]
+
+	[bbloc=#BLD_PLANET_ENGINE_DESC/]
+>>
+R_SYS_MUON_CANNON: Canon Muon 
+R_SYS_MUON_CANNON_DESC: <<
+	[color=#aaa][i]Débloque les sous-systèmes Batterie et Canon Muon.[/i][/color]
+
+	[bbloc=#MUONBATTERY_DESC/]
+
+	[color=#d1cb6a][b]Déblocage alternatif:[/b] Dépenser §2M.[/color]
+>>
+
+R_SYS_TITAN_HULL: Coque de Titan
+R_SYS_TITAN_HULL_DESC: <<
+	[color=#aaa][i]Débloque le sous-système Coque de Titan.[/i][/color]
+
+	[bbloc=#S_TITAN_HULL_DESC/]
+>>
+
+R_DEV_ENERGY_INCOME: Ionisation
+R_DEV_ENERGY_INCOME2: Ionisation 2
+R_DEV_ENERGY_INCOME_BLURB: +$1 Energie/s
+R_DEV_ENERGY_INCOME_DESC: <<
+	Augmente votre revenu d'énergie de base par seconde de $1.
+>>
+
+R_DEV_INFLUENCE_INCOME: Politique
+R_DEV_INFLUENCE_INCOME2: Politique 2
+R_DEV_INFLUENCE_INCOME_BLURB: Intérêt d'Influence +$1
+R_DEV_INFLUENCE_INCOME_DESC: <<
+	Augmente votre Intérêt d'Influence de $1.
+
+	Intérêt d'Influence augmente votre revenu d'influence par rapport à tous les autres empires.
+>>
+
+R_DEV_DEFENSE: Défense
+R_DEV_DEFENSE_BLURB: +$1 Défense instantanée
+R_DEV_DEFENSE_DESC: <<
+	Produisez immédiatement la main-d'œuvre de $1 pour la diffusion de vaisseaux de défense sur n'importe quels emplacements marqués pour l'utilisation de défense.
+>>
+
+R_DEV_DEFENSE_INCOME: Milice
+R_DEV_DEFENSE_INCOME2: Milice 2
+R_DEV_DEFENSE_INCOME_BLURB: +$1 Défense/min
+R_DEV_DEFENSE_INCOME_DESC: <<
+	Augmente votre génération de défense globale de la valeur de main-d'œuvre de $1 par minute.
+>>
+
+R_IMP_SPREAD: Précision
+R_IMP_SPREAD2: Précision 2
+R_IMP_SPREAD_BLURB: Précision +$1
+R_IMP_SPREAD_DESC: <<
+	Augmente la précision des projectiles tirés par railguns et d'autres armes cinétiques de $1.
+>>
+
+R_KEY_RAILGUN_KNOCKBACK: Impulsion de Projectile
+R_KEY_RAILGUN_KNOCKBACK_DESC: <<
+	Ajoute un effet de contretemps significatif aux batteries railgun du vaisseau amiral. Les vaisseaux touchés par les projectiles recevront une secousse d'impulsion dans la direction opposée.
+
+	Augmente l'exactitude de tout les railguns, mais enlève tout hexagone touché d'impacts de railgun.
+>>
+
+R_KEY_BUILD_COST: Construction décentralisée
+R_KEY_BUILD_COST_DESC: <<
+	Coût de construction des vaisseaux amiraux réduit de moitié
+
+	Double tous les coûts de main-d'œuvre.
+
+	Les cales sèches augmente les coûts de construction de 25%, mais peut être utilisé sans pénalité.
+>>
+
+R_KEY_EMERGENCY_SHIELDS: Boucliers de Secours
+R_KEY_EMERGENCY_SHIELDS_DESC: <<
+	Chaque fois que vous déclenchez le sous-système "Boucliers de Secours", la régénération du bouclier est temporairement stimulée à des niveaux extrêmes.
+
+	La durée de l'impulsion dépend de la taille du  sous-système fournitures d'urgence.
+>>
+STATUS_EMERGENCY_SHIELDS: Boucliers de Secours
+STATUS_EMERGENCY_SHIELDS_DESC: <<
+	Ce vaisseau a une régénération de bouclier stimulé temporairement en raison de l'activation d'une mise à niveau du sous-système "fournitures d'urgence"...
+>>

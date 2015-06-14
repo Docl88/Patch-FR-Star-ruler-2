@@ -1,0 +1,283 @@
+ABL_HOTKEY_SPEC: [color=#aaa](Raccourci: [b][color=#00c0ff]$1[/color][/b])[/color]
+
+ART_COMET: Comète
+ART_COMET_DESC: Une comète géante qui peut être exploitée pour fournir de l'eau à une planète.
+ABL_GENERATE_WATER: Produire de l'eau
+ABL_GENERATE_WATER_DESC: <<|
+	Ajoute une ressource native en eau sur la planète ciblée.
+	
+	L'eau ne peut pas être exporté ou attaché à d'autres eaux. 
+>>
+
+ART_COMMAND_COMPUTER: Système de commandement
+ART_COMMAND_COMPUTER_DESC: Un système informatique équipable qui augmente la capacité de support maximal d'une flotte.
+ABL_EXPAND_FLEET: S'équiper d'un Système de commandement
+ABL_EXPAND_FLEET_DESC: <<|
+	Augmente la capacité de support de la flotte ciblée par 500.
+	
+	Le système de commandement à une grande chance d'être laissé intacte lorsque le vaisseau amiral est détruit.
+>>
+STATUS_COMMAND_COMPUTER: Ordinateur de commandement
+STATUS_COMMAND_COMPUTER_DESC: <<|
+	Transport d'un artéfact - Ordinateur de commandement.
+
+	Capacité de support de la flotte augmenté de 300.
+	Peu résister à la destruction du vaisseau amiral.
+>>
+
+ART_POWER_CELL: Cellule énergétique
+ART_POWER_CELL_DESC: Une source d'énergie équipable qui augmente l'efficacité au combat de la flotte de 20%.
+ABL_OVERCHARGE_FLEET: Équipe la cellule énergétique
+ABL_OVERCHARGE_FLEET_DESC: <<|
+	Accroît l'efficacité de la flotte ciblée de 50%.
+	
+	Une seule cellule peut être équipée par la flotte.
+	La cellule énergétique à une grande chance d'être laissé intacte lorsque le vaisseau amiral est détruit
+>>
+STATUS_POWER_CELL: Cellule énergétique
+STATUS_POWER_CELL_DESC: <<|
+	Porteur de l'artefact cellule énergétique.
+
+	Capacité de support de la flotte augmenté de 50%.
+	Peu résister a la destruction du vaisseau amiral
+>>
+
+ART_NATURE_DEVICE: Arcologie
+ART_ARCOLOGY_DESC: Un habitat orbital abandonné qui peut être déplacé vers une planète pour augmenter la population maximale.
+ABL_DEVELOP_PLANET: Déplacer l'Arcologie
+ABL_DEVELOP_PLANET_DESC: <<|
+	Augmente la population maximale sur la planète ciblée de 10.
+>>
+
+ART_TELESCOPE: Télescope
+ART_TELESCOPE_DESC: Un télescope quantique jetable qui peut fournir une vision sur de grandes distances.
+ABL_TELESCOPE: Utiliser télescope
+ABL_TELESCOPE_DESC: <<|
+	Rend visible la cible et les systèmes environnent pendant 
+	15 minutes.
+>>
+
+ART_BUSTER_MACHINE: Destructeur de Planète
+ART_BUSTER_MACHINE_DESC: Un navire activable équipé d'un faisceau destructeur de planète.
+ABL_BUSTER_MACHINE: Activation du Destructeur de Planète
+ABL_BUSTER_MACHINE_DESC: Réactiver le vaisseau Destructeur de Planète qui est désactivé, un vaisseau antique équipé d'un faisceau destructeur de planète.
+ABL_BUSTER_BEAM: Activer le faisceau destructeur
+ABL_BUSTER_BEAM_DESC: <<
+	Activer le faisceau destructeur sur une planète.
+
+	Le faisceau destructeur tue la population et épuise la santé d'une planète. Lorsque la santé de la planète atteint 0, la planète explose. Certains astéroïdes peuvent être laissés après la destruction.
+>>
+ABL_BUST_PLANET: Détruire planète
+ABL_BUST_PLANET_DESC: <<|
+	Détruit la planète de niveau 0 ciblée, laissant quelques astéroïdes derrière elle.
+>>
+NOTIFY_BUST_PLANET: L'empire [color=$2]$1[/color] a activé la [b]Machine de destruction[/b] et a exploser [color=$4]$3[/color] en mille morceaux !
+
+ART_SPY_PROBE: Sonde d'espionnage
+ART_SPY_PROBE_DESC: Une sonde activable avec des scanners sophistiqués qui peuvent espionner pour avoir un avantage diplomatique.
+ABL_SPAWN_SPY_PROBE: Activation de la sonde d'espionnage. LA sonde a des scanners sophistiqués qui peuvent espionner pour avoir un avantage diplomatique.
+ABL_SPAWN_SPY_PROBE_DESC: <<
+	Réactiver la sonde d'espionnage en sommeil.
+>>
+STATUS_SPY_PROBE: Sonde d'espionnage
+STATUS_SPY_PROBE_DESC: Ce navire est une ancienne sonde d'espionnage rénové, et elle a collecté des renseignements pour un empire. Il est impossible de dire quel empire a envoyé la sonde.
+ABL_GAIN_LEVERAGE: Gain d'influence
+ABL_GAIN_LEVERAGE_DESC: <<|
+	Donne des cartes d'influence contre tous les empires qui contrôlent les planètes 
+	dans le système solaire de votre cible.
+>>
+
+ART_ANCIENT_EMBASSY: Ambassade antique
+ABL_ANCIENT_EMBASSY: Réactiver l'ambassade
+ABL_ANCIENT_EMBASSY_DESC: <<|
+	Ancre une ambassade antique sur l'emplacement ciblé.
+>>
+
+ART_GENESIS_DEVICE: Périphérique de genèse
+ART_GENESIS_DEVICE_DESC: Un dispositif de terraformation qui peut changer les ressources natives d'une planète en une ressource aléatoire de niveau 2.
+ABL_GENESIS_DEVICE: Terraformation de la planète
+ABL_GENESIS_DEVICE_DESC: <<|
+	Terraforme instantanément la planète ciblée en une ressource aléatoire de niveau 2.
+	
+	Supprime toutes les ressources natives présentes sur la planète.
+>>
+
+ART_MIND_CONTROL: Système de contrôle mental
+
+ART_REVENANT_ENGINE: Moteur du Revenant
+ART_REVENANT_ENGINE_DESC: <<|
+	Le système de moteur du Revenant
+	Activez pour l'autoriser sur toute les conceptions [b]Poussée augmenté de 100%[/b].
+>>
+ORB_REVENANT_ENGINE: Moteur du Revenant
+ORB_REVENANT_BLURB: <<
+	Une partie du puissant Revenant. Accorde un bonus actif, si vous avez les 4 parties cela activera le Revenant lui-même". Peut être détruit pour désactiver ses effets.
+>>
+ABL_REVENANT_ENGINE: Activer moteur du Revenant
+ABL_REVENANT_ENGINE_DESC: <<
+	Activer le moteur du Revenant, un vaisseau sombre de légende.
+
+	Lorsqu'il est activé, le moteur fournit à vos créations une [b]une double poussée/accélération[/b] et les conceptions avec l'hyperpropulsion ont [b]50% d'augmentation de la vitesse hyperdrive[/b].
+
+	Lorsque le moteur est activé le vaisseau perd tout son HP, il revient à son état normal une fois désactivé.
+	
+	[b]Si vous avez les 4 parties de Revenant activées en même temps vous aurez le contrôle du vaisseau de guerre le plus puissant de l'univers.[/b]
+>>
+NOTIFY_REVENANT_ENGINE: [color=$2]$1[/color] ont activé le [b]Moteur du Revenant[/b].
+
+ART_REVENANT_CANNON: Canon du Revenant
+ART_REVENANT_CANNON_DESC: <<|
+	Le système d'arme du Revenant
+	Activez pour l'autoriser sur toute les conceptions [b]Portée de tir augmentée de 75%[/b].
+>>
+ORB_REVENANT_CANNON: Canon du Revenant
+ABL_REVENANT_CANNON: Activer le canon du Revenant
+ABL_REVENANT_CANNON_DESC: <<
+	Activer le canon du Revenant, un vaisseau sombre de légende.
+
+	Lorsqu'il est activé, le canon fournit à vos créations une [b]augmentation de la portée de tir/vitesse de 75%[/b].
+
+	Lorsque le canon est activé le vaisseau perd tout son HP, il revient à son état normal une fois désactivé.
+	
+	[b]Si vous avez les 4 parties de Revenant activées en même temps vous aurez le contrôle du vaisseau de guerre le plus puissant de l'univers.[/b]
+>>
+NOTIFY_REVENANT_CANNON: [color=$2]$1[/color] ont activé le [b]Canon du Revenant[/b].
+
+ART_REVENANT_CHASSIS: Châssis du Revenant
+ART_REVENANT_CHASSIS_DESC: <<|
+	Châssis du Revenant.
+	Activez pour l'autoriser sur toute les conceptions [b]Réduit les coûts de construction de 50%[/b].
+>>
+ORB_REVENANT_CHASSIS: Châssis du Revenant
+ABL_REVENANT_CHASSIS: Activer Châssis du Revenant
+ABL_REVENANT_CHASSIS_DESC: <<
+	Activer le Châssis du Revenant, un vaisseau sombre de légende.
+
+	Lorsqu'il est activé, le châssis fournit à vos créations une [b]réduction des coûts de construction de 50%[/b].
+
+	Lorsque le châssis est activé le vaisseau perd tout son HP, il revient à son état normal une fois désactivé.
+	
+	[b]Si vous avez les 4 parties de Revenant activées en même temps vous aurez le contrôle du vaisseau de guerre le plus puissant de l'univers.[/b]
+>>
+NOTIFY_REVENANT_CHASSIS: [color=$2]$1[/color] ont activé le [b]Châssis du Revenant[/b].
+
+ART_REVENANT_CORE: Noyau du Revenant
+ART_REVENANT_CORE_DESC: <<|
+	Les modules de commande du Revenant.
+	Activez pour l'autoriser sur toute les conceptions [b]Augmentation de la capacité de soutien de 25%[/b].
+>>
+ORB_REVENANT_CORE: Noyau du Revenant
+ABL_REVENANT_CORE: Activer Noyau du Revenant
+ABL_REVENANT_CORE_DESC: <<
+	Activer le Noyau du Revenant, un vaisseau sombre de légende.
+
+	Lorsqu'il est activé, le noyau fournit à vos créations une [b]augmentation de la capacité de soutien de 25%[/b].
+
+	Lorsque le noyau est activé le vaisseau perd tout son HP, il revient à son état normal une fois désactivé.
+	
+	[b]Si vous avez les 4 parties de Revenant activées en même temps vous aurez le contrôle du vaisseau de guerre le plus puissant de l'univers.[/b]
+>>
+NOTIFY_REVENANT_CORE: [color=$2]$1[/color] ont activé le [b]Noyau du Revenant[/b].
+
+ART_PLANET_GENERATOR: Générateur de planète
+ART_PLANET_GENERATOR_DESC: Un générateur de masse accélérée qui peut assembler de nouvelles planètes d'énergie pure.
+ABL_GENERATE_PLANET: Générateur de planète
+ABL_GENERATE_PLANET_DESC: <<
+	Créer spontanément une nouvelle planète aléatoire sur la position ciblée.
+>>
+
+ART_STELLAR_GENERATOR: Générateur stellaire
+ART_STELLAR_GENERATOR_DESC: Des chaînes de quantité massive d'énergie dans un point de l'espace pour créer une nouvelle étoile.
+ABL_GENERATE_STAR: Générateur stellaire
+ABL_GENERATE_STAR_DESC: <<
+	Créer spontanément une nouvelle étoile sur la position ciblée.
+>>
+
+ART_SKIP_DRIVE: Énergie de Saut
+ART_SKIP_DRIVE_DESC: Un système de saut expérimental équipable qui utilise l'énergie brute du FTL à très courtes distances.
+ABL_EQUIP_SKIP_DRIVE: Equiper Énergie de Saut
+ABL_EQUIP_SKIP_DRIVE_DESC: Équiper Énergie de Saut sur la flotte ciblée. Energie de Saut est une téléportation instantanée, mais utilise de grandes quantités d'énergies.
+STATUS_SKIP_DRIVE: Énergie de Saut
+STATUS_SKIP_DRIVE_DESC: Ce vaisseau amiral est équipé de l'énergie de saut. Energie de Saut est une téléportation instantanée, mais utilise de grandes quantités d'énergies.
+ABL_BLINK: Téléporter
+ABL_BLINK_DESC: Téléporter instantanément la flotte sur une position à proximité. Plus vous téléporter loin plus cela coûte en énergies.
+
+ART_ION_CANNON: Canon à Ion
+ART_ION_CANNON_DESC: Un canon à faisceau équipable qui désactive temporairement les moteurs et FTL ennemies.
+ABL_EQUIP_ION_CANNON: Equiper canon à ion
+ABL_EQUIP_ION_CANNON_DESC: Equiper un canon à ion sur la flotte ciblée. Utiliser un canon à ion empêche temporairement le vaisseau ciblé de se déplacer ou d'utiliser le FTL.
+STATUS_ION_CANNON: Canon à Ion
+STATUS_ION_CANNON_DESC: Ce vaisseau amiral est équipé du Canon à Ion. Utiliser un canon à ion empêche temporairement le vaisseau ciblé de se déplacer ou d'utiliser le FTL.
+ABL_ION_CANNON: Tirer avec le canon à ion
+ABL_ION_CANNON_DESC: <<
+	Tirer avec le canon à ion équipé sur un vaisseau amiral ennemi ciblé. Il sera incapable de bouger ou d'utiliser son FTL pour un temps après avoir été touché.
+	
+	Le Canon à Ion coûte plus d'énergie pour se déclencher si le vaisseau ennemi est plus grand que le vaisseau équipé du canon.
+>>
+
+ART_PROTO_PLANET: Protoplanète
+ART_PROTO_PLANET_DESC: Une planète encore en processus de formation. Développer une grande quantité d'énergies pour réguler sa formation.
+ABL_PROTO_LEVEL0: Former planète (Niveau 0)
+ABL_PROTO_LEVEL0_DESC: Manipuler la formation de la planète en dépensant une grande quantité d'énergies. La planète va produire un niveau 0 de ressources aléatoire.
+ABL_PROTO_LEVEL1: Former planète (Niveau  1)
+ABL_PROTO_LEVEL1_DESC: Manipuler la formation de la planète en dépensant une grande quantité d'énergies. La planète va produire un niveau 1 de ressources aléatoire.
+ABL_PROTO_LEVEL2: Former planète (Niveau  2)
+ABL_PROTO_LEVEL2_DESC: Manipuler la formation de la planète en dépensant une grande quantité d'énergies. La planète va produire un niveau 2 de ressources aléatoire.
+
+ART_FRAME_CONSTRUCTOR: Constructeur de Cadre Orbital
+ART_FRAME_CONSTRUCTOR_DESC: <<
+	Créer un cadre où un orbital peut être construit au-dessus pour que les frais de construction et de main-d'œuvre soit réduits.
+>>
+ABL_ORBITAL_FRAME: Constructeur de Cadre Orbital
+ABL_ORBITAL_FRAME_DESC: <<
+	Créer un cadre orbital à l'emplacement spécifié.
+
+	Vous  pouvez construire tout autre orbitale au-dessus d'un cadre orbitale pour le remplacer. Un orbitale construit au-dessus des cadres bénéficie d'une réduction de 50% des coûts de construction et de main-d'œuvre, et ne souffre pas de pénalités de travail à distance pour la construction.
+>>
+
+ART_SUPPORT_STATION: Station de soutien
+ART_SUPPORT_STATION_DESC: <<
+	Une station de soutien activable qui peut renforcer et réapprovisionner une flotte à proximité durant le combat.
+>>
+ABL_SPAWN_SUPPORT_STATION: Station de soutien
+ABL_SPAWN_SUPPORT_STATION_DESC: <<
+	Activez la station de soutien dans une position particulière.
+
+	Station de soutien cible automatiquement une flotte alliée à proximité avec un rayon de soutien, fournit réparation, augmentation l'efficacité et le réapprovisionnement de manière significatif même au combat.
+
+	Station de soutien prennent 60 secondes pour être construite après avoir été activé.
+>>
+ABL_SUPPORT_BEAM: Rayon de Soutien Cible
+ABL_SUPPORT_BEAM_DESC: <<
+	Cibler le rayon de soutien de la station sur une flotte particulière.
+
+	Le rayon de soutien répare le vaisseau amiral de la flotte ciblé de 1% de son HP par seconde, réapprovisionne le vaisseau amiral de 1% de sa capacité totale d'approvisionnement par seconde, même au combat, et améliore la force de la flotte de 20%, pendant qu'il est actif.
+>>
+STATUS_CONSTRUCTING: Construire...
+STATUS_SUPPORTED: Soutenu
+STATUS_SUPPORTED_DESC: <<
+	Cette flotte est soutenue par un rayon de soutien.
+
+	Le rayon de soutien répare le vaisseau amiral de la flotte ciblé de 1% de son HP par seconde, réapprovisionne le vaisseau amiral de 1% de sa capacité totale d'approvisionnement par seconde, même au combat, et améliore la force de la flotte de 20%, pendant qu'il est actif.
+>>
+ORB_SUPPORT_STATION: Station de soutien
+ORB_SUPPORT_STATION_BLURB: Soutien les flottes et les stations à proximités avec un rayon de réparation et de réapprovisionnement.
+
+ART_FLOATING_CONTINENT: Continent flottant
+ART_FLOATING_CONTINENT_DESC: <<
+	Ajoute un nouveau grand continent à la surface d'une planète qui peut être déplacé entre les planètes.
+>>
+ABL_ADD_FLOATING_CONTINENT: Revendication Continent flottant
+ABL_ADD_FLOATING_CONTINENT_DESC: <<
+	Revendiquer un continent flottant et l'attacher à l'une de vos planètes en construction.
+
+	Le coût en énergie dépend de la distance, le continent flottant et tous les bâtiments qui s'y trouvent peuvent être déplacés vers une autre de vos planètes.
+>>
+ABL_TRANSFER_FLOATING_CONTINENT: Déplacez Continent flottant
+ABL_TRANSFER_FLOATING_CONTINENT_DESC: <<
+	Déplacez le continent flottant et tous les bâtiments qui s'y trouvent à partir de cette planète vers une autre de vos planètes.
+
+	Le coût en énergies pour déplacer le continent flottant dépend de la distance entre les deux planètes.
+
+	Cette capacité ne peut être activée si la planète où se situe le continent flottant est actuellement en état de siège.
+>>

@@ -1,0 +1,254 @@
+COLONY_SHIP: Vaisseau de colonisation
+SPORE_SHIP: Spore
+CRUISER: Croiseur
+TRANSFER_SUPPORT_SHIPS: Transfert vaisseau de soutien
+CREATE_SUPPORT_SHIPS: Créer plus de vaisseaux de soutien
+SCUTTLE_SUPPORT_SHIPS: Retirer/Saborder vaisseau de soutien
+MANAGE_SUPPORTS: Gérer vaisseau de soutien
+ORDER_SUPPORT_COUNT: Ordre $1x $2
+ORDER_SUPPORT_CUSTOM: Commandez quantité personnalisée...
+ORDER_SUPPORT_DESIGN: Conception vaisseau soutien:
+ORDER_SUPPORT_AMOUNT: Quantité:
+ORDER_SUPPORT_COST: Coût:
+ADD_SUPPORTS: Ajout vais. soutien
+SHIP_ORDERS: Commandés
+SHIP_FORMATIONS: Formations
+CONSTRUCTOR_CONSTRUCT: Construire $1
+CONSTRUCTOR_CONSTRUCT_COST: construire $1 ($2)
+SUPPLY: Fourniture
+STRENGTH: Résistance
+PIRATE_HOARD: Magot pirate
+REBUY_GHOSTS: Rempl. ($1)
+FREIGHTER: Cargo
+TT_REBUY_GHOSTS: <<
+	Remplacer tous les vaisseaux de soutien morts par l'achat de nouveaux. La flotte devra être déplacée vers un système avec des installations de main d'œuvre avant que les vaisseaux soient effectivement construits.
+>>
+CLEAR_GHOSTS: Effacer Mort
+TT_CLEAR_GHOSTS: <<
+	Effacer tous les vaisseaux de soutien mort dans la flotte.
+>>
+AUTO_FILL_SUPPORTS: Rempli. auto
+TT_AUTO_FILL_SUPPORTS: <<
+	Quand coché, la flotte prendra automatiquement des vaisseaux de soutien des planètes proches afin de reconstituer sa force.
+>>
+AUTO_BUY_SUPPORTS: Achat auto
+TT_AUTO_BUY_SUPPORTS: <<
+	Quand coché, la flotte sera automatiquement achetée avec de nouveaux vaisseaux de soutien si vous êtes proche de systèmes avec des équipements de main d'œuvre, jusqu'à ce que la flotte soit pleine.
+>>
+REFRESH_SUPPORTS: Actualiser soutien de la flotte de $1
+ABILITY_TRIGGER: $1
+ABILITY_ENERGY: "$1 Energie"
+ABILITY_COOLDOWN: " [Tps rechargement: $1]"
+ABILITY_CD: " [cd: $1 restant]"
+BUILD_RETROFIT: Rénovation de la flotte: $1
+RETROFIT_OPTION: Rénovation de la flotte ($1, $2 Main d'œuvre)
+CAPTURE_OPTION: Capture Planète ($1 Ravitaillement, $2)
+PROTECTED_OPTION: Vous ne pouvez pas capturer - Protégé par Avant-poste ou décret
+REV_SPEC: " r$1"
+SUPPORT_CAPACITY: Capacité de soutien
+SLIPSTREAM_TEAR: Déchirure de Sillage
+ODDITY_GATE: Warp Through
+EFFECTIVENESS: Efficacité
+SHIP_CARGO: Cargo:
+SHIP_CARGO_WORTH: [right][b][color=#0f0]$1[/color][/b] valeur[/right]
+CARGO_GOODS: [img=ResourceIconsSmall::32;21;#888/] [color=#aaa]Marchandises[/color]
+CIVILIAN_MERCHANT: Commerçant Civil
+CIVILIAN_FREIGHTER: Cargo Civil
+CIVILIAN_CARAVAN: Caravane Civile
+CIVILIAN_STATION: Station Commerciale Civile
+CIVILIAN: Civil
+STATUS_BLOCKADED: Bloqué!
+STATUS_BLOCKADED_DESC: <<|
+	Certains des vaisseaux commerciaux civils qui transportent les importations de cette planète ont été abattus. En conséquence, la planète produit 1 une ressource d'empire aléatoire en moins pour chaque ensemble "Bloqué!".
+>>
+PICKUP_PROTECTING: Protection
+PICKUP_UNPROTECTED: Non protégé
+VERB_PICKUP: Reprendre $1
+VERB_ACTIVATE: Activer $1
+STATUS_INTERDICT_FTL: FTL hors service
+STATUS_INTERDICT_FTL_DESC: <<|
+	Les capacités FTL de ce vaisseau amiral ont été mises hors de service.
+>>
+SHIELD_STRENGTH: Boucliers
+
+PICKUP_RESEARCH: Données de Recherche
+PICKUP_RESEARCH_DESC: Gagnez des points de recherche quand ramassé.
+
+PICKUP_INFLUENCE: Connaissance Influente
+PICKUP_INFLUENCE_DESC: Gagner quelques points d'influence quand ramassé.
+
+PICKUP_DRYDOCK: Chantier Ancien
+PICKUP_DRYDOCK_DESC: Gagnez 120 points de recherche et contient 3 vaisseaux anciens inachevés.
+
+PICKUP_ASTEROID: Base d'extraction
+PICKUP_ASTEROID_DESC: Une base d'exploitation minière de ressources activable et prêt à être utilisé.
+
+PICKUP_ENERGY: Cachette d'Énergie
+PICKUP_ENERGY_DESC: Gagnez de l'énergie stockée quand ramassé.
+
+PICKUP_CARD: Jetons de luxe
+PICKUP_CARD_DESC: Gagnez des cartes de négociation quand ramassé.
+
+PICKUP_ANCIENT_KNOWLEDGE: Savoir Ancien
+PICKUP_ANCIENT_KNOWLEDGE_DESC: Gagnez une carte "Savoir Ancien" quand ramassé.
+
+PICKUP_INSIGHT: R&D Stockage
+PICKUP_INSIGHT_DESC: Gagnez une connaissance théorique quand ramassé.
+
+HOLD_POSITION: Maintenir cette position
+HOLD_POSITION_DESC: Ne pas chasser flottes ennemies.
+AREA_BOUND: Engager les ennemis proches
+AREA_BOUND_DESC: Chasser flottes ennemies dans le voisinage direct.
+
+BEH_CLOSE_IN: Refermer sur Ennemies
+BEH_CLOSE_IN_DESC: Se déplacer à portée de tir lors d'attaque de l'ennemi.
+BEH_KEEP_DISTANCE: Gardez Distance
+BEH_KEEP_DISTANCE_DESC: Déplacez-vous à portée de tir et essayez de garder la distance.
+
+ENG_FLAGSHIP_MIN: Vaisseau amiral le plus proche
+ENG_FLAGSHIP_MIN_DESC: Se déplacer à portée de tir la plus courte du vaisseau amiral 
+ENG_FLAGSHIP_MAX: Vaisseau amiral le plus éloigné
+ENG_FLAGSHIP_MAX_DESC: Se déplacer à portée de tir la plus éloignée du vaisseau amiral
+ENG_SUPPORT_MIN: Soutenez la portée de tir la plus proche
+ENG_SUPPORT_MIN_DESC: Se déplacer à la portée de tir la plus proche des armes de soutien.
+
+ABL_FULLBURST: Explosion Complète
+ABL_MISSILE_STORM: Missile Tempête
+ABL_RELOCATE_ALL: Transfert transitoire
+ABL_CHARGE_ALL: Impulsion de provision Hyperespace
+ABL_MIGRATE_ALL: Migration accélérée
+ABL_UNPACK_GATE: Déployez portail
+ABL_UNPACK_GATE_DESC: Déployer ce vaisseau en tant que portail FTL, coûte 100 FTL.
+ABL_PACK_ORBITAL: Embarquez orbitale
+
+TT_OPEN_CONSTRUCTION: <<|
+	[b]File d'attente de Construction[/b]
+
+	Ouvrez la file d'attente de construction et le menu de construction.
+>>
+
+TT_MANAGE_SHIP_SUPPORTS: <<|
+	[b]Gérez vaisseau de soutien[/b]
+
+	Gérer les groupes de vaisseaux de soutien actuellement affectés à cette flotte.
+>>
+
+TT_HYPERDRIVE: <<|
+	[b]Hyperdrive[/b]
+
+	Utilisez l'hyperdrive équipé pour engager le déplacement FTL.
+>>
+
+TT_FLING: <<|
+	[b]Lancement[/b]
+
+	Utilisez la balise de lancement voisine pour engager le mouvement FTL.
+>>
+
+TT_SLIPSTREAM: <<|
+	[b]Générez Déchirure de Sillage[/b]
+
+	Utilisez le générateur de sillage du vaisseau pour créer une nouvelle déchirure vers la destination cible.
+>>
+
+TT_SHIP_HEALTH: <<
+	[font=Medium]Santé[/font]
+	Le solde de la santé totale du vaisseau affiché. Les vaisseaux peuvent mourir avant que leur santé soit nulle  si tous leurs hexagones de ponts sont détruits.
+
+	[b]Santé actuelle[/b] [offset=230]$1[/offset]
+	[b]Santé maximum[/b] [offset=230]$2[/offset]
+
+	[b]Réparation (En Combat)[/b] [offset=230]$3/sec[/offset]
+	[b]Réparation (Hors Combat)[/b] [offset=230]$4/sec[/offset]
+>>
+
+TT_SHIP_SHIELD: <<
+	[font=Medium]Bouclier[/font]
+	Tout dommage entrant est d'abord bloqué par les boucliers. Plus les boucliers sont faibles, plus les dégâts passent au lieu d'être bloqué.
+
+	[b]Bouclier actuel[/b] [offset=230]$1[/offset]
+	[b]Bouclier maximum[/b] [offset=230]$2[/offset]
+
+	[b]Régénération bouclier[/b] [offset=230]$3/sec[/offset]
+>>
+
+TT_SHIP_SUPPLY: <<
+	[font=Medium]Approvisionnement flotte[/font]
+	Approvisionnement totale restante stocké dans cette flotte. Les fournitures sont utilisées pour tirer avec les armes et la capture des planètes. Les flottes sont réapprovisionnées hors de combat. Manquer d'approvisionnements diminue l'efficacité et le DPS de la flotte.
+
+	[b]Approvisionnement actuel[/b] [offset=230]$1[/offset]
+	[b]Stockage approvisionnement[/b] [offset=230]$2[/offset]
+
+	[b]Réapprovisionnement (Espace neutre)[/b] [offset=230]$3/sec[/offset]
+	[b]Réapprovisionnement (Espace ami)[/b] [offset=230]$4/sec[/offset]
+>>
+
+TT_SHIP_STRENGTH: <<
+	[font=Medium]Force de Combat de Flotte[/font]
+	Un indicateur d'estimation de l'ensemble des forces de combat de la flotte. Les flottes avec plus de force sont plus susceptibles de gagner. L'efficacité d'une flotte augmente le DPS globale et la force.
+
+	[b]Force actuelle[/b] [offset=230]$1[/offset]
+	[b]Force d'origine[/b] [offset=230]$2[/offset]
+
+	[b]HP Flotte totale actuel[/b] [offset=230]$3[/offset]
+	[b]DPS Flotte totale actuel[/b] [offset=230]$4/sec[/offset]
+
+	[b]Efficacité flotte[/b] [offset=230]$5[/offset]
+>>
+
+TT_SHIP_LEADER: <<
+	[font=Medium]$1[/font]
+
+	Vaisseau amiral.
+>>
+
+TT_SHIP_GROUP: <<
+	[font=Medium]$1 ($2)[/font]
+
+	[b]Actif[/b] [offset=120]$3x[/offset]
+	[b]Mort[/b] [offset=120]$4x[/offset]
+	[b]Commandé[/b] [offset=120]$5x[/offset]
+>>
+
+TT_EXPLORE: <<|
+	[b]Auto-Exploration[/b]
+	
+	Explore automatiquement les systèmes.
+>>
+
+TT_EXPLORE_FTL: <<|
+	[b]Auto-Exploration avec FTL[/b]
+	
+	Explore automatiquement les systèmes.
+	Utilise jusqu'à la moitié du stock d'énergie FTL de l'empire afin d'explorer rapidement.
+>>
+
+STATUS_PIRATESHIP: Vaisseau pirate
+STATUS_PIRATESHIP_DESC: <<
+	Ce navire est un vaisseau pirate et pille les commerçants civils pour leur cargaison.
+
+	Il ira périodiquement ramener son butin aux stations "Pirate", cachées dans l'espace profond.
+>>
+
+SUPPORT_BEH: Comportement
+BEH_Brawler: Bagarreur
+BEH_Brawler_DESC: Attaque opportuniste des soutiens, va piller les flottes ennemies si équipées avec de magasins de munitions
+BEH_Shield: Bouclier
+BEH_Shield_DESC: Protège le vaisseau amiral et vaisseaux de soutien des flottes ennemies
+BEH_Cavalry: Cavalerie
+BEH_Cavalry_DESC: Cherche des ouvertures et font un raid sur les vaisseaux de soutien de valeur
+BEH_Artillery: Artillerie
+BEH_Artillery_DESC: Se cache derrière la flotte amicale, lance des salves à longue portée sur des cibles ennemies clés
+BEH_Bombardment: Bombardement
+BEH_Bombardment_DESC: Sièges des planètes ennemies (non colonisé)
+BEH_Cannon: Canon
+BEH_Cannon_DESC: Détruit vaisseaux de soutien dans l'ordre des cibles ennemies les plus précieuses
+BEH_Support: Flotte de soutien
+BEH_Support_DESC: Cachez-vous derrière la flotte amicale sans chercher à engager de cibles
+BEH_Bomber: Bombardier
+BEH_Bomber_DESC: Met l'accent sur les vaisseaux amiraux ennemi, feront un RAID si équipé avec des magasins de munitions
+
+SUPPORT_RANGE: Engagement à portée de tir
+RANGE_Auto: Auto
+RANGE_Far: De loin
+RANGE_Close: De près

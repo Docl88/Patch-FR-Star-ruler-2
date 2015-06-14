@@ -1,0 +1,656 @@
+FTL: FTL
+FTL_COST: $1 FTL
+INSUFFICIENT_FTL: FTL insuffisant 
+NEED_FLING_BEACON: Exige une Balise de saut
+OUT_OF_BEACON_RANGE: Trop loin d'une Balise de saut
+PER_SECOND: /s
+PER_MINUTE: /min
+PER_MIN: /m
+BUILD_FOR: Temps de construction: $1
+BUILD_TIME: Temps de construction
+EST_BUILD_TIME: Est. Temps de construction
+EST_COOLDOWN: Est. Temps de rechargement
+BUILD_TIME_S: $1s
+BUILD_TIME_MS: $1m $2s
+CONSTRUCTION: Construction
+RESOURCES_OF: hors de $1x
+TYPES_OF: type(s) de $1 
+NEED_BORROW: Vous ne pouvez pas vous le permettre vu le budget actuel. [color=#ff0]$1[/color] sera emprunté, coûtant [color=#ff0]$2[/color] du prochain budget.
+CANNOT_BORROW: Vous ne pouvez pas vous le permettre vu le budget actuel. Le prochain budget ne suffit pas à emprunter le coût restant.
+CANNOT_EXPORT: \n[right]Ne peut pas être exporté[/right]
+BUILD_ASTEROID: $1 exploitation minière
+BUILD_ASTEROID_OPTION: Construire $1 exploitation minière ($2 Main d'œuvre)
+VANISH_TIP: Sera utilisé dans $1.
+VANISH_TIP_NOUSE: Sera utilisé après $1 utile.
+RESOURCE: Ressource
+RES_PROVIDES_PRESSURE: Pression:
+
+WELFARE_TT: <<|
+	Tous les fonds laissés dans votre budget lorsque le cycle budgétaire est achevé seront
+	enlevé et convertie en ressource que vous choisirez dans la liste déroulante.
+>>
+
+WELFARE_INFLUENCE: <<
+	Fournir bien-être
+	Convertit chaque $1 du budget non dépensé en génération d'influence.
+>>
+
+WELFARE_ENERGY: <<
+	Subventionner Puissance
+	Convertit chaque $1 du budget non dépensé en production d'énergie.
+>>
+
+WELFARE_RESEARCH: <<
+	Subventions de recherche
+	Convertit chaque $1 du budget non dépensé en génération de la recherche.
+>>
+
+WELFARE_LABOR: <<
+	Travaux Publics
+	Convertit chaque $1 du budget non dépensé en main d'œuvre sur le monde natal.
+>>
+
+WELFARE_DEFENSE: <<
+	Préparation au combat
+	Convertit chaque $1 du budget non dépensé à la production mondiale de défense.
+>>
+
+GTT_MONEY: <<
+	[font=Medium]Argent[/font]
+	[i]Chaque cycle budgétaire de 3 minutes génère de l'argent à dépenser. Tout argent non dépensé après le cycle 	budgétaire est mis dans le [img=$4;20/] bien-être.[/i]
+
+	Budget restant: [right]$1[/right]
+	Temps restant: [right]$3[/right]
+	Le prochain budget: [right]$2[/right]
+>>
+
+GTT_BONUS_MONEY: <<|
+	[font=Subtitle][b]Fonds spéciaux:[/b] [right][color=#0f0]$1[/color][/right][/font]
+
+	[i]Des fonds spéciaux sont collectées à partir de diverses sources ponctuelles telles que
+	des Cartes Profiteurs ou anomalies, et transvasé entre les budgets si pas
+	dépensé.[/i]
+>>
+
+GTT_DEBT_PENALTY: <<
+	[color=#f00][b]Pénalité de dette pour la croissance:[/b] [right]$1[/right][/color]
+	[i]Avoir de la dette réduit le taux de croissance de la population sur tous vos planètes.[/i]
+>>
+
+GTT_FLEET_PENALTY: <<
+	[color=#f00][b]Pénalité de dette pour la Force de Flotte:[/b] [right]$1[/right][/color]
+	[i]Avoir de la dette massive réduit la résistance de toute vos flottes.[/i]
+>>
+
+GTT_INFLUENCE: <<
+	[font=Medium]Influence[/font]
+	[i]Les points d'influence sont utilisés pour déclencher des actions diplomatiques et pour gagner des voix au 		Sénat Galactique. Si vous stocker plus de points que votre capacité optimale (en fonction de votre productio		n totale), votre taux de production sera diminué.[/i]
+
+	Points disponibles: [right]$1[/right]
+	Stockage optimal: [right]$2[/right]
+	Taux de génération: [right]$3[/right]
+
+	Intérêt d'Influence: [right]$5[/right]
+	Pourcentage d'Intérêt Galactique: [right]$4[/right]
+
+	[i]L'intérêt d'influence est fourni par les bâtiments d'influence. Le pourcentage de l'intérêt d'influence 		totale de tous les empires que vous contrôlez actuellement détermine votre taux de génération d'influence.[		/i]
+>>
+
+GTT_ENERGY: <<
+	[font=Medium]Energie[/font]
+	[i]L'énergie est utilisée pour activer les capacités des artefacts trouvés à travers la galaxie. Plus vous 		stockez d'énergie au-dessus de votre capacité de stockage libre, plus votre taux de génération est réduit.[/i]
+
+	Energie disponible: [right]$1[/right]
+	Taux de génération: [right]$2[/right]
+	Stockage libre: [right]$3[/right]
+	Pénalité de stockage: [right]$4[/right]
+>>
+
+GTT_FTL: <<
+	[font=Medium]Energie FTL[/font]
+	[i]L'énergie FTL est utilisée pour engager les moteurs plus rapides que la lumière sur vos vaisseaux.[/i]
+
+	FTL disponible: [right]$1[/right]
+	Stockage maximum: [right]$2[/right]
+	Taux de génération: [right]$3[/right]
+>>
+
+GTT_RESEARCH: <<
+	[font=Medium]Recherche[/font]
+	[i]Les points de recherche peuvent être dépensés pour débloquer diverses technologies dans la grille de 		recherche. La génération de recherche baisse au fil du temps comme vous produisez plus de points.[/i]
+
+	Points de recherche disponibles: [right]$1[/right]
+	Taux de génération: [right]$2[/right]
+>>
+
+GTT_RESEARCH_TECH: <<
+	Recherche actuelle: [right][b][color=$3]$1[/color][/b] (ETA: $2)[/right]
+>>
+
+GTT_DEFENSE: <<
+	[font=Medium]Défense Globale[/font]
+	[i]La défense globale crée automatiquement des vaisseaux de soutien sur les planètes ou les systèmes que vous 	avez indiqué. Faites un clic droit sur l'étoile d'un système à marquer pour une utilisation globale de la défense. 		Chaque point de défense compte comme 1 main-d'œuvre pour l'engendrement de vaisseau de soutien.[/i]
+
+	Taux de Défense Globale: [right]$1[/right]
+>>
+
+RESOURCE_BUDGET: Budget
+RESOURCE_MONEY: Argent
+RESOURCE_INFLUENCE: Influence
+RESOURCE_ENERGY: Energie
+RESOURCE_FTL: FTL
+RESOURCE_RESEARCH: Recherche
+RESOURCE_DEFENSE: Défense
+RESOURCE_LABOR: Main d'œuvre
+LOYALTY: Fidélité
+
+PRESSURE_Money: <<|
+	[b]Argent[/b] produit le revenu budgétaire pour l'empire.
+>>
+PRESSURE_Influence: <<|
+	[b]Intérêt d'Influence[/b] produit le revenu d'influence et la capacité.
+>>
+PRESSURE_Defense: <<|
+	[b]Défense[/b] produit des vaisseaux de soutien gratuitement sur une planète.
+>>
+PRESSURE_Labor: <<|
+	[b]Main d'œuvre[/b] augmente le taux de construction des vaisseaux et orbitale.
+>>
+PRESSURE_Energy: <<|
+	[b]Energie[/b] produit l'énergie nécessaire pour l'activation des artefacts.
+>>
+PRESSURE_Research: <<|
+	[b]Recherche[/b] produit les progrès vers le champ de recherche actif.
+>>
+
+MONEY_TYPE_0: Divers.
+MONEY_TYPE_1: Construction
+MONEY_TYPE_2: Orbitales
+MONEY_TYPE_3: Bâtiments
+MONEY_TYPE_4: Vaisseaux
+MONEY_TYPE_5: Entretien planètes
+MONEY_TYPE_6: Revenu planètes
+MONEY_TYPE_7: Colonisateurs
+MONEY_TYPE_8: Handicap
+MONEY_TYPE_9: Commerce
+MONEY_TYPE_10: Vassaux
+
+MOD_SPEED: Vitesse
+MOD_TIME: Temps
+
+EFFECT_ADDPRESSURECAP: Pression Cap.
+EFFECT_MODCIVRESOURCE: Civil $1
+EFFECT_ADDRESOURCE: $1
+EFFECT_ADDPRESSURE: $1 Pression
+EFFECT_EFFICIENCY: Pression
+EFFECT_OVERPOPULATION: Surpopulation
+EFFECT_BLDMAINTREFUND: Bâtiments Maint.
+EFFECT_VANISHBONUS: Temp. Ressources
+EFFECT_POPRESEARCH: Génération recherche par $1 milliard de personnes.
+
+WATER: Eau
+WATER_BLURB: Mise à niveau de planète jusqu'au Niveau 1 nécessite [img=ResourceClassIcons::4;20/] Eau.
+FOOD_BLURB: Mise à niveau de planète nécessite [img=ResourceClassIcons::3;20/] Nourriture.
+
+GRAIN: Céréale (Nourriture)
+GRAIN_EFFECT: Croissance Pop.
+
+MEAT: Viande (Nourriture)
+MEAT_EFFECT: Construction de Bâtiments
+
+FRUIT: Fruit (Nourriture)
+FRUIT_EFFECT: Sous-développé Maint.
+
+FISH: Poisson (Nourriture)
+FISH_EFFECT: Cases développés
+
+HYPER_OATS: Blé Nillin (Nourriture)
+HYPER_OATS_DESC: <<
+	Compte comme deux ressources alimentaires pour les exigences de niveau de la planète.
+>>
+
+ALUMINUM: Aluminium
+ALUMINUM_DESC: <<
+	Augmente la capacité de pression de 1.
+>>
+
+IRON: Fer
+IRON_EFFECT: Construction de soutien
+IRON_DESC: <<
+	Augmente la vitesse de construction des vaisseaux de soutien de 30%.
+>>
+
+COAL: Charbon
+COAL_EFFECT: Main d'œuvre civile
+COAL_DESC: <<
+	Augmente la génération de main-d'œuvre des structures civiles de 30%.
+>>
+
+SALTS: Sels (Nourriture)
+SALTS_DESC: <<
+	Peut être utilisé comme nourriture. Ajoute de la pression pour la production de toutes les ressources.
+>>
+
+PHASITE: Phasite
+PHASITE_DESC: <<
+	Ajoute 1 production de recherche par 5 milliards de population.
+>>
+
+FULRATE: Fulrate
+FULRATE_DESC: <<
+	Ajoute 4 pressions supplémentaires de ressource native de la planète.
+>>
+
+GEMS: Pierres précieuses
+GEMS_DESC: <<
+	La planète devient heureuse quand les commerçants civils fournissent des gemmes.
+>>
+
+PEKELM: Pekelm
+PEKELM_EFFECT: Colonisateur acc.
+PEKELM_DESC: <<
+	Augmente l'accélération des vaisseaux colonisateurs qui quittent la planète de 100%.
+>>
+
+SPICE: Epice
+SPICE_EFFECT: Fidélité
+SPICE_DESC: <<
+	Augmente la loyauté de la planète de 6.
+>>
+
+UNOBTANIUM: Unobtanium
+UNOBTANIUM_EFFECT: Transforme:\n[right]En attente d'importation...[/right]
+UNOBTANIUM_DESC: <<
+	Ne peut pas être exportés. Peut se transformer en une copie de toute ressource que vous contrôlez.
+>>
+ABL_MORPH_UNOBTANIUM: Transforme unobtanium
+ABL_MORPH_UNOBTANIUM_DESC: <<|
+	Transforme l'unobtanium de cette planète en une copie d'une autre ressource que vous contrôlez.
+>>
+
+TEXTILES: Textiles
+TEXTILES_DESC: <<
+>>
+
+ELECTRONICS: Electronique
+ELECTRONICS_DESC: <<
+>>
+
+GLASS: Vitre
+GLASS_EFFECT: Energie
+GLASS_DESC: Donne 1 [img=ResourceIcon::2;20/] Génération d'énergie.
+
+NATIVE_GOLD: Or natif
+NATIVE_GOLD_EFFECT: Influence
+NATIVE_GOLD_DESC: Donne 1 [img=ResourceIcon::1;20/] Génération d'influence.
+
+DEUTERIUM: Deutérium
+DEUTERIUM_DESC: <<
+>>
+
+CHEMICALS: Produits chimiques
+CHEMICALS_DESC: <<
+>>
+
+RARE_METALS: Métaux rares
+RARE_METALS_DESC: <<
+>>
+
+OIL: Huile
+OIL_DESC: <<
+>>
+
+NATURAL_GAS: Gaz naturel
+NATURAL_GAS_DESC: <<
+>>
+
+PLASTICS: Plastiques
+PLASTICS_DESC: <<
+>>
+
+LUXURY_MATERIALS: Matériaux de luxe
+LUXURY_MATERIALS_DESC: <<
+	La planète qui en consomme devient heureuse.
+>>
+
+TITANIUM: Titanium
+TITANIUM_DESC: <<
+>>
+
+LOCAL_ASTEROID_FIELD: Champ d'astéroïde local
+LOCAL_ASTEROID_FIELD_DESC: <<
+	Génération de main-d'œuvre civile est augmentée de 50%.
+
+	[color=#ff7070][b]Ne peut pas être exporté.[/b][/color]
+>>
+
+EXPLOSIVES: Explosifs
+EXPLOSIVES_DESC: <<
+>>
+
+HADOCITE: Hadocite
+HADOCITE_DESC: <<
+>>
+
+PLUTONIUM: Plutonium
+PLUTONIUM_DESC: <<
+>>
+
+THORIUM: Thorium
+THORIUM_DESC: <<
+>>
+
+URANIUM: Uranium
+URANIUM_DESC: <<
+>>
+
+MEDICINES: Médicaments
+MEDICINES_DESC: <<
+>>
+
+JEWELRY: Bijoux
+JEWELRY_DESC: <<
+>>
+
+NEUTRONIUM: Neutronium
+NEUTRONIUM_DESC: <<
+>>
+
+DEGENERATE_MATTER: Matière dégénérée
+DEGENERATE_MATTER_DESC: <<
+>>
+
+PSIONIC_REAGENTS: Réactifs psioniques
+PSIONIC_REAGENTS_EFFECT: Protège fidélisation
+PSIONIC_REAGENTS_DESC: <<
+	Planètes dans le système qui en consomme sont protégées contre la perte de loyauté.
+
+	Prend 3 minutes pour le permettre dans un nouveau système.
+>>
+STATUS_PSIONIC_PROTECTED: Protégé psioniquement 
+STATUS_PSIONIC_PROTECTED_DESC: <<
+	Cette planète est protégée contre la capture par les réactifs psioniques importés de l'une des planètes de ce 	système.
+>>
+
+ANCIENT_CITY: Ville antique
+ANCIENT_CITY_DESC: [color=#ff7070][b]Ne peut pas être exportés.[/b][/color]
+
+SUPERCARBONS: Supercarbons
+SUPERCARBONS_DESC: <<
+>>
+
+HYDROCONDUCTORS: Hydroconducteurs
+HYDROCONDUCTORS_EFFECT: Effets en double
+HYDROCONDUCTORS_DESC: <<|
+	Augmente toute les générations de main-d'œuvre sur la planète de 50%.
+>>
+
+ANTIMATTER: Antimatière
+ANTIMATTER_DESC: <<|
+	Ajoute 2048 capacité de soutien. Les vaisseaux de soutien en orbite fonctionnent à 400% d'efficacité.
+>>
+
+EXOTIC_MATTER: Matière exotique
+EXOTIC_MATTER_DESC: <<
+	Bâtiments de la planète sont construits instantanément.
+>>
+
+CORINIUM: Corinium
+CORINIUM_DESC: <<
+	Double la capacité de pression de base de la planète.
+>>
+
+ILLINIUM: Illinium
+ILLINIUM_DESC: <<
+	Double la pression fournie par la ressource de niveau 0 sur la planète.
+>>
+
+KALSUNIM: Kalsunim
+KALSUNIM_DESC: <<
+	Génération de main d'œuvre sur la planète augmente également la consommation de la Défense.
+>>
+
+DRUGS: Drogues
+DRUGS_EFFECT: [b]1[/b] Exigence négative
+DRUGS_DESC: <<|
+	Peut remplacer toute exigence de ressources unique. Une fois par planète.
+>>
+
+FTL_CRYSTALS: Cristaux FTL 
+FTL_CRYSTALS_EFFECT: Génération FTL 
+FTL_CRYSTALS_BLURB: <<
+	Génère [levels=$1;#00c0ff]0.1/0.5/1/2/3/8[/niveau] [img=ResourceIcon::3;20/] FTL/s.
+	Donne des effets spéciaux au [b]niveau 4 et 5[/b].
+>>
+FTL_CRYSTALS_DESC: <<
+	Génère [levels=$1;#00c0ff]0.1/0.5/1/2/3/8[/niveau] [img=ResourceIcon::3;20/] FTL par seconde.
+
+	[b]Si cette planète est Niveau 4 ou plus:[/b]
+	[offset=30]Accorde vision sur toutes les flottes actuellement en FTL.[/offset]
+
+	[b]Si cette planète est au Niveau 5:[/b]
+	[offset=30]Tous sauts FTL effectués de ce système sont gratuit.[/offset]
+
+	[i][color=#aaa]Cette ressource est une ressource évolutive et ne peut pas être exporté ou utilisé pour monter de niveau. Les bonus dépendent du niveau de la planète.[/color][/i]
+>>
+
+UNIQUE_RESEARCH: Errite
+UNIQUE_RESEARCH_DESC: <<|
+	[b]Unique[/b]. Produit 10 [img=$Research;20/] pression de [color=$Research]Recherche[/color].
+>>
+
+UNIQUE_INFLUENCE: Irite
+UNIQUE_INFLUENCE_DESC: <<|
+	[b]Unique[/b]. Produit 10 [img=$Influence;20/] pression d'[color=$Influence]Influence[/color].
+>>
+
+UNIQUE_DEFENSE: Kallite
+UNIQUE_DEFENSE_DESC: <<|
+	[b]Unique[/b]. Produit 10 [img=$Defense;20/] pression de [color=$Defense]Défense[/color].
+>>
+
+UNIQUE_ENERGY: Rulite
+UNIQUE_ENERGY_DESC: <<|
+	[b]Unique[/b]. Produit 10 [img=$Energy;20/] pression d'[color=$Energy]Energie[/color].
+>>
+
+
+ASTEROID_FTL: Eclats FTL 
+ASTEROID_FTL_DESC: <<|
+	Génère 0.5 FTL par seconde.
+	
+	N'a pas besoin d'être exportés.
+>>
+
+ASTEROID_GROWTH: Matériaux économiques
+ASTEROID_GROWTH_EFFECT: Croissance
+ASTEROID_GROWTH_DESC: <<|
+	Augmente la vitesse de construction des bâtiments (civil et impériale) de 100%.
+
+	Augmente population planète maximale de 2.
+>>
+
+ASTEROID_INFLUENCE: Pilules psioniques
+ASTEROID_INFLUENCE_EFFECT: Extra Influence
+ASTEROID_INFLUENCE_DESC: <<|
+	Génère une influence proportionnelle à la quantité de
+	recherche en cours sur la planète.
+>>
+
+ASTEROID_LABOR: Matériaux construction
+ASTEROID_LABOR_EFFECT: Main d'œuvre civile
+ASTEROID_LABOR_DESC: <<
+	Ajoute 10 générations de main d'œuvre pour la planète.
+
+	Seulement actif tant que la planète a des constructions actives.
+>>
+
+ASTEROID_DEFENSE: Matériaux volatils
+ASTEROID_DEFENSE_DESC: <<
+	Accorde un arsenal d'armes à courte portée là où ils sont utilisés.
+
+	Peut seulement être exporté une fois, puis verrouille sa destination et ne peut plus être modifiée.
+
+	Seulement actif pendant le combat.
+>>
+
+ASTEROID_AFFINITY: Matériaux transformable
+ASTEROID_AFFINITY_DESC: <<
+	Ajoute 2 pressions de ressources natives sur la planète.
+>>
+
+SOYLENT1: Solvant bleu
+SOYLENT1_DESC: <<
+	Cela pourrait être la nourriture.
+>>
+
+SOYLENT2: Solvant magenta
+SOYLENT2_DESC: <<
+	Les gens mangent, donc je suppose qu'il est.
+>>
+
+SOYLENT3: Solvant infrarouge
+SOYLENT3_DESC: <<
+	Il fait beau et chaud.
+>>
+
+SOYLENT4: Solvant vert
+SOYLENT4_DESC: <<
+	Certainement pas les gens.
+>>
+
+HEAVY_WATER: Eau lourde
+HEAVY_WATER_DESC: <<|
+	Créé à partir d'une liaison de 2 eaux.
+
+	Ajoute $1 pression aléatoire au fil du temps.
+	Le type de la pression change toutes les 3 minutes.
+>>
+
+BOOST_WATER: Eau réactive
+BOOST_WATER_DESC: <<|
+	Créé à partir d'une liaison de 4 eaux.
+
+	[b]Stimule la ressource native avec:[/b]
+	[nl/][offset=30]+$1 Pression supplémentaire donnée.[/offset]
+>>
+
+CLEAR_WATER: Eau claire
+CLEAR_WATER_DESC: <<|
+	Créé à partir d'une liaison de 8 eaux.
+
+	Convertit tout Influence civile, Défense, production de la recherche et de l'énergie
+	en génération d'argent.
+>>
+
+AWESOME_WATER: Eau phénix 
+AWESOME_WATER_DESC: <<|
+	Créé à partir d'une liaison de 16 eaux.
+
+	Toute la production civile +$1.
+>>
+
+SYNTHETICS: Synthétiques
+SYNTHETICS_DESC: <<|
+	Accorde une affinité joker. Ne peut pas être exportés.
+>>
+
+MICROCLINE: MICROCLINE
+MICROCLINE_DESC: <<|
+	Une ressource complètement inutile qui semble se produire en grande, grandes quantités.
+
+	D'une certaine manière tout ce qu'il touche se transforme en plus de microcline. Particulier.
+>>
+
+SLAVE_LABOR: Travail des esclaves
+SLAVE_LABOR_DESC: <<
+	Ajoute 5 générations de main d'œuvre.
+
+	Seulement actif si utilisé dans la construction.
+>>
+
+PLAINS: Vastes plaines
+PLAINS_BLURB: <<
+	La planète a une surface massive. L'entretien total des bâtiments est réduit en fonction des niveaux.
+>>
+PLAINS_DESC: <<
+	La planète a une surface massive.
+
+	La vitesse de développement des cases est augmentée de [levels=$1;#ffb4b6]100%/150%/200%/250%/300%/350%[		/niveau].
+
+	Le coût total de l'entretien des bâtiments sur cette planète est réduite de [levels=$1;#d1cb6a]Â§50k/Â§150k		/Â§300k/Â§750k/Â§1.2M/Â§1.8M[/niveau].
+>>
+
+QUARTZ: Quartz
+QUARTZ_BLURB: <<
+	Gain [levels=$1;#ffb4b6]10/25/50/80/120/200[/niveau] bonus de main d'œuvre accumulé par artefact activé.
+>>
+QUARTZ_DESC: <<
+	Chaque fois que vous activez un artefact, cette planète gagne [levels=$1;#ffb4b6]10/25/50/80/120/200[/niveau] 	de main-d'œuvre stockée, pourvu qu'il y est assez de stockage.
+
+	Cette planète a [levels=$1;#ffb4b6]10/110/210/310/410/510[/niveau] de stockage de main d'œuvre en bonus.
+
+	[i][color=#aaa]Cette ressource est une ressource évolutive et ne peut pas être exporté ou utilisé pour monter 	de niveau. Les bonus dépendent du niveau de la planète.[/color][/i]
+>>
+
+ALLONDIUM: Allondium
+ALLONDIUM_BLURB: <<
+	Augmente la génération d'influence civile.
+	Améliorations diverses de la diplomatie.
+>>
+ALLONDIUM_DESC: <<
+	Génération d'influence sur cette planète est augmentée de [levels=$1;#ffb4b6]10%/20%/30%/40%/50%/60%[/niveau].
+
+	Le coût de l'achat de cartes de diplomatie plus loin dans la pile est réduite jusqu'à [levels=$1;#ffb4b6]0/0/1		/1/2/2[/niveau] influence.
+
+	[b]Si cette planète est Niveau 4 ou plus:[/b]
+	[offset=30]Cette planète gagne la capacité d'acheter des cartes "Annexion planète" ou "Nom vaisseau amiral" à 	volonté.[/offset]
+
+	[b]Si cette planète est au Niveau 5:[/b]
+	[offset=30]Le coût des cartes à jouer dans un vote est réduit jusqu'à 3 influence.[/offset]
+
+	[i][color=#aaa]Cette ressource est une ressource évolutive et ne peut pas être exporté ou utilisé pour monter 	de niveau. Les bonus dépendent du niveau de la planète.[/color][/i]
+>>
+ABL_BUY_NAME_FLAGSHIP: Achat 'Nom vaisseau amiral'
+ABL_BUY_NAME_FLAGSHIP_DESC: <<
+	Achetez une carte de diplomatie "Nom vaisseau amiral" en utilisant la capacité de cette planète.
+
+	[i][color=#aaa]Le temps de recharge est partagé avec la capacité Achat 'Annexion Planète'.[/color][/i]
+>>
+ABL_BUY_ANNEX_PLANET: Achat 'Annexion Planète'
+ABL_BUY_ANNEX_PLANET_DESC: <<
+	Achetez une carte de diplomatie "Annexion Planète" en utilisant la capacité de cette planète.
+
+	[i][color=#aaa]Le temps de recharge est partagé avec la capacité Achat 'Nom vaisseau amiral'.[/color][/i]
+>>
+
+PHOSPHATE: Phosphate
+PHOSPHATE_BLURB: <<
+	Augmente la force de la flotte dans les systèmes alliés de [levels=$1;#ffb4b6]5%/10%/15%/25%/40%/60%[/niveau].
+>>
+PHOSPHATE_DESC: <<
+	Les flottes de défense dans tous les systèmes que vous contrôlez acquièrent [levels=$1;#ffb4b6]5%/10%/15%/25%		/40%/60%[/niveau] de force supplémentaire.
+
+	[i][color=#aaa]Cette ressource est une ressource évolutive et ne peut pas être exporté ou utilisé pour monter 	de niveau. Les bonus dépendent du niveau de la planète.[/color][/i]
+>>
+
+CYLLIUM: Cyllium
+CYLLIUM_BLURB: <<
+	Augmente la production d'énergie civile.
+	Génère des artefacts au fil du temps.
+>>
+CYLLIUM_DESC: <<
+	La production d'énergie sur cette planète est augmentée de [levels=$1;#ffb4b6]10%/20%/30%/40%/50%/60%[/niveau.
+
+	Génère un nouvel artefact aléatoire dans le système toutes les 2 minutes. Jusqu'à [levels=$1;#ffb4b6]1/2/3/5/8		/15[/niveau] artefacts resteront dans le système, les artefacts âgés expireront.
+
+	[b]Si cette planète est Niveau 4 ou plus:[/b]
+	[offset=30]Les artefacts dans ce système sont 25% moins cher à activer.[/offset]
+
+	[i][color=#aaa]Cette ressource est une ressource évolutive et ne peut pas être exporté ou utilisé pour monter 	de niveau. Les bonus dépendent du niveau de la planète.[/color][/i]
+>>
+
+C_ORE: Minerai
+C_ORE_DESC: <<
+	Matériaux de construction génériques minées sur des astéroïdes et utilisés pour la construction de diverses 		manières.
+>>

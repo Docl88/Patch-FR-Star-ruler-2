@@ -1,0 +1,7 @@
+WIKI_HOME: Accueil
+WIKI_BACK: Retour
+WIKI_TITLE: Wiki: $1
+WIKI: Wiki
+WIKI_BROWSER: Ouvrir navigateur.
+WIKI_LOADING: Chargement...
+WIKI_404: Page introuvable.

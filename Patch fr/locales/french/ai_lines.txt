@@ -1,0 +1,30 @@
+AI_STANDING_POSITIVE: Ils sont enclins à être pacifique et serviable.
+AI_STANDING_VERY_POSITIVE: Ils nous voient comme des amis et des alliés précieux.
+
+AI_STANDING_NEGATIVE: Ils ont du dédain envers nous et sont peu susceptibles de coopérer avec nous.
+AI_STANDING_VERY_NEGATIVE: Ils nous voient comme des ennemis et rivaux.
+
+AI_STANDING_NEUTRAL: Ils n'ont aucune opinion particulière sur nous.
+AI_STANDING_TRUE_NEUTRAL: Ils n'ont pas de forts sentiments d'une façon ou l'autre.
+
+AI_STANDING_OFFENSE_WAR: Déclarer la guerre a gâché nos relations.
+AI_STANDING_OFFENSE_INFLUENCE: Nos actions diplomatiques contre eux ont endommagé nos relations.
+AI_STANDING_OFFENSE_PLANET: Conquérir leurs mondes a dégradé nos relations.
+AI_STANDING_GLAD_DONATION: Notre généreux don améliore nos relations.
+
+AI_STANDING_WAR: Notre guerre en cours dégrade nos relations.
+AI_STANDING_WAR_FEAR: Ils craignent la puissance de notre empire, affaiblissant leur opposition.
+AI_STANDING_ALLIES: Notre alliance durable renforce nos relations.
+AI_STANDING_ALLIES_WEAK: Notre alliance fragile fait peu pour aider notre position.
+
+AI_STANDING_BORDER: Notre frontière commune peut un jour être une cible tentante.
+AI_STANDING_EXPANDING: Ils cherchent à se développer, et peuvent aller à la guerre pour conquérir notre frontière commune.
+AI_STANDING_BORDER_WAR: Ils chercheront à attaquer nos systèmes frontaliers.
+
+AI_STANDING_IGNORE: A moins d'être provoqué, ils nous ignoreront.
+AI_STANDING_WAAGH: Ils feront la guerre et ne peuvent être raisonné.
+AI_STANDING_WAIT: Ils sont peu susceptibles d'accueillir des propositions diplomatiques pendant une courte période.
+AI_STANDING_GIVE_UP: Ils sont faibles et enclins à se rendre.
+
+AI_STANDING_CHEATS: Ils ne jouent pas fairplay.
+AI_STANDING_EASY: Ils vont vers des relations favorables.

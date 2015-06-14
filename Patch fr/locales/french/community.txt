@@ -1,0 +1,36 @@
+COMMUNITY_TITLE: $1 (Communauté)
+COMMUNITY_HOME_TITLE: Communauté
+COMMUNITY_WIKI: Wiki: Page principale
+UPLOAD: Envoyer
+FEATURED_DESIGNS: Conceptions vedettes
+COMMUNITY_DESIGN_SPEC: Taille $1, par $2 le $3
+COMMUNITY_DESIGN_CURLINE: [color=#aaa][img=ThumbsUp;20x20/] [b][color=#0f0]$1[/color][/b] [hspace=100/] [img=MenuIcons::6;20/] [b]$2[/b] Commentaire(s)[/color]
+DOWNLOAD_DESIGN_CLASS: Téléchargé
+DOWNLOAD_TO_PROFILE: Télécharger sur Profil
+TT_DOWNLOAD_TO_PROFILE: <<|
+	Télécharger la conception affichée dans votre profil où vous serez en mesure d'importer dans ce ou tout autre jeu futurs.
+>>
+SUCCESS_DOWNLOAD_TO_PROFILE: Conception téléchargé au profil avec succès.
+DOWNLOAD_TO_EMPIRE: Télécharger vers votre jeu
+TT_DOWNLOAD_TO_EMPIRE: <<|
+	Télécharger la conception affichée dans votre partie en cours uniquement, pour une utilisation immédiate dans votre empire.
+>>
+TT_DOWNLOAD_ERRORS: <<|
+	Cette conception ne peut pas être téléchargée dans votre empire actuel, car il comporte des erreurs:
+>>
+SUCCESS_DOWNLOAD_TO_EMPIRE: Conception téléchargé avec succès dans la partie en cours.
+DOWNLOAD_EDIT: Charger dans l'Éditeur
+TT_DOWNLOAD_EDIT: Ouvrez cette conception dans l'éditeur pour apporter des modifications avant de les enregistrer.
+VOTES_BUTTON: $1
+TT_VOTES_BUTTON: Noter cette conception.
+COMMENTS_BUTTON: $1 commentaire(s)
+COMMENT_TEXT: Entrez votre commentaire....
+COMMENT_SUBMIT: Post commentaire
+COMMUNITY_CONFIRM_DELETE_DESIGN: Êtes-vous sûr de vouloir supprimer cette conception de la communauté en ligne ? Ça ne peut pas être annulé.
+UPLOAD_DESIGN: Envoyer Conception
+RECENT_DESIGNS: Conception récente
+TOPRATED_DESIGNS: Conceptions les mieux notées
+SEARCH_DESIGNS_PROMPT: Recherche conceptions...
+DESIGN_DESCRIPTION_PROMPT: Entrez une description pour votre conception...
+DESIGN_CHOOSE_PROMPT: Choisir une conception design...
+DESIGN_LINK_TIP: Vous pouvez lier à cette conception en tapant [[conception:$1]].

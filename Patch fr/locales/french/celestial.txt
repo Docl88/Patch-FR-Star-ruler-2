@@ -1,0 +1,2 @@
+SYSTEM_STAR: Étoile de $1
+SYSTEM_BLACKHOLE: Trou Noir de $1

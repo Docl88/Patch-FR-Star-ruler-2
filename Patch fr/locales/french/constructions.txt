@@ -1,0 +1,6 @@
+CONS_MOON_BASE: Base lunaire
+CONS_MOON_BASE_DESC: <<
+	Construire une grande quantité d'infrastructure sur une des lunes de la planète, créant plus de surface disponible pour placer des bâtiments.
+
+	Seule une base lunaire peut être construite pour toute lune présente en orbite de la planète.
+>>

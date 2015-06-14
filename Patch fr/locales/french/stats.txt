@@ -1,0 +1,21 @@
+STAT_Ships: Vaisseaux
+STAT_ShipsBuilt: Vaisseaux construit
+STAT_ShipsLost: Vaisseaux perdu
+STAT_ShipsDestroyed: Vaisseaux détruit
+
+STAT_Planets: Planètes
+STAT_Planets_EVT_Lost: $1 Perdu
+STAT_Planets_EVT_Colonized: $1 Colonisé
+STAT_Planets_EVT_Conquered: $1 Conquis
+STAT_Planets_EVT_Glassed: $1 Vitré
+
+STAT_SupplyGen: Génération de provision
+STAT_SupplyUse: Consommation de provision
+STAT_MetalsGen: Génération de métal
+STAT_MetalsUse: Consommation de métal
+
+STAT_NET_BUDGET: Budget Net
+STAT_ENERGY_INCOME: Energie/s
+STAT_INFLUENCE_INCOME: Influence/m
+STAT_RESEARCH_INCOME: Recherche/s
+STAT_RESEARCH_TOTAL: Recherche

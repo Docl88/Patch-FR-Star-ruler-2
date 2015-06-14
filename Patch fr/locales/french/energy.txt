@@ -1,0 +1,111 @@
+ABL_FLEET_EFFICIENCY: Surcharge de Flotte 
+ABL_FLEET_EFFICIENCY_DESC: <<|
+	Augmentation permanente de l'efficacité de la flotte de 30%.
+>>
+
+STATUS_OVERCHARGED: Surcharge
+STATUS_OVERCHARGED_DESC: <<|
+	L'efficacité du combat a augmenté de 30%.
+>>
+
+STATUS_PLANET_GROWTH: Stimulé
+STATUS_PLANET_GROWTH_DESC: <<|
+	La croissance démographique et le taux de développement a doublé temporairement.
+>>
+
+ABL_FLEET_SUPPORT: Développer Soutien
+ABL_FLEET_SUPPORT_DESC: <<|
+	Développer la capacité de soutien de la flotte de 300.
+>>
+
+STATUS_EXPANDED: Etendu
+STATUS_EXPANDED_DESC: <<|
+	La capacité de soutien de la flotte a augmenté de 300 en utilisant l'énergie.
+>>
+
+STATUS_DEFENDED: Soutenue
+STATUS_DEFENDED_DESC: <<|
+	A des canons gattling à courte portée pour la défense, installée par l'énergie.
+>>
+
+STATUS_PRESS_ATTACK: Appuyez sur l'attaque
+STATUS_PRESS_ATTACK_DESC: <<|
+	L'efficacité de base a doublé. La flotte guérit de 50 santés par seconde.
+>>
+
+ABL_FLOAT_BUDGET: Contributions Warchest
+ABL_FLOAT_BUDGET_DESC: <<|
+	Dépensez tout le budget actuel et gagnez le cycle budgétaire suivant pour gagner un bonus  	 
+	d'argent.
+
+	Plus c'est près du début du cycle budgétaire et plus d'énergie vous gagnerez 	
+	, vous aurez de l'argent supplémentaire.
+>>
+
+STATUS_ENTANGLED: Incapable
+STATUS_ENTANGLED_DESC: <<|
+	 Les vaisseaux amiraux ne peuvent pas se déplacer ou utiliser le FTL.
+>>
+
+OT_Ship: Vaisseau
+OT_Planet: Planète
+OT_Orbital: Orbital
+OT_Star: Etoile
+OT_Artifact: Artefact
+OT_Anomaly: Anomalie
+OT_Asteroid: Astéroïde
+
+NTRG_NOT_SPACE: Vous ne pouvez pas cibler l'espace.
+NTRG_SPACE: Doit cibler non en possession.
+NTRG_NOT_SELF: Ne peut pas ce cibler soi-même.
+NTRG_TRADE_PRESENCE: Nécessite une présence commerciale.
+NTRG_NOT_WAR: Impossible de cibler des ennemis.
+NTRG_TYPE: Doit cibler $1.
+NTRG_ORBITAL_CORE: Doit cibler $1.
+NTRG_FLAGSHIP: Doit cibler vaisseau amiral.
+NTRG_VISION: Nécessite vision.
+NTRG_OWNED: Doit ce cibler soi-même.
+NTRG_ALLIED: Doit ce cibler soi-même ou un allié.
+NTRG_NOT_ALLIED: Vous ne pouvez pas cibler d'alliés.
+NTRG_UNNAMED: Ne peut pas cibler déjà nommé.
+NTRG_STATUS: A déjà le statut.
+NTRG_FTL: Ne peut pas cibler les vaisseaux en FTL.
+NTRG_TERRITORY: Doit cibler le même territoire.
+NTRG_SAME_REGION: Doit cibler le même système.
+NTRG_PLLEV: Doit cibler le niveau $1 ou au-dessous.
+NTRG_PLLEVA: Doit cibler le niveau $1 ou au-dessus.
+NTRG_PLLEVE: Doit cibler le niveau $1.
+NTRG_REGION: Doit cibler la région.
+NTRG_TERRAFORM: Doit pouvoir terraformer.
+NTRG_NOT_NATURAL: Ne peut pas cibler l'artefact naturel.
+NTRG_NATURAL: Doit cibler l'artefact naturel.
+NTRG_OWN_SYSTEM: Doit posséder toutes les planètes.
+NTRG_CONTACT: Doit être en contact avec d'autres empires.
+NTRG_IN_SYSTEM: Doit être situé à l'intérieur du système.
+NTRG_NOT_SYSTEM: Doit être situé à l'extérieur du système.
+NTRG_IN_UNIVERSE: Doit être situé dans des limites de l'univers.
+NTRG_NEED_WAR: Doit cibler des ennemis.
+NTRG_CONSTRUCTION: Doit pouvoir utiliser la main-d'œuvre.
+NTRG_UNIQUE: Ne peut pas cibler des ressources uniques.
+NTRG_ARTIFICIAL: Ne peut pas cibler des ressources artificielles.
+NTRG_NO_COLONIZE: La planète est bloquée par des vestiges.
+NTRG_CARGO: Doit cibler l'objet avec le stockage de cargaison.
+NTRG_NO_HOME: Ne peut pas cibler le système mère.
+NTRG_REQUIRE: Exige $1
+
+ABL_ENSLAVE: Asservi
+ABL_ENSLAVE_DESC: <<|
+	Produit une ressource d'esclaves provisoire.
+	Peut seulement être utilisé une fois par planète.
+>>
+
+STATUS_ENSLAVED: Asservi
+
+STATUS_SEEDSHIP: Vaisseau semeur d'artefact
+STATUS_SEEDSHIP_DESC: <<|
+	Ce vaisseau d'ancien voyage de galaxie en galaxie, fabriquant des artéfacts
+	et les laissant pour les jeunes races pour qu'ils les découvrent.
+>>
+
+ENERGY_COST: Coût d'énergie
+COOLDOWN: Tps rechargement

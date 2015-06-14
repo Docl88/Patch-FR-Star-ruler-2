@@ -1,0 +1,151 @@
+SCEN1_NAME: Conquête Inévitable
+SCEN1_DESC: <<|
+	[b]3277 CE:[/b]
+	Une nouvelle coalition - l'Initiative Gevron - a récemment formé avec l'objectif
+	de protéger ses membres contre l'hostilité des races nouvellement découverts. leur
+	désir de sécurité a tordu leurs interactions de légitime défense à
+	destruction proactive.
+
+	L'Initiative a découvert un ennemi nouveau et puissant, l'Empire Nevillin.
+	Bien que d'une course paisible, les tentatives de l'Nevillin à la communication ont été ignorées,
+	et la guerre a été portée à leur espace.
+
+	L'Empire a découvert un trou de ver Nevillin instable et a été utilise pour
+	élargir dans un lointain, région isolée de l'espace. La paranoïa du Initiative refuse
+	pour permettre une colonie de survivre en dehors de son contrôle.
+>>
+
+SCEN1_PLAYER_EMP: Initiative Gevron
+SCEN1_ENEMY_EMP: Empire Nevillin 
+
+SCEN1_INTRO_TITLE: Conquête Inévitable
+SCEN1_INTRO_TEXT: <<|
+	[i]General Kollo:[/i]
+	
+	Le contre-amiral, vous avez été affecté contrôle d'un nouveau bataillon, le 5e Marine.
+	Nous avons récemment pris le contrôle d'un trou de ver instable Nevillin l'été
+	envoi de navires militaires et civils à travers. Vous êtes à diriger le 5ème
+	à travers le trou de ver pour déterminer la force de ces forces, et de conquérir
+	tout civil espace occupé.
+>>
+SCEN1_INTRO2_TITLE: Renforts
+SCEN1_INTRO2_TEXT: <<|
+	[i]General Kollo:[/i]
+	
+	Nous avons déployé un éclaireur et une petite flotte à travers le trou de ver. Plus aura sur le chemin
+	que nous pouvons les épargner. Traiter cela comme un engagement attenante - minimiser les pertes.
+>>
+SCEN1_CONQUER_TITLE: Conquérir et Détruire
+SCEN1_CONQUER_TEXT: <<|
+	Vous devez détruire l'armée Nevillin, et de capturer ses colonies.
+
+	Engager les forces plus petites pour minimiser les dommages et les pertes, ainsi que pour maintenir l'approvisionnement nécessaire
+	pour assiéger leurs mondes.
+
+	Nouvelles flottes arriveront périodiquement à travers le trou de ver dans Varkus.
+>>
+SCEN1_CONQUER_ACT1_TITLE: Conquérir les colonies Nevillin
+SCEN1_CONQUER_ACT1_TEXT: Capturez toutes les colonies et de vaincre tous les vaisseaux amiraux et les stations.
+
+SCEN1_COMPLETE_TITLE: Victoire!
+SCEN1_COMPLETE_TEXT: <<|
+	[i]General Kollo:[/i]
+	
+	Excellent travail, amiral. Nous avons plus à vous soucier du Nevillin faufilé
+	par derrière au milieu de la guerre. Malheureusement, la guerre à la maison ne va pas aussi bien.
+	Vous êtes étant ramené immédiatement, avec le 5ème. Avec nos forces renforcées,
+	les choses devraient tourner autour rapidement.
+	
+	[center][b]"Conquête Inévitable" Complet![/b][/center]
+>>
+
+SEC1_PLAYER_EMP: Nevillin Empire
+SEC1_ENEMY_EMP: Empire Inconnu 
+
+SEC1_INTRO_TITLE: Une Nouvelle Maison
+SEC1_INTRO_TEXT: <<|
+	[i]Haut Commandement:[/i]
+	
+	Bienvenue à Varkus, commandant.
+	Jusqu'à ce que le trou de ver soit entièrement stabilisé, ces communiqués seront rares et brèves.
+	Vous serez commandant de la nouvelle colonie sur Varkus III, une planète rare parfaitement adapté à notre espèce.
+
+	Nous avons besoin d'établir une infrastructure de construction important dans ce système.
+	Il ya beaucoup de métaux communs disponibles dans Varkus,
+	et les systèmes d'étoiles proches ont probablement d'autres ressources précieuses ainsi.
+>>
+
+SEC1_GOAL1_TITLE: Commencer
+SEC1_GOAL1_TEXT: <<|
+	[b]Varkus III[/b] servira d'acteur dynamique pour ce secteur.
+>>
+SEC1_GOAL1_ACT1_TITLE: Établir Varkus III comme une nouvelle base
+SEC1_GOAL1_ACT1_TEXT: <<|
+	Obtenir [b]Varkus III[/b] au niveau 2, et obtenir sa main d'œuvre à 9 par minute.
+>>
+
+SEC1_GOAL1_DONE_TITLE: Progresser
+SEC1_GOAL1_DONE_TEXT: <<|
+	[i]Haut Commandement:[/i]
+	
+	Les choses semblent aller très bien. Varkus III semble être tout à fait capable
+	de la construction des installations nécessaires pour stabiliser le trou de ver.
+	Nous attendons avec impatience votre succès.
+>>
+
+SEC1_GOAL2_TITLE: Contournement Interstellaire
+SEC1_GOAL2_TEXT: <<|
+	[i]Haut Commandement:[/i]
+	
+	Nous avons envoyé les composants nécessaires pour le stabilisateur jusqu'à Varkus.
+	Attribuer les usines de Varkus pour construire le plus rapidement possible afin que nous puissions
+	ouverts voies commerciales civiles.
+>>
+SEC1_GOAL2_ACT1_TITLE: Construire le Stabilisateur
+SEC1_GOAL2_ACT1_TEXT: <<|
+	Sélectionnez Varkus III, cliquez-droit sur le Hyperfield stabilisateur dans Varkus, et choisissez
+	'Le travail' pour commencer la construction.
+>>
+SEC1_STABILIZER: Stabilisateur Hyperfield 
+
+SEC1_TWIST_TITLE: Changement de plan
+SEC1_TWIST_TEXT: <<|
+	[i]Haut Commandement:[/i]
+	
+	Commandant, nous sommes en guerre. Un empire jusque-là inconnu a commencé raids colonies périphériques,
+	et une force plus grande accumulation a été détectée. Leurs éclaireurs savent du trou de ver et
+	nous ne pouvons plus considérer cela comme une voie de sécurité des échanges. Nous annulation du projet de stabilisation
+	jusqu'à ce que la région a été obtenue.
+>>
+
+SEC1_BUILDUP_TITLE: Préparations
+SEC1_BUILDUP_TEXT: <<|
+	[i]Conseiller:[/i]
+	
+	Monsieur, nous ne pouvons pas savoir comment la guerre va rentrer à la maison avec cette information limitée.
+	Nous devons construire une flotte importante pour nous aider à protéger en cas de problème.
+>>
+SEC1_BUILDUP_ACT1_TITLE: Construire une flotte
+SEC1_BUILDUP_ACT1_TEXT: Construire vaisseaux militaire à Varkus III jusqu'à ce que notre force militaire soit d'au moins 3000.
+
+SEC1_COMBAT_TITLE: Guerre!
+SEC1_COMBAT_TEXT: <<|
+	[i]Conseiller:[/i]
+	
+	Une flotte inconnue est apparue! Ils correspondent aux descriptions Haut Commandement transmis, les considèrent comme hostile.
+	
+	[b]La flotte transmet un message urgent féroce à plusieurs reprises, mais nous sommes incapables de traduire.[/b]
+>>
+SEC1_COMBAT_ACT1_TITLE: Vaincre les envahisseurs
+SEC1_COMBAT_ACT1_TEXT: Détruire la flotte d'attaque pour protéger le système.
+
+SEC1_COMPLETE_TITLE: Isolement
+SEC1_COMPLETE_TEXT: <<|
+	[i]Conseiller:[/i]
+	
+	Commandant, vous avez mes félicitations et mes remerciements. Nous serons tous en sécurité pour le moment, bien que
+	nous devons être prêts si jamais ils revenir. Pour l'instant, notre faible population doit
+	essayer de trouver son propre pied dans cette nouvelle région de l'espace.
+	
+	[center][b]"Un Nouveau Monde" Complet![/b][/center]
+>>

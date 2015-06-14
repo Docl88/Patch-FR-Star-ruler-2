@@ -1,0 +1,294 @@
+START_GAME: Lancer une partie
+GAME_SETTINGS: Options
+ADD_AI: Ajouter une IA
+MENU_EMPIRES: Empires
+MENU_GAME_SETTINGS: Options du jeu
+MENU_GALAXIES: Galaxies
+MENU_GAMES: Jeu
+HANDICAP: Handicapes
+MODS_MENU: Mods
+DISABLED_MOD: Désactivé
+DISABLE_MOD: Désactiver le Mod
+ENABLE_MOD: Activer le Mod
+NEW_MOD: Créer un Nouveau Mod
+EDIT_MOD: Éditer le Mod
+MENU_CONTINUE_MAIN: Continuer vers le Menu Principal
+MENU_MOD_COUNTS: $1 Mod(s) Installé(s), $2 Mods(s) Activé(s)
+MANAGE_MODS: Gérer les Mods
+OPEN_WORKSHOP: Voir Steam Workshop
+MOD_INCOMPATIBLE: Impossible d'activer, le mod n'est pas compatible avec '$1'.
+MOD_CONFLICT_BASE: Un seul mod peut être activé à la fois.
+MOD_CONFLICT: Fichiers en conflit :
+MENU_LOADING: Chargement...
+CHOOSE_RACE: Choisissez Race
+AI_CANNOT_PLAY: <<
+	L'IA ne peut pas jouer cette race en ce moment.
+>>
+ENABLE_INTERNET: Autoriser l'accès Internet
+
+MAIN_MENU: Menu principal
+PAUSED_MENU: Pause
+RESUME_GAME: Reprendre
+END_GAME: Terminer la Partie
+RETURN_TO_GAME: Retour au jeu
+NEW_GAME: Nouvelle partie
+CAMPAIGN: Campagne
+SAVE_GAME: Sauvegarder la partie
+LOAD_GAME: Charger une partie
+MULTIPLAYER: Multi-joueurs
+DISCONNECT: Déconnecter
+MP_JOIN: Rejoindre
+MENU_BACK: Retour
+MENU_OPTIONS: Options
+QUIT_GAME: Quitter
+OPEN_IRC: Ouvrir le chat IRC
+CLOSE_IRC: Se déconnecter du chat IRC
+IRC_NICKNAME: Nom: $1
+NICKNAME: Nom:
+CHANGE_NICK: Changer
+SAVE_NO_COMPAT: <<|
+	La sauvegarde que vous avez tenté de charger provient d'une ancienne version du jeu,
+	et ne peut malheureusement pas être chargé.
+
+	L'équipe de développement présente ses excuses pour la gêne occasionnée.
+>>
+SAVE_NO_MODS: <<
+	Vous ne pouvez pas charger la save: un ou plusieurs mods utilisés dans ce fichier de sauvegarde ne sont pas installés.
+>>
+
+MP_OPTIONS: Options Multi-joueurs
+MP_HOST_OPTIONS: Options Hébergeur
+MP_HOST: Héberger
+MP_SERVER_NAME: Nom serveur
+MP_IP: IP
+MP_PORT: Port
+MP_HOST_LOAD: Héberger & Charger
+MP_PUBLIC: Partie Publique
+MP_PUNCHTHROUGH: NAT
+MP_VERSION_MISMATCH: (VERSION INCOMPATIBLE)
+MP_MISSING_MODS: (MODS MANQUANTS)
+MP_ENTER_PASSWORD: Mot-de-passe requis
+MP_CHAT_INTRO: [i][color=#aaa]Pressez Maj+Retour pour ré-ouvrir la fenêtre de chat après l'avoir fermé...[/color][/i]
+MP_CHAT_ALL: à Tous
+MP_CHAT_ALLIES: Aux Alliés
+MP_CHAT_PEACE: Au pacifique
+MP_CHAT_TO: à $1
+MP_NOT_READY: Pas prêt
+MP_READY: Prêt
+MP_PLAYER_READY: Joueur prêt à lancer la partie.
+MP_PLAYER_NOT_READY: Joueur pas prêt pour lancer la partie.
+MP_CONFIRM_NOT_READY: Tous les joueurs n'ont pas indiqué qu'ils sont prêts à lancer la partie. Commencer la partie malgré-tout ?
+MP_CANNOT_CONNECT: Impossible de se connecter au serveur
+MP_WAITING_START: En attente du serveur pour démarrer la partie
+MP_WAITING_TRANSFER: Chargement de la partie
+MP_IRC_CHAT: Ouvrir chat IRC
+MP_JOIN_IP: Rejoindre avec IP
+MP_NO_GAMES: Aucunes parties multi-joueurs n'est actuellement présent...
+INVITE_FRIEND: Inviter un Amis
+MP_CONNECT_EVENT: $1 a rejoint la partie.
+MP_DISCONNECT_EVENT: $1 s'est déconnecté.
+MP_PLAY_EVENT: $1 joue maintenant avec l'empire $2.
+MP_SPECTATING_EVENT: $1 est maintenant spectateur.
+MP_CHEATS_ENABLED: Les Cheats sont [color=#0f0]Activés[/color].
+MP_CHEATS_DISABLED: Les Cheats sont [color=#f00]Désactivés[/color].
+MP_QUEUE: File d'attente pour la partie
+MP_QUEUE_ACTIVE: En file d'attente...
+MP_QUEUE_ACTIVE_PLAYERS: En file d'attente... ($1 Joueurs)
+MP_QUEUE_READY: Partie Prête
+MP_QUEUE_ACCEPT: Accepter
+MP_QUEUE_REJECT: Décliner
+MP_QUEUE_LEAVE: Quitter la file d'attente
+MP_QUEUE_WAITING: En attente des joueurs ($1/$2)
+
+CHOOSE_MAP: Choisir la carte...
+ADD_GALAXY: Ajouter galaxie
+SYSTEM_COUNT: Systèmes
+SYSTEM_SPACING: Espacement
+CONNECT_ENDS: Avec passage Trou de ver 
+TEAM: Équipe
+TEAM_TEXT: Équipe $1
+NO_TEAM: Pas d'équipe
+
+NG_GAME_OPTIONS: Options de partie
+
+NG_UNIVERSE_GENERATION: Génération de l'Univers 
+NG_ANOMALY_OCCURANCE: Fréquence des Anomalies
+NG_REMNANT_OCCURANCE: Fréquence des Reliques
+NG_ASTEROID_OCCURANCE: Fréquence des Astéroïdes
+NG_RESOURCE_ASTEROID_OCCURANCE: Resource Astéroïde
+NG_UNIQUE_SYSTEM_OCCURANCE: Fréquence des Systèmes Unique
+NG_UNIQUE_RESOURCE_OCCURANCE: Fréquence des Ressources Unique
+NG_PLANET_FREQUENCY: Fréquence des Planètes
+NG_ARTIFACT_FREQUENCY: Fréquence des Artefacts
+NG_SYSTEM_SIZE: Tailles des Systèmes
+NG_RESET: Rétablir la page par défaut
+NG_EMPIRE_OPTIONS: Options d'Empire 
+NG_ENABLE_CIVILIAN_TRADE: Active les Vaisseaux de Commerce Civile
+NG_CIVILIAN_TRADE: Activité commerciale civile
+NGTT_CIVILIAN_TRADE: La quantité d'activité du commerce civil expédié dans votre empire. Une activité civile supérieur crée plus de navires de commerce, mais peut avoir un impact sur les performances du jeu et le framerate.
+NG_VICTORY_OPTIONS: Options de Victoire
+NG_RANDOM_EVENTS: Evénements aléatoires
+NG_TIME_LIMIT: Limite de Temps
+NGTT_TIME_LIMIT: <<|
+	Fixer un délai pour le jeu. Lorsque le nombre de minutes indiqué a expiré, l'empire qui a le plus de points est déclaré vainqueur.
+>>
+NG_REMNANT_AGGRESSION: Agression des Anciens
+NGTT_REMNANT_AGGRESSION: Permettre aux flottes d'anciens de se déplacer pour intercepter les flottes ennemies à proximité.
+NG_DISABLE_STARTING_FLEETS: Désactiver les flottes de vaisseaux du départ
+NGTT_DISABLE_STARTING_FLEETS: Désactiver les flottes de départ que chaque empire obtient à partir de leur trait de gouvernement.
+NG_ENABLE_REVENANT_PARTS: Activer les Artefacts d'Ancien
+NGTT_ENABLE_REVENANT_PARTS: <<|
+	Cochée, quatre pièces d'artefacts des Anciens seront répartis autour de l'univers.
+
+	L'activation d'une pièce d'artefacts donne un bonus. Posséder les quatre pièces actives, donne le contrôle sur le vaisseau de guerre le plus puissant de l'univers.
+>>
+NG_ALLOW_TEAM_SURRENDER: Permettre de ce rendre, pour rompre Les équipes
+NGTT_ALLOW_TEAM_SURRENDER: <<
+	Si elle est cochée, les joueurs au sein d'équipes seront en mesure de se rendre aux empires d'autres équipes, cela romps les liens avec leurs coéquipiers précédents et les transformes en vassaux de l'équipe de leur nouveau maître.
+>>
+NG_ENABLE_DREAD_PIRATE: Activer le Pirate de l'Effroi
+NGTT_ENABLE_DREAD_PIRATE: <<
+	Lorsque le Pirate de l'Effroi est activé, un vaisseau pirate erre dans la galaxie s'attaquant aux vaisseaux de commerce civils désarmés.
+
+	Le pirate stocke son butin dans plusieurs stations de stock pirates cachés dans l'espace profond. Détruire l'une des stations de stockage de trésors ou tuer le Pirate de l'Effroi lui-même pour obtenir l'argent volé dans les fonds spéciaux.
+>>
+NG_RESOURCE_SCARCITY: Rareté des ressources
+NGTT_RESOURCE_SCARCITY: <<
+	Lorsqu'elle est activée, les grandes cartes contiendront des planètes stériles pour maintenir la quantité de ressources disponibles pour les empires, rares et à un niveau gérable.
+	
+	Les pourcentages supérieurs à 100 % vont encore diminuer la quantité de ressources dans l'univers, tandis que les pourcentages inférieurs à 100 % vont limiter l'effet de rareté et générer davantage de ressources.
+>>
+NG_ENABLE_INFLUENCE_EVENTS: Activer les Événements Diplomatique
+NGTT_ENABLE_INFLUENCE_EVENTS: <<
+	Lorsqu'elle est activée, des cartes d'événement seront classées dans le jeu de cartes de l'influence, elles se déclencheront quand elles seront tirées.
+
+	La désactivation de cette option empêchera les événements de type Zeitgeists et autres événements diplomatique de se produire.
+>>
+NG_START_EXPLORED_MAP: Carte Entièrement Explorée
+NGTT_START_EXPLORED_MAP: <<
+	Quand activé, tous les systèmes de la carte seront explorés et tous les empires connaissent leur emplacement.
+
+	Autrement, les empires devront envoyer des explorateurs pour révéler les systèmes.
+>>
+NG_ENABLE_TERRAFORMING: Activer la terraformation
+NGTT_ENABLE_TERRAFORMING: <<
+	Quand on permet la terraformation, les empires pourront changer les ressources sur leurs planètes à n'importe quel niveau de base 1 de ressource à volonté.
+	
+	Pour terraformer une ressource, choisissez une planète avec de la main-d'œuvre et clic droit sur une autre planète à terraformer.
+>>
+
+FLATTEN: Aplatir
+
+TEX_QUAL_2: Bas
+TEX_QUAL_3: Moyen
+TEX_QUAL_4: Haut
+TEX_QUAL_5: Ultra
+
+RESOLUTION: Résolution
+RES_DESKTOP: du Bureau
+FULLSCREEN: Plein-écran
+
+NG_DISABLE_TRADE: Désactiver le commerce de marchandises civiles
+NGTT_DISABLE_TRADE: <<|
+	Désactive les vaisseaux de commerce civils dans cette partie. Va supprimer tous les mécanismes de raids, mais peut améliorer les performances dans les très grande galaxies.
+>>
+
+
+NG_WARN_PEREMP: <<|
+	[b][color=#f00]Attention:[/color][/b] Vous créez une grande carte avec plus de 25 systèmes par empire,
+	votre expérience de jeu peut être affectée négativement par le rythme beaucoup plus lent 
+	du jeu.
+
+	Nous vous recommandons de jouer avec environ 10-20 systèmes solaire par empires pour
+	des résultats optimaux.
+
+	[b]Procédez malgré tout ?[/b]
+>>
+NG_WARN_OPTIMAL: <<|
+	[b][color=#f00]Attention:[/color][/b] Vous créez une grande carte de plus de 150 systèmes solaire. Le jeu
+	avec ce nombre de systèmes solaire peuvent ne pas fonctionner de façon optimale sur les PC bas de gamme, et peut
+	entrainer des ralentissements graphiques, voir des ralentissements en cours de partie.
+
+	De Plus, votre expérience de jeu peut être affectée négativement par le rythme beaucoup plus lent de jeu.
+	Nous vous recommandons de jouer avec environ 10-20 systèmes solaire par empires pour
+	des résultats optimaux.
+
+	[b]Procédez malgré tout ?[/b]
+>>
+NG_WARN_BAD: <<|
+	[b][color=#f00]Attention:[/color][/b] Vous créez une carte extrêmement grande de plus de 400 systèmes solaire.
+	Le jeu avec ce nombre de systèmes solaire peut ne pas fonctionner de façon optimale sur les PC haut de gamme, et peut
+	entrainer des ralentissements graphique voir des ralentissements en cours
+	de partie. 
+
+	De Plus, votre expérience de jeu peut être affectée négativement par le rythme beaucoup plus lent de jeu.
+	Nous vous recommandons de jouer avec environ 10-20 systèmes solaire par empires pour
+	des résultats optimaux.
+
+	[b]Procédez malgré tout ?[/b]
+>>
+NG_WARN_OHGOD: <<|
+	[b][color=#f00]Attention:[/color][/b] Vous créez une carte de dingue avec plus de 1000 systèmes solaire.
+
+	Sauf si vous venez [b]du future[/b] et que vous jouez à Star Ruler 2
+	avec un modem 2038 de Core i42, votre jeu [b]aura[/b] d'énormes ralentissements
+	dans le jeu.
+
+	De plus, votre expérience de jeu [b]sera[/b] affectée négativement par le rythme beaucoup plus lent de jeu.
+	Nous vous recommandons de jouer avec environ 10-20 systèmes solaire par empires pour
+	des résultats optimaux.
+
+	[b]Procédez malgré tout ? (vous êtes fou)[/b]
+>>
+
+IRC_HELP: <<
+	Commandes disponible:
+
+	/msg <user> <message> - Envoyé un message privé.
+	/me <message> - Envoyer un message d'action.
+	/join #<channel> - Rejoindre un canal différent.
+	/part - Parti du canal en cours.
+	/close - Fermer le canal courant/mp en cours.
+	/nick <nouveau_nom> - Changer votre surnom.
+
+	Commandes qui nécessitent des privilèges supplémentaires:
+
+	/topic <nouveau_sujet> - Change le sujet dans le canal actuel.
+	/mode <params> - Change le mode du canal.
+	/umode <params> - Change le mode utilisateur
+	/kick <nickname> - Kick un utilisateur du canal
+>>
+
+IRC_JOIN: [color=$3]$1[/color] a rejoint $2
+IRC_PART: [color=$3]$1[/color] a quitté $2
+IRC_QUIT: [color=$3]$1[/color] a quitté le chat
+IRC_ACTION: [color=$3]$1[/color] $2
+IRC_NICK: [color=$3]$1[/color] est maintenant connu sous le nom de [color=$4]$2[/color]
+IRC_KICK: [color=$3]$1[/color] a été éjecté [color=$4]$2[/color]
+IRC_TOPIC: [color=$3]$1[/color] a changé le sujet en '$2'
+IRC_TOPIC_IS: Topic for $1 est: $2
+IRC_MODE: [color=$3]$1[/color] définit le mode $2
+IRC_UMODE: [color=$3]$1[/color] définit le mode utilisateur $2
+IRC_DISCONNECT: [color=#f00]Déconnecté du serveur.[/color]
+
+DISCONNECT_0: Connexion expiré
+DISCONNECT_1: Erreur de connexion
+DISCONNECT_2: Connexion fermé
+DISCONNECT_3: Éjecté par le serveur
+DISCONNECT_4: Version incompatible
+DISCONNECT_5: Mot-de-passe incorrect
+
+SANDBOX: Éditeur de conception
+PROMPT_QUIT: Êtes-vous sûr de vouloir quitter la partie ? Tout progrès non sauvegarder sera perdu.
+PROMPT_END: Êtes-vous sûr de vouloir terminer la partie ? Tout progrès non sauvegarder sera perdu.
+PROMPT_START_NEW: Êtes-vous sûr de vouloir terminer la partie actuelle et en commencer une nouvelle ? Tout progrès non sauvegarder sera perdu.
+PROMPT_DISCONNECT: Êtes-vous sûr que vous voulez déconnecter ?
+PROMPT_TUTORIAL: Démarrer le tutoriel maintenant va mettre fin à votre partie en cours. Tout progrès non sauvegarder sera perdu. Continuer ?
+PROMPT_SANDBOX: Démarrer l'éditeur de conception maintenant va mettre fin à votre partie en cours. Tout progrès non sauvegarder sera perdu. Continuer ?
+
+CHECK_FOR_UPDATES: Vérifiez mises à jour
+CHECKING_UPDATES: Vérification pour mises à jour....
+CHECK_UPDATE_FAIL: Echec de vérification des mises à jour.
+CHECK_UPDATE_UPTODATE: Version du jeu à jour!
+UPDATE_PROGRESS: Mise à jour en téléchargement... $1%
+UPDATE_FAIL: Le téléchargement de la mise à jour a échoué... (Code $1)

@@ -1,0 +1,168 @@
+OPT_GAME: Jeu
+OPT_GALAXY_BG: Afficher la Galaxie en arrière-plan du menu
+OPT_ROTATE_OBJS: Faites tourner les objets dans l’affichage
+OPT_ICONIFY_NOTIFICATIONS: Iconifier les notifications
+OPT_MAX_NOTIFICATIONS: Max Visible
+OPT_AUTOPAUSE: Mettre en pause automatiquement lors de l'affichage d'un autre onglet
+OPT_HOLD_FOR_POPUP: Maintenir clic gauche pour ancrage infobulles
+OPTTT_HOLD_FOR_POPUP: Quand elle est cochée, en maintenant le bouton gauche de la souris pendant un moment tout en passant au-dessus d'un objet affiche l'infobulle de l'objet sur l'écran.
+
+OPT_KEYBINDS: Raccourci clavier
+OPT_RESET_KEYBINDS: Réinitialiser les raccourcis clavier aux valeurs par défaut
+OPT_RESET_SURE: Êtes-vous sûr de vouloir réinitialiser les raccourcis clavier aux valeurs par défaut ?
+
+OPT_AUDIO: Son
+OPT_MASTER_VOLUME: Volume principale
+OPT_SFX_VOLUME: Volume SFX
+OPT_MUSIC_VOLUME: Volume de la musique
+
+OPT_LANGUAGE: Langue*
+LOC_english: English
+LOC_japanese: Japanese
+
+OPT_MAX_FPS: Limiter les FPS
+OPT_AUTOSAVE: Sauvegarde Auto (en Minutes)
+OPT_AUTOSAVE_COUNT: Nombre d'autosave 
+
+KG_Global: Raccourcis clavier globale
+KB_WORLD_FORWARD: Déplacer Haut
+KB_WORLD_LEFT: Déplacer Gauche
+KB_WORLD_BACKWARD: Déplacer Bas
+KB_WORLD_RIGHT: Déplacer Droit
+KB_WORLD_UP: Déplacer Monter
+KB_WORLD_DOWN: Déplacer Baisser
+
+KB_CAM_FORWARD: Caméra Haut
+KB_CAM_LEFT: Caméra Gauche
+KB_CAM_BACKWARD: Caméra Bas
+KB_CAM_RIGHT: Caméra Droite
+KB_CAM_UP: Caméra Monter
+KB_CAM_DOWN: Caméra Baisser
+
+KB_ZOOM_IN: Zoom avant
+KB_ZOOM_OUT: Zoom arrière
+KB_ZOOM_LOCK_OBJECT: Zoom vers objet
+
+KB_RESET_CAM: Réinitialisé la caméra
+KB_TAKE_SCREENSHOT: Prendre une copie d'écran
+KB_TOGGLE_FIREARCS: Basculer l'affichage des Arc de tir
+KB_STOP: Stop/Annuler tous les ordres
+
+KB_TAB_NEXT: Onglet suivante
+KB_TAB_PREVIOUS: Onglet précédente
+KB_TAB_NEW: Ouvrir nouvel onglet
+KB_TAB_NEW_BG: Ouvrir un nouvel onglet en arrière-plan
+KB_TAB_REOPEN: Réouvrir l'onglet fermé
+KB_TAB_CLOSE: Fermé l'onglet
+KB_TAB_HOME: Onglet d'Accueil
+KB_TAB_1: Basculer sur l'onglet 1
+KB_TAB_2: Basculer sur l'onglet 2
+KB_TAB_3: Basculer sur l'onglet 3
+KB_TAB_4: Basculer sur l'onglet 4
+KB_TAB_5: Basculer sur l'onglet 5
+KB_TAB_6: Basculer sur l'onglet 6
+KB_TAB_7: Basculer sur l'onglet 7
+KB_TAB_8: Basculer sur l'onglet 8
+KB_TAB_9: Basculer sur l'onglet 9
+
+KB_UI_ZOOM_IN: Augmenter l'échelle de l'interface
+KB_UI_ZOOM_OUT: Réduire l'échelle de l'interface
+KB_UI_ZOOM_RESET: Réinitialisé l'échelle de l'interface
+
+KB_MP_CHAT: Ouvrir chat message privé
+
+KB_PAUSE: Mettre en Pause
+KB_SPEED_SLOWER: Diminué la vitesse de jeu
+KB_SPEED_DEFAULT: Vitesse de jeu par défaut
+KB_SPEED_FASTER: Augmenter la vitesse de jeu
+
+KB_TOGGLE_CONSOLE: Basculer sur la console
+KB_TOGGLE_MENU: Basculer sur le menu principal
+KB_GO_MENU: Ouvrir le menu go
+KB_CHANGE_EMPIRE: Changer d'empire
+
+KG_Objects: Objets
+
+KB_GROUP_1: Groupe d'objet 1
+KB_GROUP_2: Groupe d'objet 2
+KB_GROUP_3: Groupe d'objet 3
+KB_GROUP_4: Groupe d'objet 4
+KB_GROUP_5: Groupe d'objet 5
+KB_GROUP_6: Groupe d'objet 6
+KB_GROUP_7: Groupe d'objet 7
+KB_GROUP_8: Groupe d'objet 8
+KB_GROUP_9: Groupe d'objet 9
+
+KB_FTL: Sélectionner un vaisseau FTL
+KB_HOLD_POSITION: Maintenez la position
+KB_PIN: Épingler l'objet
+KB_PIN_FLOATING: Épingler l'objet flottant
+KB_PING: Avertir les Alliés
+KB_PING_ALL: Avertir tous les Empires
+
+KB_OPTIONS_MENU: Ouvrir le menu options
+
+OPT_GRAPHICS: Graphismes
+OPT_TEX_QUALITY: Qualité des textures*
+OPT_RESOLUTION: Résolution*
+OPT_RES_ENTRY: $1x$2 $3Hz
+OPT_FULLSCREEN: Plein-écran*
+OPT_RESTART: * Vous devez redémarrer le jeu pour que les changements prennent effets.
+OPT_GUI_SCALE: Échelle de l'interface graphique
+
+MONITOR: Moniteur Plein-écran*
+MONITOR_PRIMARY: Moniteur principale
+
+ANTIALIASING: Anti-aliasing*
+AA_None: Désactivé
+AA_2x: 2x MSAA
+AA_4x: 4x MSAA
+AA_8x: 8x MSAA
+AA_Super: 2x FSAA
+
+VSYNC: VSync
+VSYNC_Off: Désactivé
+VSYNC_On: Activé
+VSYNC_OnHalf: Activé (à la moitié de la fréquence d'images)
+VSYNC_Adaptive: Adaptatif
+
+AUDIO_DEVICE: Périphérique Audio*
+AUDIO_DEVICE_DEFAULT: Par Défaut
+
+OPT_CAMERA: Caméra
+OPT_ZOOM_SPEED: Vitesse de zoom
+OPT_INVERT_ZOOM: Inverser le zoom
+OPT_PAN_SPEED: Vitesse horizon
+OPT_INVERT_PAN_X: Inverser horizontal
+OPT_INVERT_PAN_Y: Inverser vertical
+OPT_INVERT_ROTATION_X: Inverser rotation horizontal
+OPT_INVERT_ROTATION_Y: Inverser rotation vertical
+OPT_FREE_CAMERA: Activé la rotation de la caméra
+OPT_CURSOR_ZOOM_IN: Zoom avant sur le curseur
+OPT_CURSOR_ZOOM_OUT: Zoom arrière depuis le curseur
+OPT_MOD_SPEED_PAN: Maintenir touche Shift accélère le panoramique
+OPT_SHOW_GAS: Afficher le gaz de la galaxie
+OPT_EDGE_PAN: Activer le bord panoramique
+OPT_RESEARCH_EDGE_PAN: Edge Panning onglet Recherche
+OPT_ESCAPE_GALAXY_TAB: Touche Esc pour retour à l’onglet Galaxie
+OPT_DELAY_TOP_EDGE: Délais des bords panoramiques
+OPT_CAPTURE_CURSOR: Capturer le curseur
+
+KG_DesignEditor: Éditeur de modèle
+KB_DESIGN_UNDO: Annuler
+KB_DESIGN_REDO: Refaire
+KB_DESIGN_TOOL_PAINT: Sélectionner l'outil de peinture
+KB_DESIGN_TOOL_MOVE: Sélectionner l'outil de mouvement
+KB_DESIGN_TOOL_DROP: Sélectionner l'outil pipette
+KB_DESIGN_SAVE: Sauvegarder le modèle
+KB_DESIGN_SAVE_CLOSE: Sauvegarder et fermer le modèle
+KB_DESIGN_DUPLICATE: Dupliquer le modèle
+KB_DESIGN_EXPORT: Exporter le modèle
+
+KB_EXPORT: Export de Ressource
+KB_CANCEL_EXPORT: Annuler l'Export
+KB_AUTO_IMPORT: Auto-Import
+KB_COLONIZE: Coloniser
+KB_ATTACK: Attaquer
+KB_HOMEWORLD: Zoom sur la Planète Mère
+KB_TRANSFER_SUPPORTS: Supports de transfert
