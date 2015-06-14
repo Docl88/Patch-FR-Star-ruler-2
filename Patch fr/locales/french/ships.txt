@@ -47,7 +47,7 @@ PROTECTED_OPTION: Vous ne pouvez pas capturer - Protégé par Avant-poste ou dé
 REV_SPEC: " r$1"
 SUPPORT_CAPACITY: Capacité de soutien
 SLIPSTREAM_TEAR: Déchirure de Sillage
-ODDITY_GATE: Warp Through
+ODDITY_GATE: Traverser la déchirure
 EFFECTIVENESS: Efficacité
 SHIP_CARGO: Cargo:
 SHIP_CARGO_WORTH: [right][b][color=#0f0]$1[/color][/b] valeur[/right]
