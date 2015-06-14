@@ -17,8 +17,9 @@ OPT_SFX_VOLUME: Volume SFX
 OPT_MUSIC_VOLUME: Volume de la musique
 
 OPT_LANGUAGE: Langue*
-LOC_english: English
-LOC_japanese: Japanese
+LOC_english: Anglais
+LOC_japanese: Japonais
+LOC_french: Français
 
 OPT_MAX_FPS: Limiter les FPS
 OPT_AUTOSAVE: Sauvegarde Auto (en Minutes)
