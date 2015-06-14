@@ -1,3 +1,2 @@
 	Name: Patch FR
-	Description: <<Traduction française
-	>>
+	Description: Traduction française
