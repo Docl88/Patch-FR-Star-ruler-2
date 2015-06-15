@@ -1,5 +1,5 @@
 Subsystem: Hyperdrive
-	Name: #HYPERDRIVE_NAME
+	Name: #HYPERDRIVE
 	Description: #HYPERDRIVE_DESC
 	BaseColor: #a767ad
 	TypeColor: #a767ad

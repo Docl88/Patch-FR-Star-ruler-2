@@ -417,6 +417,9 @@ S_GATE_MODULE_DESC: <<
 	[img=$FTL]Coûts d'entretien de 0,15 FTL/s. Portail désactivé si vous manquez de FTL.[/img]
 >>
 
+HYPERDRIVE: Propulseur hyperdrive
+HYPERDRIVE_DESC: Permet la navigation hyperdrive. Plus il y a de module hyperdrive dans le vaisseau plus la vitesse sera grande.
+
 S_SLIPSTREAM: Générateur de déchirure de sillage
 S_SLIPSTREAM_DESC: Donne la possibilité de générer déchirure de sillage.
 
