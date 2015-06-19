@@ -1,0 +1,42 @@
+Camp: AsteroidBase
+	Ship: Kyllaros [Remnant Kyllaros]
+	Ship: 15-35x Vaisseau lance missile
+	Ship: 10-30x Vaisseau à faisseau
+	Ship: 5-8x Chasseur lourd
+	Ship: 30-60x Chasseur
+
+	Pickup:
+		Name: #PICKUP_ASTEROID
+		Description: #PICKUP_ASTEROID_DESC
+		Verb: #VERB_ACTIVATE
+
+		Model: Asteroid
+		Material: Asteroid
+
+		Physical Size: 6
+
+		OwnedAsteroid(AsteroidAffinity)
+
+	Pickup:
+		Name: #PICKUP_ASTEROID
+		Description: #PICKUP_ASTEROID_DESC
+		Verb: #VERB_ACTIVATE
+
+		Model: Asteroid
+		Material: Asteroid
+
+		Physical Size: 6
+
+		OwnedAsteroid(Deuterium)
+
+	Pickup:
+		Name: #PICKUP_ASTEROID
+		Description: #PICKUP_ASTEROID_DESC
+		Verb: #VERB_ACTIVATE
+
+		Model: Asteroid
+		Material: Asteroid
+
+		Physical Size: 6
+
+		OwnedAsteroid(Water)

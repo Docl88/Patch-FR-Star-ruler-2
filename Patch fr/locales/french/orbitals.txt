@@ -52,7 +52,7 @@ ORB_GATE_CORE_DESC: <<|
 
 ORB_DRY_DOCK: Cale Sèche
 ORB_DRY_DOCK_BLURB: A usage unique pour construction de vaisseau dans l'espace.
-ORB_DRY_DOCK: <<|
+ORB_DRY_DOCK_DESC: <<|
 	Peut construire un vaisseau amiral dans l'espace, d'autres planètes contribuent facilement
 	à la force de main d'œuvre pour la construction.
 >>
