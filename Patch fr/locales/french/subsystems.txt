@@ -82,6 +82,9 @@ FISSIONGEN_DESC: <<
 	[img=Minus]Perdre la production d'électricité nécessaire au combat réduit l'efficacité globale du vaisseau.[/img]
 >>
 
+ARTILLERY_NAME: Artillerie
+ARTILLERY_DESC: Gros canon plus gros explosif égal grosse explosion.
+
 FUSIONGEN_NAME: Générateur de Fusion
 FUSIONGEN_DESC: <<
 	Génère de l'énergie grâce à la fusion nucléaire.
