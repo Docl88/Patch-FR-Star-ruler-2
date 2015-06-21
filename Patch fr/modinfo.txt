@@ -1,2 +1,3 @@
 	Name: Patch FR
 	Description: Traduction française
+	Derives From: base
