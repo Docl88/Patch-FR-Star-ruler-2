@@ -231,7 +231,7 @@ BLD_REFINERY_DESC: <<|
 	[i]Ne peut pas être construit sur des planètes sans pression natale, ou si le type de pression natale est de l'argent.[/i]
 >>
 
-BLD_MUSEUM: Musé
+BLD_MUSEUM: Musée
 BLD_MUSEUM_DESC: <<
 	Quand il est construit, accorde immédiatement 10 points d'influence en bonus.
 

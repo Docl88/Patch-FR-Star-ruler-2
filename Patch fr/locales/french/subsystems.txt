@@ -146,6 +146,12 @@ S_ROCKETPOD_DESC: <<
 S_TORPEDOLAUNCHER: Lance-torpilles
 S_TORPEDOLAUNCHER_DESC: <<
 	Lance une torpille guidée. Ces torpilles explosent dans une zone autour de leur cible.
+	
+	[img=Plus][b][color=#ff8080]Dégâts extrême[/color][/b].[/img]
+	[img=Plus]Aucune limitation d'angle de tir.[/img]
+	[img=Plus]Inflige des dégâts de zone.[/img]
+	[img=Minus]Cadence de tir très lente.[/img]
+	[img=Minus]Très bas [b][color=#ff8080]DPS[/color][/b].[/img]
 >>
 
 RAILGUN_NAME: Railgun

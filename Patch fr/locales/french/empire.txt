@@ -368,7 +368,7 @@ TRAIT_RANDOM_GOVERNMENT: Aléatoire (Gouvernement)
 TRAIT_RANDOM_GOVERNMENT_DESC: <<
 	Obtenir automatiquement un trait de gouvernement aléatoire lorsque le jeu démarre.
 
-	Vous recevrez un bonus de [b][color=#d1cb6a]Â§200k Fonds spéciaux[/color][/b] au début de la partie.
+	Vous recevrez un bonus de [b][color=#d1cb6a]§200k Fonds spéciaux[/color][/b] au début de la partie.
 >>
 TRAIT_RANDOM_FTL: Aléatoire (FTL)
 TRAIT_RANDOM_FTL_DESC: <<
@@ -393,7 +393,7 @@ STATUS_MOTHERSHIP_POPULATION_DESC: <<
 
 	Les ressources planétaires peuvent être exploitées par la construction d'habitats autour des planètes pour décharger la population.
 
-	Chaque population vivant actuellement sur ce vaisseau mère augmente vos revenus de Â§15k.
+	Chaque population vivant actuellement sur ce vaisseau mère augmente vos revenus de §15k.
 
 	[b]Le vaisseau mère ne peut pas tirer à l'extérieur du territoire amical.[/b]
 >>
