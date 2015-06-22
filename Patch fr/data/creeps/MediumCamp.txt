@@ -1,0 +1,41 @@
+Camp: MediumCamp
+	Frequency: 0.5
+
+	Ship: Kyllaros [Remnant Kyllaros]
+	Ship: 15-30x Chasseur
+	Ship: 10-30x Vaisseau lance missile
+	Ship: 4-17x Vaisseau à faisseau
+	Ship: 0-10x Chasseur lourd
+	Pickup: SubsystemsUpgrade
+		Name: #C_SUBSYSTEMSUPGRADE
+		Description: #C_SUBSYSTEMSUPGRADE_DESC
+		Verb: Analyze $1
+		Model: Depot
+		Material: VolkurGenericPBR
+		SpawnAnomaly(Type = SubsystemsUpgrade, Start Scanned = True)
+	Pickup: SolarOrbital
+		Name: #C_SOLARORBITAL
+		Description: #C_SOLARORBITAL_DESC
+		Verb: Reactivate $1
+		Model: CommerceStation
+		Material: VolkurGenericPBR
+		SpawnOrbital(ProgenitorSolarOrbital, Free = True)
+
+	Pickup: AncientKnowledge
+		Name: #PICKUP_ANCIENT_KNOWLEDGE
+		Description: #PICKUP_ANCIENT_KNOWLEDGE_DESC
+
+		GainInfluenceCard(AncientKnowledge)
+
+	Pickup: InfluenceMedium
+		Name: #PICKUP_INFLUENCE
+		Description: #PICKUP_INFLUENCE_DESC
+
+		AddInfluencePoints(+5:+15)
+
+	Pickup: TheoreticalInsight
+		//Backwards compatibility
+		Name: #PICKUP_INFLUENCE
+		Description: #PICKUP_INFLUENCE_DESC
+		AddInfluencePoints(+5:+15)
+		Frequency: 0
