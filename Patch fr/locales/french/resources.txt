@@ -57,7 +57,7 @@ WELFARE_DEFENSE: <<
 
 GTT_MONEY: <<
 	[font=Medium]Argent[/font]
-	[i]Chaque cycle budgétaire de 3 minutes génère de l'argent à dépenser. Tout argent non dépensé après le cycle 	budgétaire est mis dans le [img=$4;20/] bien-être.[/i]
+	[i]Chaque cycle budgétaire de 3 minutes génère de l'argent à dépenser. Tout argent non dépensé après le cycle budgétaire est mis dans le [img=$4;20/] bien-être.[/i]
 
 	Budget restant: [right]$1[/right]
 	Temps restant: [right]$3[/right]
@@ -84,7 +84,7 @@ GTT_FLEET_PENALTY: <<
 
 GTT_INFLUENCE: <<
 	[font=Medium]Influence[/font]
-	[i]Les points d'influence sont utilisés pour déclencher des actions diplomatiques et pour gagner des voix au 		Sénat Galactique. Si vous stocker plus de points que votre capacité optimale (en fonction de votre productio		n totale), votre taux de production sera diminué.[/i]
+	[i]Les points d'influence sont utilisés pour déclencher des actions diplomatiques et pour gagner des voix au Sénat Galactique. Si vous stocker plus de points que votre capacité optimale (en fonction de votre productio		n totale), votre taux de production sera diminué.[/i]
 
 	Points disponibles: [right]$1[/right]
 	Stockage optimal: [right]$2[/right]
@@ -93,12 +93,12 @@ GTT_INFLUENCE: <<
 	Intérêt d'Influence: [right]$5[/right]
 	Pourcentage d'Intérêt Galactique: [right]$4[/right]
 
-	[i]L'intérêt d'influence est fourni par les bâtiments d'influence. Le pourcentage de l'intérêt d'influence 		totale de tous les empires que vous contrôlez actuellement détermine votre taux de génération d'influence.[		/i]
+	[i]L'intérêt d'influence est fourni par les bâtiments d'influence. Le pourcentage de l'intérêt d'influence totale de tous les empires que vous contrôlez actuellement détermine votre taux de génération d'influence.[		/i]
 >>
 
 GTT_ENERGY: <<
 	[font=Medium]Energie[/font]
-	[i]L'énergie est utilisée pour activer les capacités des artefacts trouvés à travers la galaxie. Plus vous 		stockez d'énergie au-dessus de votre capacité de stockage libre, plus votre taux de génération est réduit.[/i]
+	[i]L'énergie est utilisée pour activer les capacités des artefacts trouvés à travers la galaxie. Plus vous stockez d'énergie au-dessus de votre capacité de stockage libre, plus votre taux de génération est réduit.[/i]
 
 	Energie disponible: [right]$1[/right]
 	Taux de génération: [right]$2[/right]
@@ -117,7 +117,7 @@ GTT_FTL: <<
 
 GTT_RESEARCH: <<
 	[font=Medium]Recherche[/font]
-	[i]Les points de recherche peuvent être dépensés pour débloquer diverses technologies dans la grille de 		recherche. La génération de recherche baisse au fil du temps comme vous produisez plus de points.[/i]
+	[i]Les points de recherche peuvent être dépensés pour débloquer diverses technologies dans la grille de recherche. La génération de recherche baisse au fil du temps comme vous produisez plus de points.[/i]
 
 	Points de recherche disponibles: [right]$1[/right]
 	Taux de génération: [right]$2[/right]
@@ -129,7 +129,7 @@ GTT_RESEARCH_TECH: <<
 
 GTT_DEFENSE: <<
 	[font=Medium]Défense Globale[/font]
-	[i]La défense globale crée automatiquement des vaisseaux de soutien sur les planètes ou les systèmes que vous 	avez indiqué. Faites un clic droit sur l'étoile d'un système à marquer pour une utilisation globale de la défense. 		Chaque point de défense compte comme 1 main-d'œuvre pour l'engendrement de vaisseau de soutien.[/i]
+	[i]La défense globale crée automatiquement des vaisseaux de soutien sur les planètes ou les systèmes que vous avez indiqué. Faites un clic droit sur l'étoile d'un système à marquer pour une utilisation globale de la défense. 		Chaque point de défense compte comme 1 main-d'œuvre pour l'engendrement de vaisseau de soutien.[/i]
 
 	Taux de Défense Globale: [right]$1[/right]
 >>
@@ -369,7 +369,7 @@ PSIONIC_REAGENTS_DESC: <<
 >>
 STATUS_PSIONIC_PROTECTED: Protégé psioniquement 
 STATUS_PSIONIC_PROTECTED_DESC: <<
-	Cette planète est protégée contre la capture par les réactifs psioniques importés de l'une des planètes de ce 	système.
+	Cette planète est protégée contre la capture par les réactifs psioniques importés de l'une des planètes de ce système.
 >>
 
 ANCIENT_CITY: Ville antique
@@ -576,9 +576,9 @@ PLAINS_BLURB: <<
 PLAINS_DESC: <<
 	La planète a une surface massive.
 
-	La vitesse de développement des cases est augmentée de [levels=$1;#ffb4b6]100%/150%/200%/250%/300%/350%[		/niveau].
+	La vitesse de développement des cases est augmentée de [levels=$1;#ffb4b6]100%/150%/200%/250%/300%/350%[/niveau].
 
-	Le coût total de l'entretien des bâtiments sur cette planète est réduite de [levels=$1;#d1cb6a]Â§50k/Â§150k		/Â§300k/Â§750k/Â§1.2M/Â§1.8M[/niveau].
+	Le coût total de l'entretien des bâtiments sur cette planète est réduite de [levels=$1;#d1cb6a]§50k/§150k/§300k/§750k/§1.2M/§1.8M[/niveau].
 >>
 
 QUARTZ: Quartz
@@ -586,11 +586,11 @@ QUARTZ_BLURB: <<
 	Gain [levels=$1;#ffb4b6]10/25/50/80/120/200[/niveau] bonus de main d'œuvre accumulé par artefact activé.
 >>
 QUARTZ_DESC: <<
-	Chaque fois que vous activez un artefact, cette planète gagne [levels=$1;#ffb4b6]10/25/50/80/120/200[/niveau] 	de main-d'œuvre stockée, pourvu qu'il y est assez de stockage.
+	Chaque fois que vous activez un artefact, cette planète gagne [levels=$1;#ffb4b6]10/25/50/80/120/200[/niveau] de main-d'œuvre stockée, pourvu qu'il y est assez de stockage.
 
 	Cette planète a [levels=$1;#ffb4b6]10/110/210/310/410/510[/niveau] de stockage de main d'œuvre en bonus.
 
-	[i][color=#aaa]Cette ressource est une ressource évolutive et ne peut pas être exporté ou utilisé pour monter 	de niveau. Les bonus dépendent du niveau de la planète.[/color][/i]
+	[i][color=#aaa]Cette ressource est une ressource évolutive et ne peut pas être exporté ou utilisé pour monter de niveau. Les bonus dépendent du niveau de la planète.[/color][/i]
 >>
 
 ALLONDIUM: Allondium
@@ -601,15 +601,15 @@ ALLONDIUM_BLURB: <<
 ALLONDIUM_DESC: <<
 	Génération d'influence sur cette planète est augmentée de [levels=$1;#ffb4b6]10%/20%/30%/40%/50%/60%[/niveau].
 
-	Le coût de l'achat de cartes de diplomatie plus loin dans la pile est réduite jusqu'à [levels=$1;#ffb4b6]0/0/1		/1/2/2[/niveau] influence.
+	Le coût de l'achat de cartes de diplomatie plus loin dans la pile est réduite jusqu'à [levels=$1;#ffb4b6]0/0/1/1/2/2[/niveau] influence.
 
 	[b]Si cette planète est Niveau 4 ou plus:[/b]
-	[offset=30]Cette planète gagne la capacité d'acheter des cartes "Annexion planète" ou "Nom vaisseau amiral" à 	volonté.[/offset]
+	[offset=30]Cette planète gagne la capacité d'acheter des cartes "Annexion planète" ou "Nom vaisseau amiral" à volonté.[/offset]
 
 	[b]Si cette planète est au Niveau 5:[/b]
 	[offset=30]Le coût des cartes à jouer dans un vote est réduit jusqu'à 3 influence.[/offset]
 
-	[i][color=#aaa]Cette ressource est une ressource évolutive et ne peut pas être exporté ou utilisé pour monter 	de niveau. Les bonus dépendent du niveau de la planète.[/color][/i]
+	[i][color=#aaa]Cette ressource est une ressource évolutive et ne peut pas être exporté ou utilisé pour monter de niveau. Les bonus dépendent du niveau de la planète.[/color][/i]
 >>
 ABL_BUY_NAME_FLAGSHIP: Achat 'Nom vaisseau amiral'
 ABL_BUY_NAME_FLAGSHIP_DESC: <<
@@ -629,9 +629,9 @@ PHOSPHATE_BLURB: <<
 	Augmente la force de la flotte dans les systèmes alliés de [levels=$1;#ffb4b6]5%/10%/15%/25%/40%/60%[/niveau].
 >>
 PHOSPHATE_DESC: <<
-	Les flottes de défense dans tous les systèmes que vous contrôlez acquièrent [levels=$1;#ffb4b6]5%/10%/15%/25%		/40%/60%[/niveau] de force supplémentaire.
+	Les flottes de défense dans tous les systèmes que vous contrôlez acquièrent [levels=$1;#ffb4b6]5%/10%/15%/25%/40%/60%[/niveau] de force supplémentaire.
 
-	[i][color=#aaa]Cette ressource est une ressource évolutive et ne peut pas être exporté ou utilisé pour monter 	de niveau. Les bonus dépendent du niveau de la planète.[/color][/i]
+	[i][color=#aaa]Cette ressource est une ressource évolutive et ne peut pas être exporté ou utilisé pour monter de niveau. Les bonus dépendent du niveau de la planète.[/color][/i]
 >>
 
 CYLLIUM: Cyllium
@@ -642,15 +642,15 @@ CYLLIUM_BLURB: <<
 CYLLIUM_DESC: <<
 	La production d'énergie sur cette planète est augmentée de [levels=$1;#ffb4b6]10%/20%/30%/40%/50%/60%[/niveau.
 
-	Génère un nouvel artefact aléatoire dans le système toutes les 2 minutes. Jusqu'à [levels=$1;#ffb4b6]1/2/3/5/8		/15[/niveau] artefacts resteront dans le système, les artefacts âgés expireront.
+	Génère un nouvel artefact aléatoire dans le système toutes les 2 minutes. Jusqu'à [levels=$1;#ffb4b6]1/2/3/5/8/15[/niveau] artefacts resteront dans le système, les artefacts âgés expireront.
 
 	[b]Si cette planète est Niveau 4 ou plus:[/b]
 	[offset=30]Les artefacts dans ce système sont 25% moins cher à activer.[/offset]
 
-	[i][color=#aaa]Cette ressource est une ressource évolutive et ne peut pas être exporté ou utilisé pour monter 	de niveau. Les bonus dépendent du niveau de la planète.[/color][/i]
+	[i][color=#aaa]Cette ressource est une ressource évolutive et ne peut pas être exporté ou utilisé pour monter de niveau. Les bonus dépendent du niveau de la planète.[/color][/i]
 >>
 
 C_ORE: Minerai
 C_ORE_DESC: <<
-	Matériaux de construction génériques minées sur des astéroïdes et utilisés pour la construction de diverses 		manières.
+	Matériaux de construction génériques minées sur des astéroïdes et utilisés pour la construction de diverses manières.
 >>
